@@ -1,0 +1,242 @@
+[
+  {
+    "id": "amethyst",
+    "material": {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.18000000715255737,
+          "clearcoatRoughnessFactor": 0.07999999821186066
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.32
+        },
+        "KHR_materials_ior": {
+          "ior": 1.544
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 2,
+          "attenuationDistance": 0.03,
+          "attenuationColor": [
+            0.985,
+            0.985,
+            0.985
+          ]
+        }
+      },
+      "name": "amethyst_PBR",
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.3499999940395355
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    "materials": [
+      {
+        "name": "amethyst_PBR"
+      },
+      {
+        "name": "INTERNAL_healed_fissures",
+        "alpha": "BLEND",
+        "alphaFactor": [
+          0.8,
+          0.85,
+          0.9,
+          0.12
+        ]
+      }
+    ],
+    "image": {
+      "bufferView": 5,
+      "mimeType": "image/jpeg",
+      "name": "amethyst-basecolor"
+    }
+  },
+  {
+    "id": "citrine",
+    "material": {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.18000000715255737,
+          "clearcoatRoughnessFactor": 0.07999999821186066
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.66
+        },
+        "KHR_materials_ior": {
+          "ior": 1.544
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 2,
+          "attenuationDistance": 0.03,
+          "attenuationColor": [
+            0.985,
+            0.985,
+            0.985
+          ]
+        }
+      },
+      "name": "citrine_PBR",
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.3499999940395355
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    "materials": [
+      {
+        "name": "citrine_PBR"
+      },
+      {
+        "name": "INTERNAL_healed_fissures",
+        "alpha": "BLEND",
+        "alphaFactor": [
+          0.8,
+          0.85,
+          0.9,
+          0.12
+        ]
+      }
+    ],
+    "image": {
+      "bufferView": 5,
+      "mimeType": "image/jpeg",
+      "name": "citrine-basecolor"
+    }
+  },
+  {
+    "id": "aquamarine",
+    "material": {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.18000000715255737,
+          "clearcoatRoughnessFactor": 0.07999999821186066
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.7
+        },
+        "KHR_materials_ior": {
+          "ior": 1.58
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 2,
+          "attenuationDistance": 0.03,
+          "attenuationColor": [
+            0.985,
+            0.985,
+            0.985
+          ]
+        }
+      },
+      "name": "aquamarine_PBR",
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.3499999940395355
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    "materials": [
+      {
+        "name": "aquamarine_PBR"
+      },
+      {
+        "name": "INTERNAL_healed_fissures",
+        "alpha": "BLEND",
+        "alphaFactor": [
+          0.8,
+          0.85,
+          0.9,
+          0.12
+        ]
+      }
+    ],
+    "image": {
+      "bufferView": 5,
+      "mimeType": "image/jpeg",
+      "name": "aquamarine-basecolor"
+    }
+  },
+  {
+    "id": "clear-quartz",
+    "material": {
+      "doubleSided": false,
+      "extensions": {
+        "KHR_materials_clearcoat": {
+          "clearcoatFactor": 0.18000000715255737,
+          "clearcoatRoughnessFactor": 0.07999999821186066
+        },
+        "KHR_materials_transmission": {
+          "transmissionFactor": 0.95
+        },
+        "KHR_materials_ior": {
+          "ior": 1.544
+        },
+        "KHR_materials_volume": {
+          "thicknessFactor": 2,
+          "attenuationDistance": 0.03,
+          "attenuationColor": [
+            0.985,
+            0.985,
+            0.985
+          ]
+        }
+      },
+      "name": "clear-quartz_PBR",
+      "normalTexture": {
+        "index": 0,
+        "scale": 0.3499999940395355
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicRoughnessTexture": {
+          "index": 2
+        }
+      }
+    },
+    "materials": [
+      {
+        "name": "clear-quartz_PBR"
+      },
+      {
+        "name": "INTERNAL_healed_fissures",
+        "alpha": "BLEND",
+        "alphaFactor": [
+          0.8,
+          0.85,
+          0.9,
+          0.12
+        ]
+      }
+    ],
+    "image": {
+      "bufferView": 5,
+      "mimeType": "image/jpeg",
+      "name": "clear-quartz-basecolor"
+    }
+  }
+]

@@ -9,6 +9,6 @@ export function braceletCoverFrame(bounds,fovDeg,padding=1.12){
 // All zodiac covers use the same projected centre-line diameter (70% of image).
 // This is camera magnification only; geometry and physical dimensions stay intact.
 export function braceletRingCoverFrame(trackRadius){
- if(!Number.isFinite(trackRadius)||trackRadius<=0)throw Error('Invalid bracelet track radius');
+ if(!Number.isFinite(trackRadius)||trackRadius<=0)throw Error('手链轨道半径无效');
  return {target:[0,0,0],halfExtent:trackRadius/.7};
 }

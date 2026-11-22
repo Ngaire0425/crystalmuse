@@ -1,5 +1,6 @@
 // Presentation-only localisation. SKU identities, dimensions and source configurations are retained.
-const entries=`
+const entries=
+`
 我的定制|My Customisation
 预计适合手围：|Estimated wrist fit: 
 待搭配|Add beads to begin
@@ -347,6 +348,28 @@ Karungali木珠|Karungali Wood
 约 |Approx. 
 颗|beads
 件|charms
+参考孔径|Reference hole
+待实物确认|pending physical confirmation
+实际以商品实物为准|actual product may vary
+展示规格为|listed spec
+点击添加或拖入|Click or drag to add
+天然木纹|Natural grain
+亮透款|Bright clear
+蜜桃色|Peach
+深色款|Deep tone
+乳白款|Milky
+Style款|Style finish
+调整标尺长度|Adjust ruler length
+向上浏览素材|Browse up
+向下浏览素材|Browse down
+查找|Search
+选择|Select
+添加|Add
+值|value
+款|
+商品|product
+厘米|cm
+可选|Optional
 `;
 const translations=new Map(entries.trim().split('\n').map(line=>line.split('|')));
 const extra={

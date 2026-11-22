@@ -8,7 +8,7 @@ export function generateRecommendations(catalog,products,cfg,pricing,inventory,p
  const colorMatch=s=>products.products[s.id].colors.some(c=>liked.includes(c));
  const clear=s=>['ice','high','transparent'].includes(products.products[s.id].style);
  const mains=catalog.filter(s=>s.category==='crystal'&&products.products[s.id]?.usage==='crystal'&&available(s));
- if(!mains.length)throw Error('no available Beads, try again shortly');
+ if(!mains.length)throw Error('当前没有可用的主珠，请稍后重试');
  const score=s=>(colorMatch(s)?100:0)+(clear(s)?12:0)-(products.products[s.id].sortOrder||0)/10000;
  const pool=mains.slice().sort((a,b)=>score(b)-score(a)||(knownPrice(a)??Infinity)-(knownPrice(b)??Infinity));
  const preferred=pool.filter(colorMatch),source=preferred.length?preferred:pool;
@@ -24,13 +24,13 @@ export function generateRecommendations(catalog,products,cfg,pricing,inventory,p
     const spec=[preferred,...choices,...source].find(canUse);if(!spec)break;used.set(spec.id,(used.get(spec.id)||0)+1);list.push({id:spec.id,key:'recommend-'+mode+'-'+i,angle:0});}return list;}
   const mean=choices.reduce((sum,s)=>sum+s.occupancyMm,0)/choices.length,guess=Math.max(3,Math.min(max,Math.round((target+Math.PI*mean)/mean)));let best=null;
   for(let n=Math.max(3,guess-3);n<=Math.min(max,guess+3);n++){const list=sequence(n);if(list.length<3)continue;try{const plan=commercePlan(list,catalog,cfg,prefs.wristMm),fit=fitSummary(plan.items,catalog,{...cfg,tray:plan.tray},prefs.wristMm),error=Math.abs(fit.estimatedMm-target);if(!best||error<best.error)best={items:plan.items,fit,error};}catch{}}
-  if(!best)throw Error('current stock or matching beads charmscannot form a complete design yet, try another Colour');
+  if(!best)throw Error('当前库存或配件暂不能组成完整方案，请换一种颜色');
   let quote=calculateQuote(best.items,pricing),budgetAdjusted=false;
   while(prefs.budgetMinor!=null&&quote.knownMinor>prefs.budgetMinor&&best.items.length>3){const list=best.items.slice(0,-1),plan=commercePlan(list,catalog,cfg,prefs.wristMm);best={items:plan.items,fit:fitSummary(plan.items,catalog,{...cfg,tray:plan.tray},prefs.wristMm)};quote=calculateQuote(best.items,pricing);budgetAdjusted=true;}
   const unknownStock=best.items.some(it=>!Number.isInteger(stock[it.id]?.quantity));
-  const warnings=[];if(!preferred.length)warnings.push('preferenceColournone availableBeads, showing similar alternatives');if(!prefs.wristMm)warnings.push(`no wrist size entered, first use ${(target/10).toFixed(1)}cmgenerated as a reference`);
-  if(unknownStock)warnings.push('some stock pending maker confirmation');if(quote.totalMinor===null)warnings.push(prefs.budgetMinor!=null?'some Price pending, cannot guarantee the budget yet':'some Price pending, price pending maker confirmation');
-  if(budgetAdjusted)warnings.push('quantity reduced to fit the known prices, check the estimated wrist fit');if(prefs.budgetMinor!=null&&quote.knownMinor>prefs.budgetMinor)warnings.push('known prices exceed the budget, cannot satisfy all conditions at oncecharms');
-  return {name:mode===0?(choices.every(clear)?'Clear monochrome':'Monochrome pairing'):mode===1?'Soft gradient':metal?'a fewMetalaccent':'Simple two-tone',reason:mode===0?'ReduceColourjump, Use one colour family to highlight the beads. ':mode===1?'symmetric transition around the circle, let close or favourite Colournatural transition. ':metal?'with Beadsas the main body, a fewMetalSpacers add rhythm. ':'Use a few two-tone beads for a clean look. ',items:best.items,fit:best.fit,quote,warnings,wristMm:prefs.wristMm,budgetMinor:prefs.budgetMinor};
+  const warnings=[];if(!preferred.length)warnings.push('偏好颜色暂无可用主珠，展示相近替代方案');if(!prefs.wristMm)warnings.push(`未填手围，先按${(target/10).toFixed(1)}cm参考生成`);
+  if(unknownStock)warnings.push('部分库存待商家确认');if(quote.totalMinor===null)warnings.push(prefs.budgetMinor!=null?'部分单价待定，暂不能保证符合预算':'部分单价待定，价格待商家确认');
+  if(budgetAdjusted)warnings.push('已按已知价格缩减数量，请核对预计手围');if(prefs.budgetMinor!=null&&quote.knownMinor>prefs.budgetMinor)warnings.push('现有已知价格超出预算，暂无法同时满足条件');
+  return {name:mode===0?(choices.every(clear)?'清透同色系':'同色系搭配'):mode===1?'柔和渐变':metal?'少量金属点缀':'简约双色',reason:mode===0?'减少颜色跳跃，用同色系突出素材本身。':mode===1?'沿圆周对称过渡，让相近或喜欢的颜色自然衔接。':metal?'以主珠为主体，少量金属隔珠增加节奏。':'用少量双色形成清爽的搭配。',items:best.items,fit:best.fit,quote,warnings,wristMm:prefs.wristMm,budgetMinor:prefs.budgetMinor};
  });
 }

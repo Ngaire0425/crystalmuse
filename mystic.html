@@ -802,7 +802,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 .md-draw-button:disabled { opacity:.47; cursor:default; }
 .md-reading :focus-visible { outline-color:#f3d897; }
 .md-reading .md-rail-help,.md-reading .md-notice,.md-reading .md-draw-status { margin:10px auto; }
-.md-rail-help,.md-notice { font-size:12px; color:var(--lilac); }
+.md-rail-help,.md-notice { font-size:12.5px; color:#6b5a86; }
 .md-notice a { color:inherit; text-decoration:underline; text-underline-offset:3px; }
 .md-draw-status { font-size:14px; min-height:21px; }
 .md-slots {
@@ -858,6 +858,52 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 #md-quiz fieldset label { cursor:pointer; }
 #md-quiz input { accent-color:var(--plum); }
 #md-quiz .md-quiz-back { background:var(--lilac); color:var(--ink); }
+/* ---- contrast follows the panel tone on reading cards ---- */
+.md-spread-results .md-position{background:linear-gradient(160deg,#3A1168 0%,#410F70 55%,#220B4E 100%);color:#F7F0FF}
+.md-spread-results .md-position:nth-child(even){background:#FFFDB6;color:#220B4E}
+.md-spread-results .md-position .kicker{color:#DDACF5}
+.md-spread-results .md-position h2{color:#FFFDF6}
+.md-spread-results .md-position p{color:rgba(247,240,255,.86)}
+.md-spread-results .md-position .md-keyword{color:#FFFDB6}
+.md-spread-results .md-position summary,.md-spread-results .md-position details p{color:#FFFDF6}
+.md-spread-results .md-position .md-context{border-top-color:rgba(247,240,255,.24)}
+.md-spread-results .md-position:nth-child(even) .kicker{color:#64379F}
+.md-spread-results .md-position:nth-child(even) h2{color:#220B4E}
+.md-spread-results .md-position:nth-child(even) p{color:rgba(34,11,78,.82)}
+.md-spread-results .md-position:nth-child(even) .md-keyword{color:#410F70}
+.md-spread-results .md-position:nth-child(even) summary,.md-spread-results .md-position:nth-child(even) details p{color:#220B4E}
+.md-spread-results .md-position:nth-child(even) .md-context{border-top-color:rgba(34,11,78,.18)}
+.md-spread-results .md-position:nth-child(even) .md-face{box-shadow:0 18px 34px rgba(10,3,26,.16)}
+
+/* ---- zodiac: sign index and daily note ---- */
+.md-zodiac-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:14px;margin:6px 0 20px}
+.md-sign-card{display:flex;gap:14px;align-items:flex-start;background:#FFFDF8;border-radius:26px;padding:20px 22px;text-decoration:none;transition:transform .25s var(--ease),box-shadow .25s}
+.md-sign-card:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(34,11,78,.08)}
+.md-sign-symbol{font-family:var(--serif);font-size:34px;line-height:1;color:var(--plum)}
+.md-sign-copy h3{font-family:var(--serif);font-size:22px;font-weight:500;margin:0 0 3px;color:var(--ink)}
+.md-sign-dates{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:0 0 6px}
+.md-sign-tags{font-size:11px;color:var(--plum);margin:0 0 8px}
+.md-sign-today{font-size:13px;line-height:1.55;color:rgba(34,11,78,.72);margin:0}
+.md-zodiac-head{display:flex;gap:16px;align-items:center;margin:2px 0 6px}
+.md-zodiac-head .md-sign-symbol{font-size:46px}
+.md-zodiac-head h2{font-family:var(--serif);font-size:clamp(34px,4vw,46px);font-weight:500;margin:0}
+.md-zodiac-dates{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:4px 0 0}
+.md-zodiac-tags{font-size:12px;color:var(--plum);letter-spacing:.04em;margin:0 0 16px}
+.md-zodiac-daily{background:linear-gradient(150deg,#410F70,#220B4E);color:#FFFDF6;border-radius:28px;padding:20px 24px;margin:16px 0}
+.md-zodiac-daily span{display:block;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#DDACF5;margin-bottom:8px}
+.md-zodiac-daily p{font-family:var(--serif);font-size:19px;line-height:1.45;margin:0;color:#FFFDF6}
+
+/* ---- crystal guide: ten stones + cleansing ---- */
+.md-section-title{font-family:var(--serif);font-size:clamp(26px,2.6vw,32px);font-weight:500;margin:26px 0 12px}
+.md-guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:14px}
+.md-guide-card{display:flex;flex-direction:column;background:#FFFDF8;border-radius:26px;overflow:hidden;text-decoration:none;transition:transform .25s var(--ease),box-shadow .25s}
+.md-guide-card:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(34,11,78,.08)}
+.md-guide-card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;background:#F6E9F7}
+.md-guide-card div{padding:16px 18px 18px}
+.md-guide-card h3{font-family:var(--serif);font-size:21px;font-weight:500;margin:0 0 3px;color:var(--ink)}
+.md-guide-card p{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.md-guide-more{font-size:12.5px;line-height:1.5;color:rgba(34,11,78,.7)}
+.md-guide-hero{width:100%;max-height:420px;object-fit:cover;border-radius:28px;margin:6px 0 22px;display:block}
 </style>
 <style id="integration-overrides">
 /* ---- A: shared typography, aligns with the CrystalMuse home page ---- */
@@ -1661,21 +1707,101 @@ cards.push(...[
     "What would make this chapter feel finished?"
   ]
 ]);
-const signs = ['Aries','Taurus','Gemini','Cancer','Leo','Virgo','Libra','Scorpio','Sagittarius','Capricorn','Aquarius','Pisces'];
-const notes = [
-  'Take the first step on something you can finish today.',
-  'Make an everyday routine a little more comfortable.',
-  'Ask a question you have never thought to ask.',
-  'Make time for someone who helps you feel at home.',
-  'Share something you are quietly proud of.',
-  'Leave one small detail unfinished and see how it feels.',
-  'Name a preference you usually keep to yourself.',
-  'Let go of one obligation you no longer need.',
-  'Try a different route through a familiar place.',
-  'Decide which task can wait until tomorrow.',
-  'Tell someone about an idea you keep returning to.',
-  'Write down a feeling before trying to explain it.'
+const zodiacProfiles = [
+  { name:'Aries', symbol:'♈', dates:'21 Mar – 19 Apr', element:'Fire', mode:'Cardinal', keywords:'Initiative · Candour · Momentum', stone:'Citrine',
+    reflection:'Aries energy moves before the plan is finished. You tend to feel most like yourself when a fresh start is within reach, and most restless when a decision waits on everyone else.',
+    step:'Begin one small thing today without waiting for the perfect moment.',
+    notice:'Impatience can pass itself off as decisiveness. Let a good idea sit overnight before you commit to it.' },
+  { name:'Taurus', symbol:'♉', dates:'20 Apr – 20 May', element:'Earth', mode:'Fixed', keywords:'Steadiness · Comfort · Loyalty', stone:'Rose Quartz',
+    reflection:'Taurus energy values what can be felt and trusted. You build confidence through routine, good food, familiar places and people who show up consistently.',
+    step:'Make one everyday ritual a little more comfortable.',
+    notice:'A preference for the familiar can harden into stubbornness. Try one small change on purpose.' },
+  { name:'Gemini', symbol:'♊', dates:'21 May – 21 Jun', element:'Air', mode:'Mutable', keywords:'Curiosity · Exchange · Range', stone:'Clear Quartz',
+    reflection:'Gemini energy follows the question, not just the answer. You light up when ideas move between people, and you can lose interest once a topic stops surprising you.',
+    step:'Ask someone a question you have never asked them before.',
+    notice:'Starting five conversations is not the same as finishing one. Give a single thought a little more time.' },
+  { name:'Cancer', symbol:'♋', dates:'22 Jun – 22 Jul', element:'Water', mode:'Cardinal', keywords:'Care · Memory · Belonging', stone:'Moonstone',
+    reflection:'Cancer energy reads the room quickly and remembers how it felt. Home, family and small acts of care carry real weight for you, even when you do not say so out loud.',
+    step:'Make time for someone who helps you feel at home.',
+    notice:'Protection can turn into holding on. Notice what you would allow if you felt safe.' },
+  { name:'Leo', symbol:'♌', dates:'23 Jul – 22 Aug', element:'Fire', mode:'Fixed', keywords:'Warmth · Expression · Generosity', stone:"Tiger's Eye",
+    reflection:'Leo energy likes to be seen and to make others feel included. You do your best work when there is room for warmth, play and a little bit of drama in the good sense.',
+    step:'Share something you are quietly proud of.',
+    notice:'Wanting an audience can crowd out the quieter people in the room. Make space for someone else to shine.' },
+  { name:'Virgo', symbol:'♍', dates:'23 Aug – 22 Sep', element:'Earth', mode:'Mutable', keywords:'Precision · Usefulness · Care', stone:'Peridot',
+    reflection:'Virgo energy notices the detail everyone else skips. You show care by making things work better, and you can be hardest on yourself when the result is not tidy.',
+    step:'Leave one small detail unfinished and see how it feels.',
+    notice:'A sharp eye for flaws can become a sharp voice. Offer the same patience you would give a friend.' },
+  { name:'Libra', symbol:'♎', dates:'23 Sep – 23 Oct', element:'Air', mode:'Cardinal', keywords:'Balance · Fairness · Ease', stone:'Rose Quartz',
+    reflection:'Libra energy looks for the version of a situation where nobody has to lose face. You are drawn to beauty, good manners and the moment a tense room finally relaxes.',
+    step:'Name a preference you usually keep to yourself.',
+    notice:'Keeping the peace can postpone an honest answer. Say the kind thing and the true thing together.' },
+  { name:'Scorpio', symbol:'♏', dates:'24 Oct – 21 Nov', element:'Water', mode:'Fixed', keywords:'Depth · Focus · Loyalty', stone:'Obsidian',
+    reflection:'Scorpio energy goes below the surface and stays there. You are drawn to what is real rather than what is convenient, and you give your attention fully once something matters to you.',
+    step:'Let go of one obligation you no longer need.',
+    notice:'Intensity can turn into suspicion. Ask for the plain version before you imagine the hidden one.' },
+  { name:'Sagittarius', symbol:'♐', dates:'22 Nov – 21 Dec', element:'Fire', mode:'Mutable', keywords:'Distance · Candidness · Adventure', stone:'Citrine',
+    reflection:'Sagittarius energy runs on possibility. You learn by going somewhere new, meeting someone different, or reading the book that changes the question you were asking.',
+    step:'Try a different route through a familiar place.',
+    notice:'A love of the next horizon can make the present feel small. Notice what is already worth staying for.' },
+  { name:'Capricorn', symbol:'♑', dates:'22 Dec – 19 Jan', element:'Earth', mode:'Cardinal', keywords:'Structure · Patience · Responsibility', stone:'Garnet',
+    reflection:'Capricorn energy measures progress in what actually holds up over time. You are willing to do the unglamorous work, and you tend to trust results more than reassurance.',
+    step:'Decide which task can wait until tomorrow.',
+    notice:'High standards can become a constant audit. Let something be good enough on purpose.' },
+  { name:'Aquarius', symbol:'♒', dates:'20 Jan – 18 Feb', element:'Air', mode:'Fixed', keywords:'Originality · Ideas · Distance', stone:'Clear Quartz',
+    reflection:'Aquarius energy looks at the pattern behind the moment. You care about ideas, systems and fairness, and you often need a little room before you feel ready to join in.',
+    step:'Tell someone about an idea you keep returning to.',
+    notice:'Detachment can read as coldness. Say the care out loud, not just in the plan.' },
+  { name:'Pisces', symbol:'♓', dates:'19 Feb – 20 Mar', element:'Water', mode:'Mutable', keywords:'Imagination · Empathy · Flow', stone:'Moonstone',
+    reflection:'Pisces energy takes in more than it says. You pick up mood quickly, think in images, and often understand something before you have the words to explain it.',
+    step:'Write down a feeling before trying to explain it.',
+    notice:'A rich inner world can become a place to hide. Share one small, concrete thing with someone you trust.' }
 ];
+const dailyPools = {
+  Fire: [
+    'Start the smallest version of the thing you keep postponing.',
+    'Say the honest sentence early, while it is still small.',
+    'Give your energy to one task instead of five.',
+    'Let someone else take the lead and notice what happens.',
+    'Move first, then decide what the plan should be.',
+    'Make room for a little play in the middle of the day.',
+    'Finish something small before you begin something new.'
+  ],
+  Earth: [
+    'Choose the comfortable option and notice whether it still fits.',
+    'Tidy one surface you look at every day.',
+    'Buy the good ingredients for one ordinary meal.',
+    'Return to a routine that used to work.',
+    'Change one small habit on purpose, not by accident.',
+    'Spend ten minutes outside without a screen.',
+    'Say no gently to one extra obligation.'
+  ],
+  Air: [
+    'Ask a question you have not asked before.',
+    'Write down three ideas without judging them.',
+    'Send the message you keep rewriting.',
+    'Read something outside your usual field.',
+    'Let one conversation go somewhere unexpected.',
+    'Choose one idea and give it a full hour.',
+    'Notice where your attention keeps leaving the room.'
+  ],
+  Water: [
+    'Name the feeling before you fix the problem.',
+    'Make time for someone who feels like home.',
+    'Let one memory be remembered without analysing it.',
+    'Give yourself ten quiet minutes with no input.',
+    'Say what you need instead of hoping it is noticed.',
+    'Protect the hour when your imagination works best.',
+    'Notice what you would allow if you felt safe.'
+  ]
+};
+const todayNumber = Math.floor(new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()).getTime() / 86400000);
+const todayLabel = new Date().toLocaleDateString('en-GB', { day:'numeric', month:'long' });
+function dailyLine(profile, index) {
+  const pool = dailyPools[profile.element] || dailyPools.Air;
+  return pool[(todayNumber + index * 3) % pool.length];
+}
+const signs = zodiacProfiles.map(profile => profile.name);
 const stones = {
   amethyst: ['Amethyst Calm Bracelet','Purple quartz','Wipe gently with a soft cloth and store out of direct sunlight.'],
   clear: ['Clear Quartz Point','Transparent quartz','Dust with a soft cloth and store separately to protect the point.'],
@@ -1692,13 +1818,54 @@ const crystalReasons = {
   clear:'A transparent crystal point for a desk, shelf, or quiet corner.',
   rose:'A soft pink strand for a warmer palette or a thoughtful gift.'
 };
+const guideStones = [
+  { id:'amethyst', name:'Amethyst', type:'Purple quartz', img:'assets/guide/amethyst.jpg', note:'Pale lilac to deep violet, the calm stone.' },
+  { id:'clear', name:'Clear Quartz', type:'Colourless quartz', img:'assets/guide/clear.jpg', note:'Transparent, lightly included, endlessly pairable.' },
+  { id:'rose', name:'Rose Quartz', type:'Pink quartz', img:'assets/guide/rose.jpg', note:'A milky pink that scatters light softly.' },
+  { id:'citrine', name:'Citrine', type:'Yellow-gold quartz', img:'assets/guide/citrine.jpg', note:'Honey to amber, warm without being formal.' },
+  { id:'garnet', name:'Garnet', type:'Garnet family', img:'assets/guide/garnet.jpg', note:'A deep red that feels simple and ceremonial.' },
+  { id:'moonstone', name:'Moonstone', type:'Feldspar with adularescence', img:'assets/guide/moonstone.jpg', note:'A floating blue sheen, softer than quartz.' },
+  { id:'peridot', name:'Peridot', type:'Yellow-green olivine', img:'assets/guide/peridot.jpg', note:'A lime green that forms in lava and the mantle.' },
+  { id:'lapis', name:'Lapis Lazuli', type:'Blue metamorphic rock', img:'assets/guide/lapis.jpg', note:'Ultramarine blue with flecks of golden pyrite.' },
+  { id:'obsidian', name:'Obsidian', type:'Volcanic glass', img:'assets/guide/obsidian.jpg', note:'Lava cooled too fast for crystals to grow.' },
+  { id:'tiger', name:"Tiger's Eye", type:'Fibrous quartz', img:'assets/guide/tiger.jpg', note:'A moving golden band when the light catches it.' }
+];
+const guideCleanse = [
+  { id:'cleanse-quartz', name:'Clear Quartz, the companion', type:'Resting stone', img:'assets/guide/cleanse_quartz.jpg', note:'A cluster that holds other pieces while they rest.' },
+  { id:'cleanse-sage', name:'Sage, used with care', type:'Smoke cleansing', img:'assets/guide/cleanse_sage.jpg', note:'A short pass of smoke, made respectful and safe.' },
+  { id:'cleanse-herbs', name:'A herb nest', type:'Dry charging', img:'assets/guide/cleanse_herbs.jpg', note:'Dried herbs as a bed for stones overnight.' }
+];
 const guideArticles = {
   amethyst: ['Amethyst, the calm stone',
-    '<h3>Colour</h3><p>Amethyst is purple quartz. Its colour can range from pale lilac to deep violet.</p><h3>Culture</h3><p>Amethyst is the February birthstone. At CrystalMuse, we use its purple palette as a cue to pause and reflect.</p><h3>Care</h3><p>Keep it away from sudden temperature changes and prolonged strong light. For jewellery on a cord, start with a soft damp cloth and check the maker’s instructions before soaking.</p><p><a href="https://www.gia.edu/amethyst-care-cleaning" target="_blank" rel="noopener">GIA amethyst care guide ↗</a></p>'],
+    '<h3>Colour</h3><p>Amethyst is purple quartz. Its colour can range from pale lilac to deep violet, and the tone depends on how much iron sits inside the crystal and how much heat it has met.</p><h3>Culture</h3><p>Amethyst is the February birthstone. At CrystalMuse we use its purple palette as a cue to pause and reflect — a colour to slow a room down rather than a promise about your month.</p><h3>Care</h3><p>Keep it away from sudden temperature changes and prolonged strong light, which can fade the colour of treated stones. For jewellery on a cord, start with a soft damp cloth and check the maker’s instructions before soaking.</p><p><a href="https://www.gia.edu/amethyst-care-cleaning" target="_blank" rel="noopener">GIA amethyst care guide ↗</a></p>', 'assets/guide/amethyst.jpg'],
+  clear: ['Clear quartz, the versatile one',
+    '<h3>Colour</h3><p>Clear quartz is colourless quartz: transparent, often lightly included, and easy to pair with almost any palette. Inclusions catch the light as soft internal lines rather than flaws to hide.</p><h3>Why people keep it</h3><p>In modern crystal shops it is treated as a neutral starting point — a stone chosen for its shape and the way it holds light rather than for a strong colour. We like it as a point for a desk or bedside table.</p><h3>Care</h3><p>Quartz is hard enough for everyday wear, but a pointed tip can chip. Clean with warm soapy water and a soft cloth, and store it where it will not knock against other pieces.</p><p><a href="https://www.gia.edu/quartz" target="_blank" rel="noopener">GIA quartz guide ↗</a></p>', 'assets/guide/clear.jpg'],
+  rose: ['Rose quartz, the soft pink stone',
+    '<h3>Colour</h3><p>Rose quartz gets its name from a delicate pink that can look milky, because tiny internal fractures scatter the light. Even colour is the most sought-after look; peach and grey tones appear too.</p><h3>Culture</h3><p>It is a modern favourite for beads and cabochons, and a common choice when a gift should feel warm without being too formal. GIA notes that colour is sometimes intensified by treatment.</p><h3>Care</h3><p>Warm soapy water is safe. GIA recommends avoiding ultrasonic and steam cleaners, and storing beads in a soft pouch so they do not rub against sharper stones.</p><p><a href="https://www.gia.edu/rose-quartz/buyers-guide" target="_blank" rel="noopener">GIA rose quartz buyer’s guide ↗</a></p>', 'assets/guide/rose.jpg'],
+  citrine: ['Citrine, the honey-gold quartz',
+    '<h3>Colour</h3><p>Citrine is the yellow-to-orange variety of quartz. Its colour comes from iron, and most citrine on the market is amethyst that has been heated to turn gold — a treatment that is accepted and disclosed.</p><h3>Culture</h3><p>Along with topaz, citrine is a November birthstone. It became popular because it offers the look of a warm yellow gem at a modest price.</p><h3>Care</h3><p>Warm soapy water and a soft cloth are plenty. Keep it out of prolonged strong sunlight, which can dull the colour of some treated stones.</p><p><a href="https://www.gia.edu/citrine" target="_blank" rel="noopener">GIA citrine guide ↗</a></p>', 'assets/guide/citrine.jpg'],
+  garnet: ['Garnet, January’s deep red',
+    '<h3>Colour</h3><p>Garnet is a family of stones rather than a single colour. Red is the best known, but greens and oranges exist too; our pieces use the classic deep red, dark enough to read almost black in low light.</p><h3>Culture</h3><p>Garnet is the traditional January birthstone and has been traded for centuries. It is often chosen as a gift that feels both simple and ceremonial.</p><h3>Care</h3><p>Wash in warm soapy water and dry well. Avoid sudden temperature changes, and take it off before activities that could knock the stone.</p><p><a href="https://www.gia.edu/garnet" target="_blank" rel="noopener">GIA garnet guide ↗</a></p>', 'assets/guide/garnet.jpg'],
+  moonstone: ['Moonstone, the blue sheen',
+    '<h3>Colour</h3><p>Moonstone is a feldspar with a floating light effect called adularescence. The most prized stones are near-colourless with a blue sheen; peach and grey tones are common too.</p><h3>Culture</h3><p>It is one of the June birthstones alongside pearl and alexandrite, and it has a long history of being associated with moonlight and travel.</p><h3>Care</h3><p>Moonstone is less durable than quartz and can chip if knocked. Use a soft damp cloth, skip ultrasonic cleaners, and keep it away from hard surfaces.</p><p><a href="https://www.gia.edu/moonstone/buyers-guide" target="_blank" rel="noopener">GIA moonstone buyer’s guide ↗</a></p>', 'assets/guide/moonstone.jpg'],
+  peridot: ['Peridot, the green from deep earth',
+    '<h3>Colour</h3><p>Peridot is the yellow-green variety of olivine. It forms in lava and deep in the mantle, and it also turns up in meteorites — one of the few gems that arrives from outside the planet.</p><h3>Culture</h3><p>Peridot is August’s birthstone. Its colour is unmistakable: a slightly lime green that stays easy to wear rather than formal.</p><h3>Care</h3><p>Use mild soap and water and a soft cloth. It can be knocked more easily than quartz, so store it separately and avoid sudden heat.</p><p><a href="https://www.gia.edu/peridot" target="_blank" rel="noopener">GIA peridot guide ↗</a></p>', 'assets/guide/peridot.jpg'],
+  lapis: ['Lapis lazuli, the deep blue',
+    '<h3>Colour</h3><p>Lapis lazuli is a blue metamorphic rock, usually with flecks of golden pyrite and sometimes white calcite. The strongest blue has made it valuable for thousands of years.</p><h3>Culture</h3><p>Ancient trade routes carried lapis from Afghanistan across the Mediterranean. It is a long-standing alternative for December gifting, though GIA lists turquoise, tanzanite and zircon for that month.</p><h3>Care</h3><p>Wipe with a soft damp cloth. GIA advises avoiding heat, solvents, steam and ultrasonic cleaning, especially on treated material.</p><p><a href="https://www.gia.edu/lapis-lazuli" target="_blank" rel="noopener">GIA lapis lazuli guide ↗</a></p>', 'assets/guide/lapis.jpg'],
+  obsidian: ['Obsidian, the volcanic glass',
+    '<h3>Colour</h3><p>Obsidian forms when lava cools so quickly that crystals cannot grow. It is usually black, with a glassy finish and edges that can be sharper than they look.</p><h3>Culture</h3><p>Because it fractures into keen edges, obsidian was used for tools and ornaments in many ancient cultures. Today it is polished into stones and beads for its clean, dark look.</p><h3>Care</h3><p>Wipe with a soft cloth and store it on its own. A hard knock can chip the edge, so it is better as a bead or a palm stone than a piece for rough wear.</p><p><a href="https://www.gia.edu/obsidian" target="_blank" rel="noopener">GIA obsidian guide ↗</a></p>', 'assets/guide/obsidian.jpg'],
+  tiger: ['Tiger’s eye, the band of light',
+    '<h3>Colour</h3><p>Tiger’s eye is quartz with a fibrous structure. When it is cut as a cabochon or a bead, the fibres catch the light as a moving golden-brown band.</p><h3>Culture</h3><p>The “eye” effect, called chatoyancy, has made it a steady favourite for bracelets and men’s jewellery. It is durable enough for daily wear and easy to match with neutral colours.</p><h3>Care</h3><p>Wipe with a soft damp cloth and mild soap if needed. Prolonged heat can dull the surface, so keep it away from radiators and hot windowsills.</p><p><a href="https://www.gia.edu/tigers-eye" target="_blank" rel="noopener">GIA tiger’s eye guide ↗</a></p>', 'assets/guide/tiger.jpg'],
+  'cleanse-quartz': ['Clear quartz as a companion',
+    '<h3>What it does</h3><p>A clear quartz cluster is used here as a resting place, not a machine. Many people keep a larger piece on a tray and let smaller stones sit beside it overnight, then put them back on in the morning.</p><h3>How to use it</h3><p>Place the cluster on a dry cloth, rest the pieces you wear most beside it, and leave them for a night. Wipe both with a soft cloth afterwards. Moonlight through a window is a pleasant ritual, but a dry shelf works just as well.</p><h3>Care</h3><p>Dust the cluster with a soft brush. Keep it out of direct sun and away from water if the base is a softer mineral. Handle by the base, not the points.</p>', 'assets/guide/cleanse_quartz.jpg'],
+  'cleanse-sage': ['Sage, used with care',
+    '<h3>Where it comes from</h3><p>Bundled white sage is associated with traditions that are not ours to sell as a trend. If you use it, treat it as a borrowed practice: buy from growers who cultivate rather than wild-harvest, and keep the ritual short and quiet.</p><h3>A short method</h3><p>Light the tip, let the flame go out, and pass the bundle around a stone two or three times over a ceramic dish. Keep a window open, keep smoke away from faces and pets, and never leave a burning bundle alone. Stop if anyone in the room minds the smoke.</p><h3>Alternatives</h3><p>Rosemary, cedar or a drop of lavender oil on a cloth give a similar pause without the same harvest pressure. A dry wipe and a minute of quiet is also a complete ritual.</p>', 'assets/guide/cleanse_sage.jpg'],
+  'cleanse-herbs': ['A herb nest for charging',
+    '<h3>The idea</h3><p>A shallow basket lined with dried rosemary, lavender and rose petals gives stones a dry, fragrant place to rest. It is a way to slow down and handle a piece deliberately, not a claim about energy.</p><h3>How to build one</h3><p>Line a small basket with a clean cloth, add a layer of fully dried herbs, and set the stones on top. Cover lightly with more herbs and leave overnight. Replace the herbs every few weeks, or sooner if the room is humid.</p><h3>Care</h3><p>Keep the basket dry and out of direct sun so the colour holds. Check stones for dust before wearing, and keep the herbs away from food surfaces.</p>', 'assets/guide/cleanse_herbs.jpg'],
   care: ['How to care for a beaded bracelet',
-    '<h3>Clean</h3><p>Wipe beads gently with a soft cloth after wearing. Let the bracelet dry before putting it away.</p><h3>Store</h3><p>Use a soft pouch to keep beads from rubbing against other jewellery. Store it away from direct sun and a hot windowsill.</p><h3>Wear</h3><p>Roll a stretch bracelet gently over your hand. Take it off before activities that could snag the cord or knock the beads.</p>'],
-  gifting: ['Birthstone gifting, mapped',
-    '<h3>Start with the month</h3><p>Amethyst is the traditional February option in our current collection. For other months, compare the birthstones in GIA’s guide.</p><p><a href="https://www.gia.edu/birthstones" target="_blank" rel="noopener">Browse GIA’s birthstones by month ↗</a></p><h3>Start with their palette</h3><p>Try violet amethyst for a lilac palette, clear quartz for a neutral space, or rose quartz for a soft pink accent. Think about whether they would wear a bracelet or prefer a stone for their desk.</p>']
+    '<h3>Clean</h3><p>Wipe beads gently with a soft cloth after wearing. Let the bracelet dry before putting it away. Warm soapy water is safe for most of our stones; avoid ultrasonic and steam cleaners unless the maker says otherwise.</p><h3>Store</h3><p>Use a soft pouch to keep beads from rubbing against other jewellery. Store it away from direct sun and a hot windowsill.</p><h3>Wear</h3><p>Roll a stretch bracelet gently over your hand. Take it off before activities that could snag the cord or knock the beads.</p>', 'assets/guide/cleanse_herbs.jpg'],
+  gifting: ['Birthstones, month by month',
+    '<h3>What a birthstone is</h3><p>A birthstone is a gemstone traditionally linked to the month you were born. The idea is old, but the lists are modern: jewellers, gemological bodies and local customs each publish their own version, and many months carry more than one accepted option. Treat the list as a starting point for a gift, not a rule about a person.</p><h3>Why the lists disagree</h3><p>Some months have a traditional stone that has been used for centuries, a modern stone chosen by trade bodies in the early twentieth century, and sometimes a third alternative added later. That is why two reputable guides can both be right and still name different stones for the same month.</p><h3>If you would rather not choose a stone</h3><p>Start with the palette they already wear: the metal of their watch, the colours in their wardrobe, the tone of the room they sit in. A gift lands when it looks like something they would have picked themselves. Format matters too — a bracelet for everyday wear, a small point for a desk, or a piece they can keep in a drawer and take out on quiet evenings.</p><h3>Gifting by month</h3><p>Ask which month matters: a birthday, an anniversary, a first day at a new job. A month gives you a reason and a shortlist; it does not have to decide the piece. If the month’s traditional option does not suit their style, move to the colour or the format instead and keep the meaning in the card.</p><h3>Care before you give</h3><p>Check how the piece should be cleaned and whether it has been treated. Softer stones need a soft cloth and a pouch; harder ones tolerate warm soapy water. Print or write the care note into the card so the recipient is not guessing.</p><h3>A note on meaning</h3><p>Birthstone traditions are cultural, not medical. We describe them as a way to mark a month and start a conversation, and we make no claims about health, luck or personality.</p><p><a href="https://www.gia.edu/birthstones" target="_blank" rel="noopener">GIA birthstones by month ↗</a></p>', 'assets/guide/gifting.jpg']
 };
 let quizStep = 0;
 
@@ -1966,8 +2133,8 @@ function renderMystic(route) {
     case 'mystic':
       intro = 'Take a quiet moment to reflect, browse the crystal guide or find a piece that suits your style.';
       content = `<div class="md-grid">${tile('Tarot Reading','Draw a single card or explore a three-card spread.','tarot','Draw a card')}
-        ${tile('Zodiac Reading','Pick a sign for a short reflection.','zodiac','Choose a sign')}
-        ${tile('Crystal Guide','Get to know three stones and how to care for them.','guide','Read the guide')}
+        ${tile('Zodiac Reading','Twelve sign profiles with a note that changes daily.','zodiac','Choose a sign')}
+        ${tile('Crystal Guide','Ten stones, their care, and how to cleanse them.','guide','Read the guide')}
         ${tile('Crystal Quiz','Find a starting point in three short questions.','quiz','Start the quiz')}</div>`;
       break;
     case 'tarot':
@@ -1976,21 +2143,26 @@ function renderMystic(route) {
       content = tarotSetup();
       break;
     case 'zodiac':
-      intro = 'Pick your sun sign for a short reflection and a related piece.';
-      content = `<div class="md-signs">${signs.map((sign,i)=>link(resultLink('sign',i),`${String.fromCodePoint(9800+i)} ${sign}`)).join('')}</div><p>${notice}</p>`;
+      intro = 'Twelve sign profiles, each with a note for today.';
+      content = `<div class="md-zodiac-grid">${zodiacProfiles.map((p,i)=>`<a class="md-sign-card" href="#/results?sign=${i}">
+        <span class="md-sign-symbol" aria-hidden="true">${p.symbol}</span>
+        <div class="md-sign-copy"><h3>${p.name}</h3><p class="md-sign-dates">${p.dates}</p><p class="md-sign-tags">${p.element} · ${p.mode}</p><p class="md-sign-today">${dailyLine(p,i)}</p></div>
+      </a>`).join('')}</div><p class="md-notice">${notice} Notes change with the date.</p>`;
       break;
     case 'guide': {
       const articleKey = query.get('article');
       const article = Object.hasOwn(guideArticles,articleKey) && guideArticles[articleKey];
       if (article) {
-        content = `<article class="md-guide-article"><h2>${article[0]}</h2>${article[1]}
-          <div class="md-guide-actions">${link('guide','Back to Crystal Guide')}${link(articleKey === 'amethyst' ? 'shop' : 'quiz',articleKey === 'amethyst' ? 'Explore the shop' : 'Find a piece')}</div></article>`;
+        content = `<article class="md-guide-article"><p class="kicker">Crystal Guide</p><h2>${article[0]}</h2>
+          ${article[2] ? `<img class="md-guide-hero" src="${article[2]}" alt="${article[0]}" loading="lazy">` : ''}${article[1]}
+          <div class="md-guide-actions">${link('guide','Back to Crystal Guide')}${link('shop','Explore the shop')}</div></article>`;
         break;
       }
-      intro = 'Explore material, care, and gifting notes for the quartz pieces featured by CrystalMuse.';
-      content = `<div class="md-grid">${Object.entries(stones).map(([key,[name,type,care]]) => tile(name,`${type}. ${care}`,key === 'amethyst' ? 'guide?article=amethyst' : 'shop',key === 'amethyst' ? 'Read the amethyst guide' : 'Explore the shop')).join('')}</div>
-        <h2>Care and gifting</h2><div class="md-grid">${tile(guideArticles.care[0],'A simple routine for cleaning, storage, and everyday wear.','guide?article=care','Read bracelet care')}
-        ${tile(guideArticles.gifting[0],'Choose a gift by birth month or by the colours they love.','guide?article=gifting','Read the gifting guide')}</div>`;
+      intro = 'Ten stones, their colour and care, plus three ways to cleanse and recharge.';
+      content = `<h2 class="md-section-title">The stones</h2><div class="md-guide-grid">${guideStones.map(s=>`<a class="md-guide-card" href="#/guide?article=${s.id}"><img src="${s.img}" alt="${s.name}" loading="lazy"><div><h3>${s.name}</h3><p>${s.type}</p><span class="md-guide-more">${s.note} →</span></div></a>`).join('')}</div>
+        <h2 class="md-section-title">Cleansing &amp; recharging</h2><div class="md-guide-grid">${guideCleanse.map(s=>`<a class="md-guide-card" href="#/guide?article=${s.id}"><img src="${s.img}" alt="${s.name}" loading="lazy"><div><h3>${s.name}</h3><p>${s.type}</p><span class="md-guide-more">${s.note} →</span></div></a>`).join('')}</div>
+        <h2 class="md-section-title">Care and gifting</h2><div class="md-guide-grid">${tile(guideArticles.care[0],'A simple routine for cleaning, storage, and everyday wear.','guide?article=care','Read bracelet care')}
+        ${tile(guideArticles.gifting[0],'The tradition, the moving lists, and how to choose without a list.','guide?article=gifting','Read the birthstone guide')}</div>`;
       break;
     }
     case 'quiz':
@@ -2015,17 +2187,33 @@ function renderMystic(route) {
         content = tarotInterpretation(validSpread ? spread : [cardIndex],themeIndex) + link('tarot','Draw again');
         break;
       }
-      const sign = signs[index('sign')];
+      const signIndex = index('sign');
+      const profile = zodiacProfiles[signIndex];
       const quiz = Object.keys(stones).find(key => key === query.get('quiz'));
-      const stone = (sign && zodiacStones[index('sign')]) || quiz;
-      if (!stone) {
+      if (!profile && !quiz) {
         content = tile('Choose an experience','Your reading or quiz recommendation will appear here.','mystic','Go to Mystic Corner');
         break;
       }
-      content = `<div class="md-grid"><article class="md-tile"><h2>${sign || 'Your starting point'}</h2><p>${sign ? notes[index('sign')] : 'This suggestion is based on the preferences you selected.'}</p></article>
-        ${tile(stones[stone][0],quiz ? crystalReasons[stone] : stones[stone][1],'shop','Explore the shop')}</div>
-        ${sign ? `<p>${notice}</p>` : ''}${link(sign ? 'zodiac' : 'quiz','Start again')}`;
+      if (profile) {
+        content = `<section class="md-zodiac">
+          <p class="kicker">Zodiac · Sun sign</p>
+          <div class="md-zodiac-head"><span class="md-sign-symbol" aria-hidden="true">${profile.symbol}</span>
+            <div><h2 id="md-result-title" tabindex="-1">${profile.name}</h2><p class="md-zodiac-dates">${profile.dates}</p></div></div>
+          <p class="md-zodiac-tags">${profile.keywords}</p>
+          <div class="md-zodiac-daily"><span>Today · ${todayLabel}</span><p>${dailyLine(profile, signIndex)}</p></div>
+          <article class="md-tile"><h2>Reflection</h2><p>${profile.reflection}</p></article>
+          <div class="md-grid"><article class="md-tile"><h2>A small step</h2><p>${profile.step}</p></article>
+            <article class="md-tile"><h2>Worth noticing</h2><p>${profile.notice}</p></article></div>
+          <div class="md-grid"><article class="md-tile"><h2>Stone to pair</h2><p>${profile.stone}. A colour cue for the month, not a prescription.</p></article>
+            <article class="md-tile"><h2>Crystal Guide</h2><p>Ten stones, their care, and three ways to cleanse them.</p>${link('guide','Read the guide')}</article></div>
+          <p class="md-notice">${notice}</p>${link('zodiac','Start again')}</section>`;
+        break;
+      }
+      content = `<div class="md-grid"><article class="md-tile"><h2>Your starting point</h2><p>This suggestion is based on the preferences you selected.</p></article>
+        ${tile(stones[quiz][0],crystalReasons[quiz],'shop','Explore the shop')}</div>
+        ${link('quiz','Start again')}`;
       break;
+    
     }
   }
   moduleView.innerHTML = `<div class="wrap md-shell"><a href="${route==='guide'?'#/guide':route==='quiz'?'#/quiz':'#/mystic'}">${route==='guide'?'Crystal Guide':route==='quiz'?'Crystal Quiz':'Mystic Corner'}</a><h1>${mysticPages[route]}</h1>${intro ? `<p>${intro}</p>` : ''}${content}</div>`;
