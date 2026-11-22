@@ -8,7 +8,7 @@ export {circularOrder,insertOrdered} from './packing.js';
 const distance=(a,b)=>Math.abs(Math.atan2(Math.sin(a-b),Math.cos(a-b)));
 export function commercePlan(all,catalog,cfg,wrist){
  const mains=all.filter(x=>catalog.find(s=>s.id===x.id)?.category!=='pendant'),hanging=all.filter(x=>catalog.find(s=>s.id===x.id)?.category==='pendant');
- if(hanging.length&&mains.length<2)throw Error('请保留至少两颗主线珠子，再挂接吊坠');
+ if(hanging.length&&mains.length<2)throw Error('Please keep at least two beadsmain beads, reattachCharms');
  const valid=mains.slice(0,-1); // The last bead borders the unfinished gap, not a completed bead-to-bead join.
  const attachments=hanging.map(a=>{const old=valid.find(x=>x.key===a.afterKey);const left=old||valid.reduce((best,x)=>distance(x.angle,a.angle)<distance(best.angle,a.angle)?x:best,valid[0]);return {...a,afterKey:left.key,orientation:'outward'}});
  const specs=catalog.map(s=>s.category==='pendant'?{...s,occupancyMm:cfg.attachments?.wireThicknessMm??.36,radialWidthMm:1.8,bodyWidthMm:undefined,outwardLengthMm:undefined}:s);
@@ -19,7 +19,7 @@ export function commercePlan(all,catalog,cfg,wrist){
  const maxHalf=Math.max(1,...mains.map(x=>{const s=catalog.find(s=>s.id===x.id);return s.radialWidthMm/2}));
  p.items=p.items.map(x=>{const a=attachments.find(a=>a.key===x.key);return a?{...x,afterKey:a.afterKey,orientation:'outward',radialOffsetMm:maxHalf+1}:x});
  const bodies=p.items.filter(x=>attachments.some(a=>a.key===x.key));
- for(let i=0;i<bodies.length;i++)for(let j=i+1;j<bodies.length;j++){const a=bodies[i],b=bodies[j],sa=catalog.find(s=>s.id===a.id),sb=catalog.find(s=>s.id===b.id);if(2*(p.tray.trackRadiusMm+maxHalf+4)*Math.sin(distance(a.angle,b.angle)/2)<(sa.bodyWidthMm+sb.bodyWidthMm)/2)throw Error('两件吊坠过近，请选择其他珠间位置');}
+ for(let i=0;i<bodies.length;i++)for(let j=i+1;j<bodies.length;j++){const a=bodies[i],b=bodies[j],sa=catalog.find(s=>s.id===a.id),sb=catalog.find(s=>s.id===b.id);if(2*(p.tray.trackRadiusMm+maxHalf+4)*Math.sin(distance(a.angle,b.angle)/2)<(sa.bodyWidthMm+sb.bodyWidthMm)/2)throw Error('Two charms are too close together; choose another space between beads');}
  p.tray.outerBoundaryMm+=Math.max(0,...bodies.map(a=>catalog.find(s=>s.id===a.id).outwardLengthMm+maxHalf));
  p.tray.outerDiameterMm=2*(p.tray.outerBoundaryMm+1);
  return p;

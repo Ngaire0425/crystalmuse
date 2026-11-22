@@ -13,3 +13,9 @@ studio/*.cjs
 studio/*TEST*.json
 studio/*-TESTS.json
 studio/fixtures/
+
+# raw source drops (kept locally, not part of the site)
+CrystalMuse_collection(1)/
+_tmp_*/
+# large 3D models are added in batches during deploy
+

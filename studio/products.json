@@ -105,23 +105,23 @@
   "styles": [
     {
       "id": "textured",
-      "label": "纹理款"
+      "label": "Textured finish"
     },
     {
       "id": "ice",
-      "label": "冰透款"
+      "label": "Ice-clear finish"
     },
     {
       "id": "high",
-      "label": "高透款"
+      "label": "High-clarity finish"
     },
     {
       "id": "transparent",
-      "label": "通透款"
+      "label": "Translucent finish"
     },
     {
       "id": "opaque",
-      "label": "不透款"
+      "label": "Opaque finish"
     }
   ],
   "products": {
@@ -134,7 +134,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-size-series",
@@ -161,7 +161,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-size-series",
@@ -188,7 +188,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-size-series",
@@ -216,7 +216,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-size-series",
@@ -243,7 +243,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tigers-eye",
       "groupId": "tigers-eye-size-series",
@@ -271,7 +271,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-aventurine",
       "groupId": "green-aventurine-size-series",
@@ -298,7 +298,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-size-series",
@@ -325,7 +325,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "karungali",
       "groupId": "karungali-size-series",
@@ -350,7 +350,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "carnelian",
       "groupId": "carnelian-size-series",
@@ -375,7 +375,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-jade",
       "groupId": "green-jade-size-series",
@@ -400,7 +400,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pyrite",
       "groupId": "pyrite-size-series",
@@ -425,7 +425,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "hematite",
       "groupId": "hematite-size-series",
@@ -450,7 +450,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -479,7 +479,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-size-series",
@@ -507,7 +507,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "larimar",
       "groupId": "larimar-size-series",
@@ -532,7 +532,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "malachite",
       "groupId": "malachite-size-series",
@@ -557,7 +557,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-size-series",
@@ -584,7 +584,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "multicolor-tourmaline-size-series",
@@ -612,7 +612,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "nephrite-jade",
       "groupId": "nephrite-jade-size-series",
@@ -637,8 +637,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-aa-size-series",
@@ -665,7 +665,7 @@
       ],
       "style": "textured",
       "tags": [
-        "亮透款"
+        "Bright clear"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-gem-size-series",
@@ -675,7 +675,7 @@
       "sortOrder": 192.001,
       "shape": "round",
       "aliases": [
-        "橄榄石亮透款",
+        "橄榄石Bright clear",
         "Peridot Gem Quality",
         "peridot gem",
         "橄榄石",
@@ -692,7 +692,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pietersite",
       "groupId": "pietersite-size-series",
@@ -717,7 +717,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "pink-opal",
       "groupId": "pink-opal-size-series",
@@ -742,7 +742,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rhodochrosite",
       "groupId": "rhodochrosite-size-series",
@@ -767,8 +767,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "super-seven",
       "groupId": "super-seven-size-series",
@@ -793,7 +793,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-size-series",
@@ -818,7 +818,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-size-series",
@@ -846,7 +846,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "evil-eye",
       "groupId": "evil-eye-size-series",
@@ -871,7 +871,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "red-jasper",
       "groupId": "red-jasper-size-series",
@@ -896,7 +896,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lepidolite",
       "groupId": "lepidolite-size-series",
@@ -921,7 +921,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "sunstone",
       "groupId": "sunstone-size-series",
@@ -946,7 +946,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "amazonite",
       "groupId": "amazonite-size-series",
@@ -971,7 +971,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "howlite",
       "groupId": "howlite-size-series",
@@ -996,7 +996,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bloodstone",
       "groupId": "bloodstone-size-series",
@@ -1021,7 +1021,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-size-series",
@@ -1048,7 +1048,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-obsidian",
       "groupId": "black-obsidian-size-series",
@@ -1073,7 +1073,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "quartz",
       "groupId": "clear-quartz-size-series",
@@ -1102,7 +1102,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "angelite",
       "groupId": "angelite-size-series",
@@ -1127,7 +1127,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -1156,7 +1156,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-apatite",
       "groupId": "blue-apatite-size-series",
@@ -1181,7 +1181,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-lace-agate",
       "groupId": "blue-lace-agate-size-series",
@@ -1206,7 +1206,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "botswana-agate",
       "groupId": "botswana-agate-size-series",
@@ -1231,7 +1231,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bronzite",
       "groupId": "bronzite-size-series",
@@ -1256,7 +1256,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "crazy-lace-agate",
       "groupId": "crazy-lace-agate-size-series",
@@ -1281,7 +1281,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dalmatian-jasper",
       "groupId": "dalmatian-jasper-size-series",
@@ -1306,7 +1306,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dragon-blood-jasper",
       "groupId": "dragon-blood-jasper-size-series",
@@ -1331,7 +1331,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "flower-agate",
       "groupId": "flower-agate-size-series",
@@ -1356,7 +1356,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "indian-agate",
       "groupId": "indian-agate-size-series",
@@ -1381,7 +1381,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "kambaba-jasper",
       "groupId": "kambaba-jasper-size-series",
@@ -1406,7 +1406,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mahogany-obsidian",
       "groupId": "mahogany-obsidian-size-series",
@@ -1431,7 +1431,7 @@
       ],
       "style": "textured",
       "tags": [
-        "乳白款"
+        "Milky"
       ],
       "stoneId": "quartz",
       "groupId": "milky-quartz-size-series",
@@ -1456,7 +1456,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mookaite-jasper",
       "groupId": "mookaite-jasper-size-series",
@@ -1481,7 +1481,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moss-agate",
       "groupId": "moss-agate-size-series",
@@ -1506,7 +1506,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ocean-jasper",
       "groupId": "ocean-jasper-size-series",
@@ -1531,7 +1531,7 @@
       ],
       "style": "textured",
       "tags": [
-        "蜜桃色"
+        "Peach"
       ],
       "stoneId": "moonstone",
       "groupId": "peach-moonstone-size-series",
@@ -1556,7 +1556,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "picture-jasper",
       "groupId": "picture-jasper-size-series",
@@ -1581,7 +1581,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "prehnite",
       "groupId": "prehnite-size-series",
@@ -1606,7 +1606,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "rhodonite",
       "groupId": "rhodonite-size-series",
@@ -1631,7 +1631,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "snowflake-obsidian",
       "groupId": "snowflake-obsidian-size-series",
@@ -1656,7 +1656,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tree-agate",
       "groupId": "tree-agate-size-series",
@@ -1681,7 +1681,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "unakite",
       "groupId": "unakite-size-series",
@@ -1706,7 +1706,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-onyx",
       "groupId": "blue-onyx-size-series",
@@ -1731,7 +1731,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "sodalite",
       "groupId": "sodalite-size-series",
@@ -1756,7 +1756,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-aventurine",
       "groupId": "yellow-aventurine-size-series",
@@ -1781,7 +1781,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ruby-zoisite",
       "groupId": "ruby-zoisite-size-series",
@@ -1806,7 +1806,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-lava",
       "groupId": "black-lava-size-series",
@@ -1831,7 +1831,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-sapphire",
       "groupId": "yellow-sapphire-size-series",
@@ -1856,7 +1856,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "blue-sapphire-size-series",
@@ -1883,7 +1883,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-size-series",
@@ -1910,7 +1910,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "emerald",
       "groupId": "emerald-size-series",
@@ -1935,7 +1935,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-size-series",
@@ -1962,7 +1962,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "cats-eye",
       "groupId": "cats-eye-size-series",
@@ -1987,8 +1987,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "red-coral",
       "groupId": "red-coral-size-series",
@@ -2013,7 +2013,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "irani-firoza",
       "groupId": "irani-firoza-size-series",
@@ -2040,7 +2040,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "opal",
       "groupId": "opal-size-series",
@@ -2065,7 +2065,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "baltic-amber",
       "groupId": "baltic-amber-size-series",
@@ -2090,7 +2090,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-kyanite",
       "groupId": "blue-kyanite-size-series",
@@ -2115,8 +2115,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "burmese-jadeite",
       "groupId": "burmese-jadeite-size-series",
@@ -2141,7 +2141,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "charoite",
       "groupId": "charoite-size-series",
@@ -2166,7 +2166,7 @@
       ],
       "style": "textured",
       "tags": [
-        "深色款"
+        "Deep tone"
       ],
       "stoneId": "aquamarine",
       "groupId": "devil-aquamarine-size-series",
@@ -2785,7 +2785,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lapis-lazuli",
       "groupId": "lapis-lazuli-size-series",
@@ -3691,7 +3691,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-301-glass",
@@ -3715,7 +3715,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-302-glass",
@@ -3739,7 +3739,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-303-glass",
@@ -3763,7 +3763,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-304-glass",
@@ -3787,7 +3787,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-305-glass",
@@ -3811,7 +3811,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-306-glass",
@@ -3835,7 +3835,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-307-glass",
@@ -3859,7 +3859,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-308-glass",
@@ -3883,7 +3883,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-309-glass",
@@ -3907,7 +3907,7 @@
       ],
       "style": "transparent",
       "tags": [
-        "通透款"
+        "Translucent finish"
       ],
       "stoneId": null,
       "groupId": "spacer-310-glass",
@@ -4327,7 +4327,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-clear-size-series",
@@ -4354,7 +4354,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-clear-size-series",
@@ -4381,7 +4381,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-clear-size-series",
@@ -4408,7 +4408,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-clear-size-series",
@@ -4435,7 +4435,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-clear-size-series",
@@ -4463,8 +4463,8 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
-        "风格款"
+        "Ice-clear finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-clear-size-series",
@@ -4491,7 +4491,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-clear-size-series",
@@ -4519,7 +4519,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "tourmaline-clear-size-series",
@@ -4547,7 +4547,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-clear-size-series",
@@ -4575,7 +4575,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-clear-size-series",
@@ -4602,7 +4602,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-clear-size-series",
@@ -4629,7 +4629,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-clear-size-series",
@@ -4656,7 +4656,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-clear-size-series",
@@ -4681,7 +4681,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-clear-size-series",
@@ -4708,7 +4708,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "sapphire-clear-size-series",
@@ -4735,7 +4735,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -4764,7 +4764,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -4793,7 +4793,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-xiaoye-zitan",
       "groupId": "wood-xiaoye-zitan-size-series",
@@ -4818,7 +4818,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-zitan",
       "groupId": "wood-daye-zitan-size-series",
@@ -4843,7 +4843,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-african-blackwood",
       "groupId": "wood-african-blackwood-size-series",
@@ -4868,7 +4868,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-red-rosewood",
       "groupId": "wood-red-rosewood-size-series",
@@ -4893,7 +4893,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ebony",
       "groupId": "wood-ebony-size-series",
@@ -4919,7 +4919,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-laoshan-sandalwood",
       "groupId": "wood-laoshan-sandalwood-size-series",
@@ -4944,7 +4944,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-zitanliu",
       "groupId": "wood-zitanliu-size-series",
@@ -4969,7 +4969,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ketan",
       "groupId": "wood-ketan-size-series",
@@ -4994,7 +4994,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-blood-sandalwood",
       "groupId": "wood-blood-sandalwood-size-series",
@@ -5020,7 +5020,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-vietnam-huanghuali",
       "groupId": "wood-vietnam-huanghuali-size-series",
@@ -5046,7 +5046,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-hainan-huanghuali",
       "groupId": "wood-hainan-huanghuali-size-series",
@@ -5071,7 +5071,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-tengxiang-reference",
       "groupId": "wood-tengxiang-reference-size-series",
@@ -5096,7 +5096,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-brazil-rosewood",
       "groupId": "wood-brazil-rosewood-size-series",
@@ -5122,7 +5122,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-boxwood",
       "groupId": "wood-boxwood-size-series",
@@ -5148,7 +5148,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nanmu",
       "groupId": "wood-golden-nanmu-size-series",
@@ -5174,7 +5174,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-buried-nanmu",
       "groupId": "wood-buried-nanmu-size-series",
@@ -5200,7 +5200,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-camphor",
       "groupId": "wood-golden-camphor-size-series",
@@ -5226,7 +5226,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nan-reference",
       "groupId": "wood-golden-nan-reference-size-series",
@@ -5251,7 +5251,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-redbean-wood",
       "groupId": "wood-redbean-wood-size-series",
@@ -5276,7 +5276,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yew",
       "groupId": "wood-yew-size-series",
@@ -5301,7 +5301,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-wenge",
       "groupId": "wood-wenge-size-series",
@@ -5326,7 +5326,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-huanghuali",
       "groupId": "wood-daye-huanghuali-size-series",
@@ -5351,7 +5351,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-peach-wood",
       "groupId": "wood-peach-wood-size-series",
@@ -5376,7 +5376,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-mali-burl",
       "groupId": "wood-mali-burl-size-series",
@@ -5402,7 +5402,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yellow-pine",
       "groupId": "wood-yellow-pine-size-series",
@@ -5427,7 +5427,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "quartz",
       "groupId": "clear-quartz-size-series",
@@ -5456,7 +5456,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "quartz",
       "groupId": "clear-quartz-size-series",
@@ -5485,7 +5485,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "quartz",
       "groupId": "clear-quartz-size-series",
@@ -5514,7 +5514,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-size-series",
@@ -5541,7 +5541,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-size-series",
@@ -5568,7 +5568,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-size-series",
@@ -5595,7 +5595,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-size-series",
@@ -5622,7 +5622,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-size-series",
@@ -5649,7 +5649,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-size-series",
@@ -5676,7 +5676,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lapis-lazuli",
       "groupId": "lapis-lazuli-size-series",
@@ -5702,7 +5702,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lapis-lazuli",
       "groupId": "lapis-lazuli-size-series",
@@ -5728,7 +5728,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lapis-lazuli",
       "groupId": "lapis-lazuli-size-series",
@@ -5754,7 +5754,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-size-series",
@@ -5781,7 +5781,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-size-series",
@@ -5808,7 +5808,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-size-series",
@@ -5835,7 +5835,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-size-series",
@@ -5863,7 +5863,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-size-series",
@@ -5891,7 +5891,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-size-series",
@@ -5919,7 +5919,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-size-series",
@@ -5946,7 +5946,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-size-series",
@@ -5973,7 +5973,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-size-series",
@@ -6000,7 +6000,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tigers-eye",
       "groupId": "tigers-eye-size-series",
@@ -6028,7 +6028,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tigers-eye",
       "groupId": "tigers-eye-size-series",
@@ -6056,7 +6056,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tigers-eye",
       "groupId": "tigers-eye-size-series",
@@ -6084,7 +6084,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-aventurine",
       "groupId": "green-aventurine-size-series",
@@ -6111,7 +6111,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-aventurine",
       "groupId": "green-aventurine-size-series",
@@ -6138,7 +6138,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-aventurine",
       "groupId": "green-aventurine-size-series",
@@ -6165,7 +6165,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-size-series",
@@ -6192,7 +6192,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-size-series",
@@ -6219,7 +6219,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-size-series",
@@ -6246,7 +6246,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "karungali",
       "groupId": "karungali-size-series",
@@ -6271,7 +6271,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "karungali",
       "groupId": "karungali-size-series",
@@ -6296,7 +6296,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "karungali",
       "groupId": "karungali-size-series",
@@ -6321,7 +6321,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "carnelian",
       "groupId": "carnelian-size-series",
@@ -6346,7 +6346,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "carnelian",
       "groupId": "carnelian-size-series",
@@ -6371,7 +6371,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "carnelian",
       "groupId": "carnelian-size-series",
@@ -6396,7 +6396,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-jade",
       "groupId": "green-jade-size-series",
@@ -6421,7 +6421,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-jade",
       "groupId": "green-jade-size-series",
@@ -6446,7 +6446,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "green-jade",
       "groupId": "green-jade-size-series",
@@ -6471,7 +6471,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pyrite",
       "groupId": "pyrite-size-series",
@@ -6496,7 +6496,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pyrite",
       "groupId": "pyrite-size-series",
@@ -6521,7 +6521,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pyrite",
       "groupId": "pyrite-size-series",
@@ -6546,7 +6546,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "hematite",
       "groupId": "hematite-size-series",
@@ -6571,7 +6571,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "hematite",
       "groupId": "hematite-size-series",
@@ -6596,7 +6596,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "hematite",
       "groupId": "hematite-size-series",
@@ -6621,7 +6621,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -6650,7 +6650,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -6679,7 +6679,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -6708,7 +6708,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-size-series",
@@ -6736,7 +6736,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-size-series",
@@ -6764,7 +6764,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-size-series",
@@ -6792,7 +6792,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "larimar",
       "groupId": "larimar-size-series",
@@ -6817,7 +6817,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "larimar",
       "groupId": "larimar-size-series",
@@ -6842,7 +6842,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "larimar",
       "groupId": "larimar-size-series",
@@ -6867,7 +6867,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "malachite",
       "groupId": "malachite-size-series",
@@ -6892,7 +6892,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "malachite",
       "groupId": "malachite-size-series",
@@ -6917,7 +6917,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "malachite",
       "groupId": "malachite-size-series",
@@ -6942,7 +6942,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-size-series",
@@ -6969,7 +6969,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-size-series",
@@ -6996,7 +6996,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-size-series",
@@ -7023,7 +7023,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "multicolor-tourmaline-size-series",
@@ -7051,7 +7051,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "multicolor-tourmaline-size-series",
@@ -7079,7 +7079,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "multicolor-tourmaline-size-series",
@@ -7107,7 +7107,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "nephrite-jade",
       "groupId": "nephrite-jade-size-series",
@@ -7132,7 +7132,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "nephrite-jade",
       "groupId": "nephrite-jade-size-series",
@@ -7157,7 +7157,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "nephrite-jade",
       "groupId": "nephrite-jade-size-series",
@@ -7182,8 +7182,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-aa-size-series",
@@ -7210,8 +7210,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-aa-size-series",
@@ -7238,8 +7238,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-aa-size-series",
@@ -7266,7 +7266,7 @@
       ],
       "style": "textured",
       "tags": [
-        "亮透款"
+        "Bright clear"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-gem-size-series",
@@ -7276,7 +7276,7 @@
       "sortOrder": 192,
       "shape": "round",
       "aliases": [
-        "橄榄石亮透款",
+        "橄榄石Bright clear",
         "Peridot Gem Quality",
         "peridot gem",
         "橄榄石",
@@ -7293,7 +7293,7 @@
       ],
       "style": "textured",
       "tags": [
-        "亮透款"
+        "Bright clear"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-gem-size-series",
@@ -7303,7 +7303,7 @@
       "sortOrder": 192.002,
       "shape": "round",
       "aliases": [
-        "橄榄石亮透款",
+        "橄榄石Bright clear",
         "Peridot Gem Quality",
         "peridot gem",
         "橄榄石",
@@ -7320,7 +7320,7 @@
       ],
       "style": "textured",
       "tags": [
-        "亮透款"
+        "Bright clear"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-gem-size-series",
@@ -7330,7 +7330,7 @@
       "sortOrder": 192.003,
       "shape": "round",
       "aliases": [
-        "橄榄石亮透款",
+        "橄榄石Bright clear",
         "Peridot Gem Quality",
         "peridot gem",
         "橄榄石",
@@ -7347,7 +7347,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pietersite",
       "groupId": "pietersite-size-series",
@@ -7372,7 +7372,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pietersite",
       "groupId": "pietersite-size-series",
@@ -7397,7 +7397,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "pietersite",
       "groupId": "pietersite-size-series",
@@ -7422,7 +7422,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "pink-opal",
       "groupId": "pink-opal-size-series",
@@ -7447,7 +7447,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "pink-opal",
       "groupId": "pink-opal-size-series",
@@ -7472,7 +7472,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "pink-opal",
       "groupId": "pink-opal-size-series",
@@ -7497,7 +7497,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rhodochrosite",
       "groupId": "rhodochrosite-size-series",
@@ -7522,7 +7522,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rhodochrosite",
       "groupId": "rhodochrosite-size-series",
@@ -7547,7 +7547,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "rhodochrosite",
       "groupId": "rhodochrosite-size-series",
@@ -7572,8 +7572,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "super-seven",
       "groupId": "super-seven-size-series",
@@ -7598,8 +7598,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "super-seven",
       "groupId": "super-seven-size-series",
@@ -7624,8 +7624,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "super-seven",
       "groupId": "super-seven-size-series",
@@ -7650,7 +7650,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-size-series",
@@ -7675,7 +7675,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-size-series",
@@ -7700,7 +7700,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-size-series",
@@ -7725,7 +7725,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-size-series",
@@ -7753,7 +7753,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-size-series",
@@ -7781,7 +7781,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-size-series",
@@ -7809,7 +7809,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "evil-eye",
       "groupId": "evil-eye-size-series",
@@ -7834,7 +7834,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "evil-eye",
       "groupId": "evil-eye-size-series",
@@ -7859,7 +7859,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "evil-eye",
       "groupId": "evil-eye-size-series",
@@ -7884,7 +7884,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "red-jasper",
       "groupId": "red-jasper-size-series",
@@ -7909,7 +7909,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "red-jasper",
       "groupId": "red-jasper-size-series",
@@ -7934,7 +7934,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "red-jasper",
       "groupId": "red-jasper-size-series",
@@ -7959,7 +7959,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lepidolite",
       "groupId": "lepidolite-size-series",
@@ -7984,7 +7984,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lepidolite",
       "groupId": "lepidolite-size-series",
@@ -8009,7 +8009,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "lepidolite",
       "groupId": "lepidolite-size-series",
@@ -8034,7 +8034,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "sunstone",
       "groupId": "sunstone-size-series",
@@ -8059,7 +8059,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "sunstone",
       "groupId": "sunstone-size-series",
@@ -8084,7 +8084,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "sunstone",
       "groupId": "sunstone-size-series",
@@ -8109,7 +8109,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "amazonite",
       "groupId": "amazonite-size-series",
@@ -8134,7 +8134,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "amazonite",
       "groupId": "amazonite-size-series",
@@ -8159,7 +8159,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "amazonite",
       "groupId": "amazonite-size-series",
@@ -8184,7 +8184,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "howlite",
       "groupId": "howlite-size-series",
@@ -8209,7 +8209,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "howlite",
       "groupId": "howlite-size-series",
@@ -8234,7 +8234,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "howlite",
       "groupId": "howlite-size-series",
@@ -8259,7 +8259,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bloodstone",
       "groupId": "bloodstone-size-series",
@@ -8284,7 +8284,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bloodstone",
       "groupId": "bloodstone-size-series",
@@ -8309,7 +8309,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bloodstone",
       "groupId": "bloodstone-size-series",
@@ -8334,7 +8334,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-obsidian",
       "groupId": "black-obsidian-size-series",
@@ -8359,7 +8359,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-obsidian",
       "groupId": "black-obsidian-size-series",
@@ -8384,7 +8384,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-obsidian",
       "groupId": "black-obsidian-size-series",
@@ -8409,7 +8409,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "angelite",
       "groupId": "angelite-size-series",
@@ -8434,7 +8434,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "angelite",
       "groupId": "angelite-size-series",
@@ -8459,7 +8459,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "angelite",
       "groupId": "angelite-size-series",
@@ -8484,7 +8484,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -8513,7 +8513,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -8542,7 +8542,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
+        "Textured finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -8571,7 +8571,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-apatite",
       "groupId": "blue-apatite-size-series",
@@ -8596,7 +8596,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-apatite",
       "groupId": "blue-apatite-size-series",
@@ -8621,7 +8621,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-apatite",
       "groupId": "blue-apatite-size-series",
@@ -8646,7 +8646,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-lace-agate",
       "groupId": "blue-lace-agate-size-series",
@@ -8671,7 +8671,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-lace-agate",
       "groupId": "blue-lace-agate-size-series",
@@ -8696,7 +8696,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-lace-agate",
       "groupId": "blue-lace-agate-size-series",
@@ -8721,7 +8721,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "botswana-agate",
       "groupId": "botswana-agate-size-series",
@@ -8746,7 +8746,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "botswana-agate",
       "groupId": "botswana-agate-size-series",
@@ -8771,7 +8771,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "botswana-agate",
       "groupId": "botswana-agate-size-series",
@@ -8796,7 +8796,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bronzite",
       "groupId": "bronzite-size-series",
@@ -8821,7 +8821,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bronzite",
       "groupId": "bronzite-size-series",
@@ -8846,7 +8846,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "bronzite",
       "groupId": "bronzite-size-series",
@@ -8871,7 +8871,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "crazy-lace-agate",
       "groupId": "crazy-lace-agate-size-series",
@@ -8896,7 +8896,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "crazy-lace-agate",
       "groupId": "crazy-lace-agate-size-series",
@@ -8921,7 +8921,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "crazy-lace-agate",
       "groupId": "crazy-lace-agate-size-series",
@@ -8946,7 +8946,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dalmatian-jasper",
       "groupId": "dalmatian-jasper-size-series",
@@ -8971,7 +8971,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dalmatian-jasper",
       "groupId": "dalmatian-jasper-size-series",
@@ -8996,7 +8996,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dalmatian-jasper",
       "groupId": "dalmatian-jasper-size-series",
@@ -9021,7 +9021,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dragon-blood-jasper",
       "groupId": "dragon-blood-jasper-size-series",
@@ -9046,7 +9046,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dragon-blood-jasper",
       "groupId": "dragon-blood-jasper-size-series",
@@ -9071,7 +9071,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "dragon-blood-jasper",
       "groupId": "dragon-blood-jasper-size-series",
@@ -9096,7 +9096,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "flower-agate",
       "groupId": "flower-agate-size-series",
@@ -9121,7 +9121,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "flower-agate",
       "groupId": "flower-agate-size-series",
@@ -9146,7 +9146,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "flower-agate",
       "groupId": "flower-agate-size-series",
@@ -9171,7 +9171,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "indian-agate",
       "groupId": "indian-agate-size-series",
@@ -9196,7 +9196,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "indian-agate",
       "groupId": "indian-agate-size-series",
@@ -9221,7 +9221,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "indian-agate",
       "groupId": "indian-agate-size-series",
@@ -9246,7 +9246,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "kambaba-jasper",
       "groupId": "kambaba-jasper-size-series",
@@ -9271,7 +9271,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "kambaba-jasper",
       "groupId": "kambaba-jasper-size-series",
@@ -9296,7 +9296,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "kambaba-jasper",
       "groupId": "kambaba-jasper-size-series",
@@ -9321,7 +9321,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mahogany-obsidian",
       "groupId": "mahogany-obsidian-size-series",
@@ -9346,7 +9346,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mahogany-obsidian",
       "groupId": "mahogany-obsidian-size-series",
@@ -9371,7 +9371,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mahogany-obsidian",
       "groupId": "mahogany-obsidian-size-series",
@@ -9396,7 +9396,7 @@
       ],
       "style": "textured",
       "tags": [
-        "乳白款"
+        "Milky"
       ],
       "stoneId": "quartz",
       "groupId": "milky-quartz-size-series",
@@ -9421,7 +9421,7 @@
       ],
       "style": "textured",
       "tags": [
-        "乳白款"
+        "Milky"
       ],
       "stoneId": "quartz",
       "groupId": "milky-quartz-size-series",
@@ -9446,7 +9446,7 @@
       ],
       "style": "textured",
       "tags": [
-        "乳白款"
+        "Milky"
       ],
       "stoneId": "quartz",
       "groupId": "milky-quartz-size-series",
@@ -9471,7 +9471,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mookaite-jasper",
       "groupId": "mookaite-jasper-size-series",
@@ -9496,7 +9496,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mookaite-jasper",
       "groupId": "mookaite-jasper-size-series",
@@ -9521,7 +9521,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "mookaite-jasper",
       "groupId": "mookaite-jasper-size-series",
@@ -9546,7 +9546,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moss-agate",
       "groupId": "moss-agate-size-series",
@@ -9571,7 +9571,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moss-agate",
       "groupId": "moss-agate-size-series",
@@ -9596,7 +9596,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "moss-agate",
       "groupId": "moss-agate-size-series",
@@ -9621,7 +9621,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ocean-jasper",
       "groupId": "ocean-jasper-size-series",
@@ -9646,7 +9646,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ocean-jasper",
       "groupId": "ocean-jasper-size-series",
@@ -9671,7 +9671,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ocean-jasper",
       "groupId": "ocean-jasper-size-series",
@@ -9696,7 +9696,7 @@
       ],
       "style": "textured",
       "tags": [
-        "蜜桃色"
+        "Peach"
       ],
       "stoneId": "moonstone",
       "groupId": "peach-moonstone-size-series",
@@ -9721,7 +9721,7 @@
       ],
       "style": "textured",
       "tags": [
-        "蜜桃色"
+        "Peach"
       ],
       "stoneId": "moonstone",
       "groupId": "peach-moonstone-size-series",
@@ -9746,7 +9746,7 @@
       ],
       "style": "textured",
       "tags": [
-        "蜜桃色"
+        "Peach"
       ],
       "stoneId": "moonstone",
       "groupId": "peach-moonstone-size-series",
@@ -9771,7 +9771,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "picture-jasper",
       "groupId": "picture-jasper-size-series",
@@ -9796,7 +9796,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "picture-jasper",
       "groupId": "picture-jasper-size-series",
@@ -9821,7 +9821,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "picture-jasper",
       "groupId": "picture-jasper-size-series",
@@ -9846,7 +9846,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "prehnite",
       "groupId": "prehnite-size-series",
@@ -9871,7 +9871,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "prehnite",
       "groupId": "prehnite-size-series",
@@ -9896,7 +9896,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "prehnite",
       "groupId": "prehnite-size-series",
@@ -9921,7 +9921,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "rhodonite",
       "groupId": "rhodonite-size-series",
@@ -9946,7 +9946,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "rhodonite",
       "groupId": "rhodonite-size-series",
@@ -9971,7 +9971,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "rhodonite",
       "groupId": "rhodonite-size-series",
@@ -9996,7 +9996,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "snowflake-obsidian",
       "groupId": "snowflake-obsidian-size-series",
@@ -10021,7 +10021,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "snowflake-obsidian",
       "groupId": "snowflake-obsidian-size-series",
@@ -10046,7 +10046,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "snowflake-obsidian",
       "groupId": "snowflake-obsidian-size-series",
@@ -10071,7 +10071,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tree-agate",
       "groupId": "tree-agate-size-series",
@@ -10096,7 +10096,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tree-agate",
       "groupId": "tree-agate-size-series",
@@ -10121,7 +10121,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "tree-agate",
       "groupId": "tree-agate-size-series",
@@ -10146,7 +10146,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "unakite",
       "groupId": "unakite-size-series",
@@ -10171,7 +10171,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "unakite",
       "groupId": "unakite-size-series",
@@ -10196,7 +10196,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "unakite",
       "groupId": "unakite-size-series",
@@ -10221,7 +10221,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-onyx",
       "groupId": "blue-onyx-size-series",
@@ -10246,7 +10246,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-onyx",
       "groupId": "blue-onyx-size-series",
@@ -10271,7 +10271,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-onyx",
       "groupId": "blue-onyx-size-series",
@@ -10296,7 +10296,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "sodalite",
       "groupId": "sodalite-size-series",
@@ -10321,7 +10321,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "sodalite",
       "groupId": "sodalite-size-series",
@@ -10346,7 +10346,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "sodalite",
       "groupId": "sodalite-size-series",
@@ -10371,7 +10371,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-aventurine",
       "groupId": "yellow-aventurine-size-series",
@@ -10396,7 +10396,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-aventurine",
       "groupId": "yellow-aventurine-size-series",
@@ -10421,7 +10421,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-aventurine",
       "groupId": "yellow-aventurine-size-series",
@@ -10446,7 +10446,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ruby-zoisite",
       "groupId": "ruby-zoisite-size-series",
@@ -10471,7 +10471,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ruby-zoisite",
       "groupId": "ruby-zoisite-size-series",
@@ -10496,7 +10496,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "ruby-zoisite",
       "groupId": "ruby-zoisite-size-series",
@@ -10521,7 +10521,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-lava",
       "groupId": "black-lava-size-series",
@@ -10546,7 +10546,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-lava",
       "groupId": "black-lava-size-series",
@@ -10571,7 +10571,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "black-lava",
       "groupId": "black-lava-size-series",
@@ -10596,7 +10596,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-sapphire",
       "groupId": "yellow-sapphire-size-series",
@@ -10621,7 +10621,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-sapphire",
       "groupId": "yellow-sapphire-size-series",
@@ -10646,7 +10646,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "yellow-sapphire",
       "groupId": "yellow-sapphire-size-series",
@@ -10671,7 +10671,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "blue-sapphire-size-series",
@@ -10698,7 +10698,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "blue-sapphire-size-series",
@@ -10725,7 +10725,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "blue-sapphire-size-series",
@@ -10752,7 +10752,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-size-series",
@@ -10779,7 +10779,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-size-series",
@@ -10806,7 +10806,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-size-series",
@@ -10833,7 +10833,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "emerald",
       "groupId": "emerald-size-series",
@@ -10858,7 +10858,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "emerald",
       "groupId": "emerald-size-series",
@@ -10883,7 +10883,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "emerald",
       "groupId": "emerald-size-series",
@@ -10908,7 +10908,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-size-series",
@@ -10935,7 +10935,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-size-series",
@@ -10962,7 +10962,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-size-series",
@@ -10989,7 +10989,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "cats-eye",
       "groupId": "cats-eye-size-series",
@@ -11014,7 +11014,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "cats-eye",
       "groupId": "cats-eye-size-series",
@@ -11039,7 +11039,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "cats-eye",
       "groupId": "cats-eye-size-series",
@@ -11064,8 +11064,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "red-coral",
       "groupId": "red-coral-size-series",
@@ -11090,8 +11090,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "red-coral",
       "groupId": "red-coral-size-series",
@@ -11116,8 +11116,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "red-coral",
       "groupId": "red-coral-size-series",
@@ -11142,7 +11142,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "irani-firoza",
       "groupId": "irani-firoza-size-series",
@@ -11169,7 +11169,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "irani-firoza",
       "groupId": "irani-firoza-size-series",
@@ -11196,7 +11196,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "irani-firoza",
       "groupId": "irani-firoza-size-series",
@@ -11223,7 +11223,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "opal",
       "groupId": "opal-size-series",
@@ -11248,7 +11248,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "opal",
       "groupId": "opal-size-series",
@@ -11273,7 +11273,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "opal",
       "groupId": "opal-size-series",
@@ -11298,7 +11298,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "baltic-amber",
       "groupId": "baltic-amber-size-series",
@@ -11323,7 +11323,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "baltic-amber",
       "groupId": "baltic-amber-size-series",
@@ -11348,7 +11348,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "baltic-amber",
       "groupId": "baltic-amber-size-series",
@@ -11373,7 +11373,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-kyanite",
       "groupId": "blue-kyanite-size-series",
@@ -11398,7 +11398,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-kyanite",
       "groupId": "blue-kyanite-size-series",
@@ -11423,7 +11423,7 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款"
+        "Textured finish"
       ],
       "stoneId": "blue-kyanite",
       "groupId": "blue-kyanite-size-series",
@@ -11448,8 +11448,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "burmese-jadeite",
       "groupId": "burmese-jadeite-size-series",
@@ -11474,8 +11474,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "burmese-jadeite",
       "groupId": "burmese-jadeite-size-series",
@@ -11500,8 +11500,8 @@
       ],
       "style": "textured",
       "tags": [
-        "纹理款",
-        "风格款"
+        "Textured finish",
+        "Style finish"
       ],
       "stoneId": "burmese-jadeite",
       "groupId": "burmese-jadeite-size-series",
@@ -11526,7 +11526,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "charoite",
       "groupId": "charoite-size-series",
@@ -11551,7 +11551,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "charoite",
       "groupId": "charoite-size-series",
@@ -11576,7 +11576,7 @@
       ],
       "style": "opaque",
       "tags": [
-        "抛光款"
+        "Polished finish"
       ],
       "stoneId": "charoite",
       "groupId": "charoite-size-series",
@@ -11601,7 +11601,7 @@
       ],
       "style": "textured",
       "tags": [
-        "深色款"
+        "Deep tone"
       ],
       "stoneId": "aquamarine",
       "groupId": "devil-aquamarine-size-series",
@@ -11626,7 +11626,7 @@
       ],
       "style": "textured",
       "tags": [
-        "深色款"
+        "Deep tone"
       ],
       "stoneId": "aquamarine",
       "groupId": "devil-aquamarine-size-series",
@@ -11651,7 +11651,7 @@
       ],
       "style": "textured",
       "tags": [
-        "深色款"
+        "Deep tone"
       ],
       "stoneId": "aquamarine",
       "groupId": "devil-aquamarine-size-series",
@@ -12116,7 +12116,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-clear-size-series",
@@ -12143,7 +12143,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-clear-size-series",
@@ -12170,7 +12170,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "aquamarine",
       "groupId": "aquamarine-clear-size-series",
@@ -12197,7 +12197,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-clear-size-series",
@@ -12224,7 +12224,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-clear-size-series",
@@ -12251,7 +12251,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "amethyst",
       "groupId": "amethyst-clear-size-series",
@@ -12278,7 +12278,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-clear-size-series",
@@ -12305,7 +12305,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-clear-size-series",
@@ -12332,7 +12332,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "citrine",
       "groupId": "citrine-clear-size-series",
@@ -12359,7 +12359,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-clear-size-series",
@@ -12386,7 +12386,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-clear-size-series",
@@ -12413,7 +12413,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "morganite",
       "groupId": "morganite-clear-size-series",
@@ -12440,7 +12440,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-clear-size-series",
@@ -12468,7 +12468,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-clear-size-series",
@@ -12496,7 +12496,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "kunzite",
       "groupId": "kunzite-clear-size-series",
@@ -12524,8 +12524,8 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
-        "风格款"
+        "Ice-clear finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-clear-size-series",
@@ -12552,8 +12552,8 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
-        "风格款"
+        "Ice-clear finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-clear-size-series",
@@ -12580,8 +12580,8 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
-        "风格款"
+        "Ice-clear finish",
+        "Style finish"
       ],
       "stoneId": "peridot",
       "groupId": "peridot-clear-size-series",
@@ -12608,7 +12608,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-clear-size-series",
@@ -12636,7 +12636,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-clear-size-series",
@@ -12664,7 +12664,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "fluorite",
       "groupId": "fluorite-clear-size-series",
@@ -12692,7 +12692,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "tourmaline-clear-size-series",
@@ -12720,7 +12720,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "tourmaline-clear-size-series",
@@ -12748,7 +12748,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款"
+        "Ice-clear finish"
       ],
       "stoneId": "multicolor-tourmaline",
       "groupId": "tourmaline-clear-size-series",
@@ -12776,7 +12776,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-clear-size-series",
@@ -12804,7 +12804,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-clear-size-series",
@@ -12832,7 +12832,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "rose-quartz",
       "groupId": "rose-quartz-clear-size-series",
@@ -12860,7 +12860,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-clear-size-series",
@@ -12887,7 +12887,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-clear-size-series",
@@ -12914,7 +12914,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "moonstone",
       "groupId": "moonstone-clear-size-series",
@@ -12941,7 +12941,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-clear-size-series",
@@ -12968,7 +12968,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-clear-size-series",
@@ -12995,7 +12995,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "garnet",
       "groupId": "garnet-clear-size-series",
@@ -13022,7 +13022,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-clear-size-series",
@@ -13049,7 +13049,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-clear-size-series",
@@ -13076,7 +13076,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "hessonite",
       "groupId": "hessonite-clear-size-series",
@@ -13103,7 +13103,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-clear-size-series",
@@ -13128,7 +13128,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-clear-size-series",
@@ -13153,7 +13153,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "tanzanite",
       "groupId": "tanzanite-clear-size-series",
@@ -13178,7 +13178,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-clear-size-series",
@@ -13205,7 +13205,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-clear-size-series",
@@ -13232,7 +13232,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "ruby",
       "groupId": "ruby-clear-size-series",
@@ -13259,7 +13259,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "sapphire-clear-size-series",
@@ -13286,7 +13286,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "sapphire-clear-size-series",
@@ -13313,7 +13313,7 @@
       ],
       "style": "high",
       "tags": [
-        "高透款"
+        "High-clarity finish"
       ],
       "stoneId": "blue-sapphire",
       "groupId": "sapphire-clear-size-series",
@@ -13340,7 +13340,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -13369,7 +13369,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -13398,7 +13398,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "golden-rutilated-quartz",
@@ -13427,7 +13427,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -13456,7 +13456,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -13485,7 +13485,7 @@
       ],
       "style": "ice",
       "tags": [
-        "冰透款",
+        "Ice-clear finish",
         "丝状包裹体"
       ],
       "stoneId": "black-rutilated-quartz",
@@ -13514,7 +13514,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-xiaoye-zitan",
       "groupId": "wood-xiaoye-zitan-size-series",
@@ -13539,7 +13539,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-xiaoye-zitan",
       "groupId": "wood-xiaoye-zitan-size-series",
@@ -13564,7 +13564,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-xiaoye-zitan",
       "groupId": "wood-xiaoye-zitan-size-series",
@@ -13589,7 +13589,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-zitan",
       "groupId": "wood-daye-zitan-size-series",
@@ -13614,7 +13614,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-zitan",
       "groupId": "wood-daye-zitan-size-series",
@@ -13639,7 +13639,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-zitan",
       "groupId": "wood-daye-zitan-size-series",
@@ -13664,7 +13664,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-african-blackwood",
       "groupId": "wood-african-blackwood-size-series",
@@ -13689,7 +13689,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-african-blackwood",
       "groupId": "wood-african-blackwood-size-series",
@@ -13714,7 +13714,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-african-blackwood",
       "groupId": "wood-african-blackwood-size-series",
@@ -13739,7 +13739,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-red-rosewood",
       "groupId": "wood-red-rosewood-size-series",
@@ -13764,7 +13764,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-red-rosewood",
       "groupId": "wood-red-rosewood-size-series",
@@ -13789,7 +13789,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-red-rosewood",
       "groupId": "wood-red-rosewood-size-series",
@@ -13814,7 +13814,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ebony",
       "groupId": "wood-ebony-size-series",
@@ -13839,7 +13839,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ebony",
       "groupId": "wood-ebony-size-series",
@@ -13864,7 +13864,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ebony",
       "groupId": "wood-ebony-size-series",
@@ -13890,7 +13890,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-laoshan-sandalwood",
       "groupId": "wood-laoshan-sandalwood-size-series",
@@ -13916,7 +13916,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-laoshan-sandalwood",
       "groupId": "wood-laoshan-sandalwood-size-series",
@@ -13942,7 +13942,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-laoshan-sandalwood",
       "groupId": "wood-laoshan-sandalwood-size-series",
@@ -13967,7 +13967,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-zitanliu",
       "groupId": "wood-zitanliu-size-series",
@@ -13992,7 +13992,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-zitanliu",
       "groupId": "wood-zitanliu-size-series",
@@ -14017,7 +14017,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-zitanliu",
       "groupId": "wood-zitanliu-size-series",
@@ -14042,7 +14042,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ketan",
       "groupId": "wood-ketan-size-series",
@@ -14067,7 +14067,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ketan",
       "groupId": "wood-ketan-size-series",
@@ -14092,7 +14092,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-ketan",
       "groupId": "wood-ketan-size-series",
@@ -14117,7 +14117,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-blood-sandalwood",
       "groupId": "wood-blood-sandalwood-size-series",
@@ -14142,7 +14142,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-blood-sandalwood",
       "groupId": "wood-blood-sandalwood-size-series",
@@ -14167,7 +14167,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-blood-sandalwood",
       "groupId": "wood-blood-sandalwood-size-series",
@@ -14193,7 +14193,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-vietnam-huanghuali",
       "groupId": "wood-vietnam-huanghuali-size-series",
@@ -14219,7 +14219,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-vietnam-huanghuali",
       "groupId": "wood-vietnam-huanghuali-size-series",
@@ -14245,7 +14245,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-vietnam-huanghuali",
       "groupId": "wood-vietnam-huanghuali-size-series",
@@ -14271,7 +14271,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-hainan-huanghuali",
       "groupId": "wood-hainan-huanghuali-size-series",
@@ -14297,7 +14297,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-hainan-huanghuali",
       "groupId": "wood-hainan-huanghuali-size-series",
@@ -14323,7 +14323,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-hainan-huanghuali",
       "groupId": "wood-hainan-huanghuali-size-series",
@@ -14348,7 +14348,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-tengxiang-reference",
       "groupId": "wood-tengxiang-reference-size-series",
@@ -14373,7 +14373,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-tengxiang-reference",
       "groupId": "wood-tengxiang-reference-size-series",
@@ -14398,7 +14398,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-tengxiang-reference",
       "groupId": "wood-tengxiang-reference-size-series",
@@ -14423,7 +14423,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-brazil-rosewood",
       "groupId": "wood-brazil-rosewood-size-series",
@@ -14448,7 +14448,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-brazil-rosewood",
       "groupId": "wood-brazil-rosewood-size-series",
@@ -14473,7 +14473,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-brazil-rosewood",
       "groupId": "wood-brazil-rosewood-size-series",
@@ -14499,7 +14499,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-boxwood",
       "groupId": "wood-boxwood-size-series",
@@ -14525,7 +14525,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-boxwood",
       "groupId": "wood-boxwood-size-series",
@@ -14551,7 +14551,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-boxwood",
       "groupId": "wood-boxwood-size-series",
@@ -14577,7 +14577,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nanmu",
       "groupId": "wood-golden-nanmu-size-series",
@@ -14603,7 +14603,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nanmu",
       "groupId": "wood-golden-nanmu-size-series",
@@ -14629,7 +14629,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nanmu",
       "groupId": "wood-golden-nanmu-size-series",
@@ -14655,7 +14655,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-buried-nanmu",
       "groupId": "wood-buried-nanmu-size-series",
@@ -14681,7 +14681,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-buried-nanmu",
       "groupId": "wood-buried-nanmu-size-series",
@@ -14707,7 +14707,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-buried-nanmu",
       "groupId": "wood-buried-nanmu-size-series",
@@ -14733,7 +14733,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-camphor",
       "groupId": "wood-golden-camphor-size-series",
@@ -14759,7 +14759,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-camphor",
       "groupId": "wood-golden-camphor-size-series",
@@ -14785,7 +14785,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-camphor",
       "groupId": "wood-golden-camphor-size-series",
@@ -14811,7 +14811,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nan-reference",
       "groupId": "wood-golden-nan-reference-size-series",
@@ -14837,7 +14837,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nan-reference",
       "groupId": "wood-golden-nan-reference-size-series",
@@ -14863,7 +14863,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-golden-nan-reference",
       "groupId": "wood-golden-nan-reference-size-series",
@@ -14888,7 +14888,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-redbean-wood",
       "groupId": "wood-redbean-wood-size-series",
@@ -14913,7 +14913,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-redbean-wood",
       "groupId": "wood-redbean-wood-size-series",
@@ -14938,7 +14938,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-redbean-wood",
       "groupId": "wood-redbean-wood-size-series",
@@ -14963,7 +14963,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yew",
       "groupId": "wood-yew-size-series",
@@ -14988,7 +14988,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yew",
       "groupId": "wood-yew-size-series",
@@ -15013,7 +15013,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yew",
       "groupId": "wood-yew-size-series",
@@ -15038,7 +15038,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-wenge",
       "groupId": "wood-wenge-size-series",
@@ -15063,7 +15063,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-wenge",
       "groupId": "wood-wenge-size-series",
@@ -15088,7 +15088,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-wenge",
       "groupId": "wood-wenge-size-series",
@@ -15113,7 +15113,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-huanghuali",
       "groupId": "wood-daye-huanghuali-size-series",
@@ -15138,7 +15138,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-huanghuali",
       "groupId": "wood-daye-huanghuali-size-series",
@@ -15163,7 +15163,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-daye-huanghuali",
       "groupId": "wood-daye-huanghuali-size-series",
@@ -15188,7 +15188,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-peach-wood",
       "groupId": "wood-peach-wood-size-series",
@@ -15213,7 +15213,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-peach-wood",
       "groupId": "wood-peach-wood-size-series",
@@ -15238,7 +15238,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-peach-wood",
       "groupId": "wood-peach-wood-size-series",
@@ -15263,7 +15263,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-mali-burl",
       "groupId": "wood-mali-burl-size-series",
@@ -15288,7 +15288,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-mali-burl",
       "groupId": "wood-mali-burl-size-series",
@@ -15313,7 +15313,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-mali-burl",
       "groupId": "wood-mali-burl-size-series",
@@ -15339,7 +15339,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yellow-pine",
       "groupId": "wood-yellow-pine-size-series",
@@ -15365,7 +15365,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yellow-pine",
       "groupId": "wood-yellow-pine-size-series",
@@ -15391,7 +15391,7 @@
       ],
       "style": "textured",
       "tags": [
-        "天然木纹"
+        "Natural grain"
       ],
       "stoneId": "wood-yellow-pine",
       "groupId": "wood-yellow-pine-size-series",
