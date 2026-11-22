@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "note": "仅演示结构：请按真实库存填写，勿直接作为库存启用。未填数量仍是库存待确认。",
+  "items": {
+    "amethyst": {"available": true, "quantity": null},
+    "wood-xiaoye-zitan": {"available": false, "quantity": 0}
+  }
+}

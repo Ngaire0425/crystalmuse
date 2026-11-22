@@ -1,0 +1,23 @@
+{
+  "currency": "CNY",
+  "fractionDigits": 2,
+  "note": "16个独立SKU。单价待商家填写，单位为分；此文件不自动替换真实报价配置。",
+  "unitPricesMinor": {
+    "amethyst": null,
+    "aquamarine": null,
+    "clear-quartz": null,
+    "lapis-lazuli": null,
+    "clear-quartz-6mm": null,
+    "clear-quartz-10mm": null,
+    "clear-quartz-12mm": null,
+    "amethyst-6mm": null,
+    "amethyst-10mm": null,
+    "amethyst-12mm": null,
+    "aquamarine-6mm": null,
+    "aquamarine-10mm": null,
+    "aquamarine-12mm": null,
+    "lapis-lazuli-6mm": null,
+    "lapis-lazuli-10mm": null,
+    "lapis-lazuli-12mm": null
+  }
+}

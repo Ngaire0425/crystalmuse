@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "note": "真实库存尚未提供。未配置的素材仅视为已上架展示素材，推荐会提示库存待确认。available=false或quantity=0会排除；quantity为可用件数。",
+  "items": {}
+}

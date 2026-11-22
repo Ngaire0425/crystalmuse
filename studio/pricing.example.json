@@ -1,0 +1,14 @@
+{
+  "currency": "HKD",
+  "fractionDigits": 2,
+  "unitPricesMinor": {
+    "amethyst": 1200,
+    "citrine": 1500,
+    "peace-disc": 800
+  },
+  "makingFee": {
+    "enabled": true,
+    "amountMinor": 1000
+  },
+  "note": "仅演示配置格式，非真实报价；不要直接用于正式销售"
+}

@@ -1,0 +1,79 @@
+/* CrystalMuse site theme — applied on top of the DIY studio so the module
+   reads as part of the same site (cream ground, borderless cards, serif display). */
+
+body{
+  background:#FAF6F0 !important;
+  color:#220B4E;
+  font-family:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+}
+
+h1,h2,h3,.brand,
+.scene-title h1,.library h2,.custom-params h2,.custom-params h3{
+  font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif !important;
+  letter-spacing:.005em;
+  font-weight:500;
+}
+
+/* borderless surfaces */
+.workspace,
+.library,
+.right-panel,
+.price-summary,
+.recommend-dialog,
+dialog{
+  background:rgba(255,253,248,.78) !important;
+  border:0 !important;
+  border-radius:26px !important;
+  box-shadow:none !important;
+}
+
+.custom-params{
+  background:transparent !important;
+  border:0 !important;
+  box-shadow:none !important;
+}
+
+/* quiet internal dividers instead of frames */
+.design-params,
+.tabs,
+.price-summary{
+  border-color:rgba(65,15,112,.10) !important;
+}
+.tabs{border-bottom:1px solid rgba(65,15,112,.10) !important}
+.tabs button.active{
+  color:#410F70 !important;
+  border-bottom-color:#410F70 !important;
+}
+.product-search input,
+.search-row input,
+.search-row select,
+input,select,summary{
+  background:#FFFDF8 !important;
+  border:1px solid rgba(65,15,112,.10) !important;
+  border-radius:12px !important;
+}
+button{
+  border-radius:12px !important;
+  border-color:rgba(65,15,112,.12) !important;
+}
+button:hover:enabled{border-color:#B69DFF !important}
+
+.primary,
+#showQuote{
+  background:#410F70 !important;
+  border-color:#410F70 !important;
+  color:#FFFDF6 !important;
+  border-radius:999px !important;
+  letter-spacing:.06em;
+}
+.primary:hover:enabled{background:#220B4E !important}
+
+.unit-price,.eyebrow,#priceTotal{color:#410F70 !important}
+.bead img,.product-card .product-add img{
+  background:#F6E9F7 !important;
+  border-radius:14px !important;
+}
+.product-tags span{background:#EFE6FF !important;color:#5A3E86 !important}
+.variant-choices.size button[aria-pressed=true]{
+  background:#EFE6FF !important;border-color:#B69DFF !important;color:#410F70 !important;
+}

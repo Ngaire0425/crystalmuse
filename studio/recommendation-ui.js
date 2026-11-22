@@ -1,0 +1,20 @@
+import {generateZodiacRecommendations} from './zodiac-recommendations.js';
+export function setupRecommendations({catalog,products,cfg,pricing,inventory,zodiacs={themes:[],mapping:{}},asset,getWrist,apply}){
+ const $=id=>document.getElementById(id),dialog=$('recommendDialog'),select=$('recommendZodiac');let plans=[],revision=0;
+ select.replaceChildren(new Option('请选择星座',''),...zodiacs.themes.map(t=>new Option(t.symbol+' '+t.sign,t.id)));select.options[0].disabled=true;select.value='';
+ function render(plan){
+  const card=document.createElement('article');card.className='recommend-card';const title=document.createElement('h3');title.textContent=plan.name;const reason=document.createElement('p');reason.textContent=plan.reason;card.append(title,reason);
+  if(plan.unavailable){const warning=document.createElement('p');warning.className='recommend-warning';warning.textContent='暂缺：'+(plan.missing?.length?plan.missing.map(x=>x.name+' × '+x.quantity).join('、'):plan.warnings.join(' · '));const b=document.createElement('button');b.type='button';b.disabled=true;b.textContent='主珠待补齐，暂不可使用';card.append(warning,b);return card;}
+  const pictures=document.createElement('div');pictures.className='recommend-pictures';const grouped=new Map();for(const it of plan.items)grouped.set(it.id,(grouped.get(it.id)||0)+1);
+  for(const [id,n] of grouped){const s=catalog.find(s=>s.id===id),p=products.products[id],figure=document.createElement('figure'),im=document.createElement('img'),caption=document.createElement('figcaption');im.src=asset(p.thumbnail||s.thumbnail);im.alt=s.name;caption.textContent=p.displayName+(s.diameterMm?'·'+s.diameterMm+'mm':'')+' × '+n;figure.append(im,caption);pictures.append(figure);}
+  card.append(pictures);const pendants=plan.items.filter(it=>catalog.find(s=>s.id===it.id).category==='pendant').length,fit=document.createElement('p');fit.textContent=`${plan.items.length-pendants}颗珠子${pendants?' · '+pendants+'件吊坠':''} · 预计适合手围约${(plan.fit.estimatedMm/10).toFixed(1)}cm`;card.append(fit);
+  if(plan.missing?.length){const warning=document.createElement('p');warning.className='recommend-warning';warning.textContent='参考改编，暂未加入：'+plan.missing.map(x=>x.name+' × '+x.quantity).join('、');card.append(warning);}
+  const details=document.createElement('details'),summary=document.createElement('summary'),note=document.createElement('p');details.className='reference-recipe';summary.textContent='款式说明';note.textContent=plan.warnings.filter(x=>!x.includes('暂不能保证符合预算')).join(' · ');details.append(summary,note);card.append(details);
+  const use=document.createElement('button');use.type='button';use.className='primary';use.dataset.recommendation='0';use.textContent='使用这套搭配';use.onclick=()=>{if(apply(plan))dialog.close();else $('recommendFeedback').textContent='请先返回搭配模式后重试';};card.append(use);const tip=document.createElement('small');tip.className='zodiac-apply-note';tip.textContent='替换当前搭配，可撤销；放入后可自由调整。';card.append(tip);return card;
+ }
+ async function showSelected(){const token=++revision,id=select.value;plans=[];$('recommendResults').replaceChildren();$('recommendFeedback').textContent='';const theme=zodiacs.themes.find(t=>t.id===id);$('zodiacDescription').textContent=theme?theme.sign+' · '+theme.name:zodiacs.themes.length?'每个星座一套主题设计，无需填写其他偏好。':'星座主题暂未加载，请关闭后刷新重试。';if(!theme)return;
+  $('recommendFeedback').textContent='正在加载主题…';await new Promise(resolve=>requestAnimationFrame(()=>setTimeout(resolve,0)));if(token!==revision)return;
+  try{const next=generateZodiacRecommendations(catalog,products,cfg,pricing,inventory,{zodiac:id,wristMm:getWrist(),budgetMinor:null},zodiacs);if(token!==revision)return;plans=next;$('recommendResults').replaceChildren(render(plans[0]));$('recommendFeedback').textContent='';}catch(e){$('recommendFeedback').textContent=e.message;}
+ }
+ select.onchange=showSelected;$('openRecommendations').onclick=()=>{dialog.showModal();showSelected();};$('closeRecommendations').onclick=()=>dialog.close();dialog.addEventListener('close',()=>revision++);$('zodiacDescription').textContent='每个星座一套主题设计。';return {get plans(){return plans}};
+}

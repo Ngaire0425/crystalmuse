@@ -1,0 +1,686 @@
+{
+  "version": 4,
+  "source": "CrystalMuse现有商品星座灵感搭配 v2",
+  "note": "12星座纯水晶混合尺寸方案；不含吊坠或金属隔珠。封面统一圆环视觉直径，实际尺寸及适合手围仍按各款真实模型计算。",
+  "mapping": {
+    "石榴石": {
+      "id": "garnet",
+      "note": ""
+    },
+    "太阳石": {
+      "id": "sunstone",
+      "note": ""
+    },
+    "白水晶": {
+      "id": "clear-quartz",
+      "note": ""
+    },
+    "薄圆片隔珠·金色": {
+      "id": "spacer-06-gold",
+      "note": ""
+    },
+    "太阳-放射·金色": {
+      "id": "pendant-09-gold",
+      "note": ""
+    },
+    "绿东陵石": {
+      "id": "green-aventurine",
+      "note": ""
+    },
+    "虎眼石": {
+      "id": "tigers-eye",
+      "note": ""
+    },
+    "黄水晶": {
+      "id": "citrine",
+      "note": ""
+    },
+    "小麦穗-麦粒·金色": {
+      "id": "pendant-11-gold",
+      "note": ""
+    },
+    "海蓝宝": {
+      "id": "aquamarine",
+      "note": ""
+    },
+    "萤石": {
+      "id": "fluorite",
+      "note": ""
+    },
+    "薄圆片隔珠·银色": {
+      "id": "spacer-06-silver",
+      "note": ""
+    },
+    "双星-十字星·银色": {
+      "id": "pendant-05-silver",
+      "note": ""
+    },
+    "月光石": {
+      "id": "moonstone",
+      "note": ""
+    },
+    "粉晶": {
+      "id": "rose-quartz",
+      "note": ""
+    },
+    "弯月·银色": {
+      "id": "pendant-07-silver",
+      "note": ""
+    },
+    "葡萄石": {
+      "id": "prehnite",
+      "note": ""
+    },
+    "小麦穗-麦粒·银色": {
+      "id": "pendant-11-silver",
+      "note": ""
+    },
+    "紫水晶": {
+      "id": "amethyst",
+      "note": ""
+    },
+    "摩根石": {
+      "id": "morganite",
+      "note": ""
+    },
+    "雏菊花形隔片·金色": {
+      "id": "spacer-15-gold",
+      "note": ""
+    },
+    "小花·金色": {
+      "id": "pendant-13-gold",
+      "note": ""
+    },
+    "黑曜石": {
+      "id": "black-obsidian",
+      "note": ""
+    },
+    "小星芒·银色": {
+      "id": "pendant-16-silver",
+      "note": ""
+    },
+    "青金石": {
+      "id": "lapis-lazuli",
+      "note": ""
+    },
+    "小箭矢·金色": {
+      "id": "pendant-17-gold",
+      "note": ""
+    },
+    "山峰·银色": {
+      "id": "pendant-20-silver",
+      "note": ""
+    },
+    "立方体隔珠·银色": {
+      "id": "spacer-07-silver",
+      "note": ""
+    },
+    "双星-镂空星·银色": {
+      "id": "pendant-06-silver",
+      "note": ""
+    },
+    "紫锂辉石": {
+      "id": "kunzite",
+      "note": ""
+    },
+    "garnet": {
+      "id": "garnet",
+      "note": ""
+    },
+    "clear-quartz-6mm": {
+      "id": "clear-quartz-6mm",
+      "note": ""
+    },
+    "sunstone-10mm": {
+      "id": "sunstone-10mm",
+      "note": ""
+    },
+    "green-aventurine": {
+      "id": "green-aventurine",
+      "note": ""
+    },
+    "citrine-6mm": {
+      "id": "citrine-6mm",
+      "note": ""
+    },
+    "tigers-eye-10mm": {
+      "id": "tigers-eye-10mm",
+      "note": ""
+    },
+    "aquamarine-6mm": {
+      "id": "aquamarine-6mm",
+      "note": ""
+    },
+    "amethyst-6mm": {
+      "id": "amethyst-6mm",
+      "note": ""
+    },
+    "clear-quartz": {
+      "id": "clear-quartz",
+      "note": ""
+    },
+    "moonstone": {
+      "id": "moonstone",
+      "note": ""
+    },
+    "rose-quartz-6mm": {
+      "id": "rose-quartz-6mm",
+      "note": ""
+    },
+    "citrine": {
+      "id": "citrine",
+      "note": ""
+    },
+    "tigers-eye-6mm": {
+      "id": "tigers-eye-6mm",
+      "note": ""
+    },
+    "prehnite-6mm": {
+      "id": "prehnite-6mm",
+      "note": ""
+    },
+    "morganite": {
+      "id": "morganite",
+      "note": ""
+    },
+    "kunzite": {
+      "id": "kunzite",
+      "note": ""
+    },
+    "black-obsidian": {
+      "id": "black-obsidian",
+      "note": ""
+    },
+    "garnet-6mm": {
+      "id": "garnet-6mm",
+      "note": ""
+    },
+    "amethyst-10mm": {
+      "id": "amethyst-10mm",
+      "note": ""
+    },
+    "lapis-lazuli": {
+      "id": "lapis-lazuli",
+      "note": ""
+    },
+    "sunstone": {
+      "id": "sunstone",
+      "note": ""
+    },
+    "tigers-eye": {
+      "id": "tigers-eye",
+      "note": ""
+    },
+    "black-obsidian-6mm": {
+      "id": "black-obsidian-6mm",
+      "note": ""
+    },
+    "fluorite": {
+      "id": "fluorite",
+      "note": ""
+    },
+    "blue-apatite-6mm": {
+      "id": "blue-apatite-6mm",
+      "note": ""
+    },
+    "clear-quartz-10mm": {
+      "id": "clear-quartz-10mm",
+      "note": ""
+    },
+    "kunzite-6mm": {
+      "id": "kunzite-6mm",
+      "note": ""
+    }
+  },
+  "themes": [
+    {
+      "id": "aries",
+      "symbol": "♈",
+      "sign": "白羊座",
+      "name": "炽热初光",
+      "palette": "酒红 · 暖橙 · 透明白",
+      "description": "以白羊的热烈、行动感为创作灵感，单颗主珠点睛，以大小珠的节奏突出层次。",
+      "designNote": "单颗主珠点睛；采用10、6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "garnet",
+        "clear-quartz-6mm",
+        "sunstone-10mm",
+        "clear-quartz-6mm",
+        "garnet",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet",
+        "garnet"
+      ]
+    },
+    {
+      "id": "taurus",
+      "symbol": "♉",
+      "sign": "金牛座",
+      "name": "森野藏金",
+      "palette": "森林绿 · 棕金 · 蜜黄",
+      "description": "以金牛的沉稳与自然审美为灵感，单颗主珠点睛，以大小珠的节奏突出层次。",
+      "designNote": "单颗主珠点睛；采用10、6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "citrine-6mm",
+        "citrine-6mm",
+        "green-aventurine",
+        "citrine-6mm",
+        "tigers-eye-10mm",
+        "citrine-6mm",
+        "green-aventurine",
+        "citrine-6mm",
+        "citrine-6mm",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine",
+        "green-aventurine"
+      ]
+    },
+    {
+      "id": "gemini",
+      "symbol": "♊",
+      "sign": "双子座",
+      "name": "风的两面",
+      "palette": "浅蓝 · 紫色 · 透明白",
+      "description": "以双子的轻快与多变为灵感，成对交替，以大小珠的节奏突出层次。",
+      "designNote": "成对交替；采用6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "amethyst-6mm",
+        "amethyst-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "amethyst-6mm",
+        "amethyst-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "amethyst-6mm",
+        "amethyst-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "amethyst-6mm",
+        "amethyst-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "amethyst-6mm",
+        "amethyst-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "amethyst-6mm",
+        "amethyst-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "amethyst-6mm",
+        "amethyst-6mm",
+        "clear-quartz",
+        "clear-quartz"
+      ]
+    },
+    {
+      "id": "cancer",
+      "symbol": "♋",
+      "sign": "巨蟹座",
+      "name": "月光归处",
+      "palette": "月白 · 浅粉 · 透明白",
+      "description": "以巨蟹的温柔与归属感为灵感，柔和镜像过渡，以大小珠的节奏突出层次。",
+      "designNote": "柔和镜像过渡；采用6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone",
+        "moonstone"
+      ]
+    },
+    {
+      "id": "leo",
+      "symbol": "♌",
+      "sign": "狮子座",
+      "name": "曜金烈阳",
+      "palette": "蜜黄 · 棕金 · 暖橙",
+      "description": "以狮子的明朗与表现力为灵感，单颗主珠点睛，以大小珠的节奏突出层次。",
+      "designNote": "单颗主珠点睛；采用10、6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine",
+        "tigers-eye-6mm",
+        "tigers-eye-6mm",
+        "citrine",
+        "tigers-eye-6mm",
+        "sunstone-10mm",
+        "tigers-eye-6mm",
+        "citrine",
+        "tigers-eye-6mm",
+        "tigers-eye-6mm",
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine",
+        "citrine"
+      ]
+    },
+    {
+      "id": "virgo",
+      "symbol": "♍",
+      "sign": "处女座",
+      "name": "澄净之序",
+      "palette": "浅绿 · 透明白 · 草木绿",
+      "description": "以处女座的细致与秩序感为灵感，细珠规律重复，以大小珠的节奏突出层次。",
+      "designNote": "细珠规律重复；采用6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "prehnite-6mm",
+        "prehnite-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm",
+        "green-aventurine",
+        "clear-quartz-6mm",
+        "green-aventurine"
+      ]
+    },
+    {
+      "id": "libra",
+      "symbol": "♎",
+      "sign": "天秤座",
+      "name": "花间平衡",
+      "palette": "浅粉 · 紫色 · 柔和桃粉",
+      "description": "以天秤的和谐与优雅为灵感，柔和镜像过渡，以大小珠的节奏突出层次。",
+      "designNote": "柔和镜像过渡；采用6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "kunzite",
+        "kunzite",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "rose-quartz-6mm",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite",
+        "morganite"
+      ]
+    },
+    {
+      "id": "scorpio",
+      "symbol": "♏",
+      "sign": "天蝎座",
+      "name": "暗夜流紫",
+      "palette": "墨黑 · 酒红 · 深紫",
+      "description": "以天蝎的深邃与鲜明个性为灵感，单侧重点，以大小珠的节奏突出层次。",
+      "designNote": "单侧重点；采用10、6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "garnet-6mm",
+        "garnet-6mm",
+        "amethyst-10mm",
+        "garnet-6mm",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "black-obsidian",
+        "garnet-6mm",
+        "garnet-6mm"
+      ]
+    },
+    {
+      "id": "sagittarius",
+      "symbol": "♐",
+      "sign": "射手座",
+      "name": "逐光旷野",
+      "palette": "浅蓝 · 深蓝 · 暖橙",
+      "description": "以射手的探索与自由感为灵感，单侧重点，以大小珠的节奏突出层次。",
+      "designNote": "单侧重点；采用6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "sunstone",
+        "aquamarine-6mm",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "lapis-lazuli",
+        "aquamarine-6mm",
+        "aquamarine-6mm"
+      ]
+    },
+    {
+      "id": "capricorn",
+      "symbol": "♑",
+      "sign": "摩羯座",
+      "name": "山海沉星",
+      "palette": "墨黑 · 棕金 · 透明白",
+      "description": "以摩羯的稳健与清晰结构为灵感，成对交替，以大小珠的节奏突出层次。",
+      "designNote": "成对交替；采用6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "tigers-eye",
+        "tigers-eye",
+        "black-obsidian-6mm",
+        "black-obsidian-6mm",
+        "tigers-eye",
+        "tigers-eye",
+        "black-obsidian-6mm",
+        "black-obsidian-6mm",
+        "tigers-eye",
+        "tigers-eye",
+        "black-obsidian-6mm",
+        "black-obsidian-6mm",
+        "tigers-eye",
+        "tigers-eye",
+        "black-obsidian-6mm",
+        "black-obsidian-6mm",
+        "tigers-eye",
+        "tigers-eye",
+        "black-obsidian-6mm",
+        "black-obsidian-6mm",
+        "tigers-eye",
+        "tigers-eye",
+        "black-obsidian-6mm",
+        "black-obsidian-6mm",
+        "tigers-eye",
+        "tigers-eye",
+        "black-obsidian-6mm",
+        "black-obsidian-6mm",
+        "clear-quartz-6mm",
+        "clear-quartz-6mm"
+      ]
+    },
+    {
+      "id": "aquarius",
+      "symbol": "♒",
+      "sign": "水瓶座",
+      "name": "天外回响",
+      "palette": "多彩 · 湖蓝 · 透明白",
+      "description": "以水瓶的独立与新鲜感为灵感，单侧重点，以大小珠的节奏突出层次。",
+      "designNote": "单侧重点；采用10、6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "blue-apatite-6mm",
+        "blue-apatite-6mm",
+        "clear-quartz-10mm",
+        "blue-apatite-6mm",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "fluorite",
+        "blue-apatite-6mm",
+        "blue-apatite-6mm"
+      ]
+    },
+    {
+      "id": "pisces",
+      "symbol": "♓",
+      "sign": "双鱼座",
+      "name": "梦落星海",
+      "palette": "浅蓝 · 月白 · 淡紫",
+      "description": "以双鱼的浪漫与想象力为灵感，柔和镜像过渡，以大小珠的节奏突出层次。",
+      "designNote": "柔和镜像过渡；采用6、8mm真实规格。数量与适合手围按实际模型计算，可在DIY中继续调整。 纯水晶珠款，不含吊坠与金属隔珠。",
+      "recipe": [
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "moonstone",
+        "moonstone",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "kunzite-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm",
+        "aquamarine-6mm"
+      ]
+    }
+  ]
+}

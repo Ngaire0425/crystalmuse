@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CrystalMuse — Discover Your Crystal</title>
+<meta name="description" content="CrystalMuse is a personalised crystal lifestyle platform: shop curated pieces, design your own beaded bracelet, and explore the stories stones carry.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 30'%3E%3Cpath d='M12 1L21 9.6L17.6 27H6.4L3 9.6Z' fill='%23410F70'/%3E%3Cpath d='M12 1V27M3 9.6H21' stroke='%23DBC8FF' stroke-width='1'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://miaoda.feishu.cn" crossorigin>
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@300;400;500;600&family=Noto+Sans+SC:wght@300;400;500&display=swap">
+<style>
+/* =========================================================
+   CrystalMuse · global framework + Home / About / Contact
+   Palette: #220B4E #410F70 #B69DFF #DBC8FF #FFFDB6 (+ #75E8E7 accent)
+   ========================================================= */
+:root{
+  --bg:#FAF6F0;
+  --ink:#220B4E;
+  --plum:#410F70;
+  --violet:#B69DFF;
+  --lilac:#DBC8FF;
+  --lilac-soft:#F3ECFF;
+  --cream:#FFFDB6;
+  --cream-soft:#FDF9E9;
+  --pink:#F6E4EC;
+  --teal:#75E8E7;
+  --muted:#746384;
+  --hair:rgba(34,11,78,.09);
+  --shadow:0 26px 60px -34px rgba(34,11,78,.42);
+  --r-xl:34px;
+  --r-lg:28px;
+  --r-md:20px;
+  --r-sm:14px;
+  --maxw:1200px;
+  --ease:cubic-bezier(.22,.61,.36,1);
+  --serif:"Cormorant Garamond","Noto Serif SC",Georgia,"Times New Roman",serif;
+  --sans:"Inter","Noto Sans SC",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family:var(--sans);
+  font-size:16px;
+  line-height:1.65;
+  font-weight:400;
+  letter-spacing:.01em;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(58vw 42vw at 88% -6%, rgba(219,200,255,.5), transparent 68%),
+    radial-gradient(48vw 40vw at 4% 2%, rgba(255,253,182,.42), transparent 70%),
+    radial-gradient(52vw 46vw at 100% 78%, rgba(246,228,236,.5), transparent 72%);
+}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+::selection{background:var(--violet);color:var(--ink)}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{
+  outline:2px solid var(--plum);outline-offset:3px;border-radius:6px;
+}
+
+.wrap{width:min(var(--maxw),calc(100vw - 44px));margin-inline:auto}
+.serif{font-family:var(--serif)}
+.kicker{
+  font-size:10.5px;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+  display:inline-flex;align-items:center;gap:9px;opacity:.72;
+}
+.kicker .dot{width:5px;height:5px;border-radius:50%;background:currentColor;opacity:.85}
+.hair{height:1px;background:var(--hair);border:0;margin:0}
+
+/* ---------- header ---------- */
+.site-head{
+  position:sticky;top:0;z-index:60;
+  padding:16px 0 10px;
+  background:linear-gradient(to bottom,rgba(250,246,240,.94) 0%,rgba(250,246,240,.78) 62%,rgba(250,246,240,0) 100%);
+}
+.nav{
+  display:flex;align-items:center;gap:10px;
+  padding:7px 7px 7px 20px;
+  border-radius:999px;
+  background:rgba(255,255,255,.68);
+  backdrop-filter:blur(20px) saturate(140%);
+  -webkit-backdrop-filter:blur(20px) saturate(140%);
+  box-shadow:0 18px 44px -30px rgba(34,11,78,.55),inset 0 0 0 .5px rgba(255,255,255,.7);
+}
+.brand{display:flex;align-items:center;gap:9px;flex-shrink:0}
+.brand-mark{width:17px;height:auto;color:var(--plum);flex-shrink:0}
+.brand-name{font-family:var(--serif);font-size:24px;line-height:1;letter-spacing:.015em;font-weight:500}
+.brand-name em{font-style:italic;font-weight:400}
+.brand-cn{
+  font-family:var(--serif);font-size:11px;letter-spacing:.24em;color:var(--muted);
+  border-left:1px solid var(--hair);padding-left:11px;margin-left:2px;
+}
+.nav-links{display:flex;align-items:center;gap:2px;margin-left:auto;margin-right:auto}
+.nav-links a{
+  padding:9px 13px;border-radius:999px;
+  font-size:12.5px;letter-spacing:.02em;color:var(--muted);
+  transition:color .25s,background .25s;white-space:nowrap;
+}
+.nav-links a:hover{color:var(--ink);background:rgba(219,200,255,.32)}
+.nav-links a.is-active{color:var(--ink);background:rgba(219,200,255,.55);font-weight:500}
+.nav-right{display:flex;align-items:center;gap:6px;flex-shrink:0}
+.icon-btn{
+  width:42px;height:42px;border-radius:50%;border:0;background:transparent;
+  display:grid;place-items:center;color:var(--ink);position:relative;
+  transition:background .25s;
+}
+.icon-btn:hover{background:rgba(219,200,255,.38)}
+.icon-btn svg{width:18px;height:18px}
+.cart-count{
+  position:absolute;top:6px;right:5px;min-width:15px;height:15px;padding:0 4px;
+  border-radius:999px;background:var(--plum);color:var(--cream);
+  font-size:9px;font-weight:600;display:grid;place-items:center;line-height:1;
+}
+.btn-nav{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--ink);color:var(--cream);
+  padding:11px 18px;border-radius:999px;border:0;
+  font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;
+  transition:transform .3s var(--ease),background .3s;
+}
+.btn-nav:hover{background:var(--plum);transform:translateY(-1px)}
+.burger{display:none}
+
+/* ---------- view / animation ---------- */
+#app{display:block;padding-top:14px}
+.view{display:none}
+.view.is-active{display:block;animation:viewIn .55s var(--ease) both}
+@keyframes viewIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}
+  .reveal{opacity:1;transform:none}
+}
+
+/* ---------- bento ---------- */
+.bento{
+  display:grid;gap:15px;
+  grid-template-columns:repeat(12,1fr);
+  grid-template-rows:334px 266px auto;
+  grid-template-areas:
+    "hero hero hero hero hero feat feat feat feat diy diy diy"
+    "hero hero hero hero hero myst myst myst myst quiz quiz quiz"
+    "pick pick pick pick pick pick pick pick pick pick pick pick";
+}
+.card{
+  position:relative;border-radius:var(--r-xl);overflow:hidden;
+  transition:transform .5s var(--ease),box-shadow .5s var(--ease);
+}
+.card > *{position:relative;z-index:2}
+.card.lift:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+
+/* hero */
+.hero{
+  grid-area:hero;
+  padding:6px 22px 12px 2px;
+  color:var(--ink);
+  display:flex;flex-direction:column;justify-content:space-between;
+  background:none;
+  border-radius:0;overflow:visible;
+}
+.hero-crystal{
+  position:absolute;right:-52px;bottom:-14px;width:60%;max-width:350px;height:auto;
+  color:#6C3FA8;opacity:.38;z-index:1;
+  -webkit-mask-image:linear-gradient(to bottom,rgba(0,0,0,.9) 0%,rgba(0,0,0,.42) 44%,transparent 82%);
+  mask-image:linear-gradient(to bottom,rgba(0,0,0,.9) 0%,rgba(0,0,0,.42) 44%,transparent 82%);
+}
+.hero-star{position:absolute;border-radius:50%;background:var(--plum);z-index:1;opacity:.4;animation:twinkle 6s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:.15;transform:scale(.8)}50%{opacity:.5;transform:scale(1)}}
+.hero-top{display:flex;flex-direction:column;gap:20px}
+.hero-kicker{color:rgba(34,11,78,.62);letter-spacing:.19em}
+.hero-kicker .dot{background:var(--plum)}
+.hero-logo{
+  margin:0;font-family:var(--serif);font-weight:400;
+  font-size:clamp(45px,4.9vw,68px);line-height:.92;letter-spacing:-.005em;
+}
+.hero-logo em{font-style:italic;font-weight:300}
+.hero-sub{
+  display:flex;align-items:center;gap:12px;
+  font-size:12px;letter-spacing:.16em;color:rgba(34,11,78,.52);text-transform:uppercase;
+}
+.hero-sub .cn{font-family:var(--serif);font-size:13px;letter-spacing:.3em;color:var(--plum)}
+.hero-lines{
+  margin:0;font-family:var(--serif);font-size:clamp(20px,1.95vw,26px);
+  line-height:1.45;color:var(--ink);
+}
+.hero-lines em{font-style:italic;color:var(--plum)}
+.hero-lines .outline{
+  color:transparent;-webkit-text-stroke:.9px rgba(34,11,78,.55);
+}
+.hero-desc{
+  margin:14px 0 0;max-width:34ch;font-size:13px;line-height:1.75;
+  color:rgba(34,11,78,.62);
+}
+.hero-mid{margin:18px 0}
+.hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-top:26px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:14px 22px;border-radius:999px;border:1px solid transparent;
+  font-size:11px;font-weight:600;letter-spacing:.13em;text-transform:uppercase;
+  transition:transform .3s var(--ease),background .3s,color .3s,border-color .3s,box-shadow .3s;
+  white-space:nowrap;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-cream{background:var(--cream);color:var(--ink);box-shadow:0 14px 30px -16px rgba(255,253,182,.6)}
+.btn-cream:hover{background:#FFFC92}
+.btn-ghost{background:rgba(255,255,255,.1);border-color:transparent;color:#F4ECFF}
+.btn-ghost:hover{background:rgba(255,255,255,.18);border-color:transparent}
+.hero .btn-ghost{background:transparent;border-color:rgba(34,11,78,.24);color:var(--ink)}
+.hero .btn-ghost:hover{background:rgba(182,157,255,.22);border-color:rgba(34,11,78,.4)}
+.btn-ink{background:var(--ink);color:var(--cream)}
+.btn-ink:hover{background:var(--plum)}
+.btn .arrow{width:14px;height:14px;flex-shrink:0}
+.hero-foot{
+  display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;margin-top:22px;
+  font-size:10.5px;letter-spacing:.1em;color:rgba(34,11,78,.45);text-transform:uppercase;
+}
+.hero-foot span{display:inline-flex;align-items:center;gap:7px}
+.hero-foot .sep{width:3px;height:3px;border-radius:50%;background:rgba(34,11,78,.3)}
+
+/* featured */
+.feat{grid-area:feat;background:linear-gradient(158deg,#F7F1FF 0%,#ECE1FF 100%);padding:0;display:flex;flex-direction:column}
+.feat .thumb{
+  position:relative;flex:1;min-height:0;border-radius:0;overflow:hidden;background:none;
+}
+.feat .thumb img{width:100%;height:100%;object-fit:cover;transition:transform .8s var(--ease)}
+.feat:hover .thumb img{transform:scale(1.04)}
+.badge{
+  position:absolute;top:10px;left:10px;z-index:2;
+  padding:6px 11px;border-radius:999px;background:rgba(250,246,240,.9);
+  font-size:9.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--plum);
+  backdrop-filter:blur(6px);
+}
+.feat .meta{display:flex;align-items:flex-end;justify-content:space-between;gap:10px;padding:14px 16px 16px}
+.feat .meta .name{margin:0;font-family:var(--serif);font-size:18px;line-height:1.25;font-weight:500}
+.feat .meta .spec{margin:3px 0 0;font-size:10.5px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.feat .price{font-size:13px;font-weight:600;color:var(--plum);white-space:nowrap}
+.round-link{
+  width:38px;height:38px;border-radius:50%;background:rgba(34,11,78,.07);
+  display:grid;place-items:center;flex-shrink:0;color:var(--ink);
+  transition:background .3s,color .3s,transform .3s var(--ease);
+}
+.round-link svg{width:14px;height:14px}
+.round-link:hover{background:var(--ink);color:var(--cream);transform:translateX(2px)}
+
+/* diy */
+.diy{
+  grid-area:diy;padding:24px;display:flex;flex-direction:column;justify-content:space-between;
+  background:linear-gradient(158deg,#FFFDB6 0%,#FFF8C6 62%,#FDF3B4 100%);
+}
+.diy::after{
+  content:"";position:absolute;right:-58px;bottom:-86px;width:188px;height:188px;border-radius:50%;
+  background:radial-gradient(circle,rgba(255,255,255,.55),rgba(255,255,255,0) 68%);
+  z-index:1;pointer-events:none;
+}
+.diy .kicker{color:rgba(34,11,78,.66)}
+.diy h3{
+  margin:12px 0 0;font-family:var(--serif);font-size:clamp(24px,2.4vw,31px);
+  line-height:1.08;font-weight:500;letter-spacing:-.01em;
+}
+.diy p{margin:10px 0 0;font-size:11.5px;line-height:1.7;color:rgba(34,11,78,.62);max-width:24ch}
+.diy-styles{display:flex;flex-wrap:wrap;gap:5px;margin-top:14px}
+.diy-styles span{
+  font-size:8.5px;letter-spacing:.11em;text-transform:uppercase;
+  padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.55);
+  color:rgba(34,11,78,.6);
+}
+.diy-meta{margin:0 0 10px;font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:rgba(34,11,78,.46)}
+.beads{display:flex;align-items:center;gap:5px;margin-top:14px}
+.bead{width:15px;height:15px;border-radius:50%;box-shadow:inset -2px -2px 5px rgba(34,11,78,.16),inset 2px 2px 5px rgba(255,255,255,.7);flex-shrink:0}
+.b1{background:radial-gradient(circle at 32% 28%,#E6D8FF,#B69DFF)}
+.b2{background:radial-gradient(circle at 32% 28%,#FDF7FF,#DBC8FF)}
+.b3{background:radial-gradient(circle at 32% 28%,#FFF0F6,#E7B9CC)}
+.b4{background:radial-gradient(circle at 32% 28%,#FFFDE3,#F5EE8F)}
+.b5{background:radial-gradient(circle at 32% 28%,#62259B,#2E0C53)}
+.diy-link{
+  display:inline-flex;align-items:center;gap:9px;margin-top:16px;
+  font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink);
+}
+.diy-link .line{width:26px;height:1px;background:rgba(34,11,78,.35);transition:width .3s var(--ease)}
+.diy:hover .diy-link .line{width:44px}
+
+/* mystic */
+.mystic{
+  grid-area:myst;color:#F6EFFF;padding:26px 28px;display:flex;flex-direction:column;justify-content:center;
+  background-image:
+    linear-gradient(96deg,rgba(26,8,48,.95) 0%,rgba(26,8,48,.88) 38%,rgba(26,8,48,.5) 70%,rgba(26,8,48,.32) 100%),
+    url("assets/tarot-table.jpg");
+  background-size:cover;background-position:center;
+}
+.mystic .kicker{color:rgba(246,239,255,.6);letter-spacing:.2em}
+.mystic h3{
+  margin:12px 0 0;font-family:var(--serif);font-size:clamp(24px,2.5vw,32px);
+  line-height:1.08;font-weight:400;max-width:15ch;
+}
+.mystic p{margin:10px 0 0;font-size:11.5px;line-height:1.7;color:rgba(246,239,255,.62);max-width:30ch}
+.chips{display:flex;gap:7px;margin-top:15px}
+.chip{
+  padding:6px 12px;border-radius:999px;background:rgba(246,239,255,.14);
+  font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:rgba(246,239,255,.82);
+}
+.mystic-link{
+  display:inline-flex;align-items:center;gap:9px;margin-top:16px;
+  font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#FFFDB6;
+}
+.mystic-link .line{width:26px;height:1px;background:rgba(255,253,182,.5);transition:width .3s var(--ease)}
+.mystic:hover .mystic-link .line{width:44px}
+
+/* quiz */
+.quiz{
+  grid-area:quiz;padding:24px;display:flex;flex-direction:column;justify-content:space-between;
+  color:var(--ink);background:linear-gradient(160deg,#C9B0FF 0%,#B69DFF 55%,#A985FF 100%);
+}
+.quiz::after{
+  content:"?";position:absolute;right:-4px;bottom:-66px;z-index:1;
+  font-family:var(--serif);font-size:158px;line-height:1;font-style:italic;
+  color:transparent;-webkit-text-stroke:1px rgba(34,11,78,.18);pointer-events:none;
+}
+.quiz .kicker{color:rgba(34,11,78,.62)}
+.quiz h3{
+  margin:12px 0 0;font-family:var(--serif);font-size:clamp(22px,2.2vw,28px);
+  line-height:1.1;font-weight:500;letter-spacing:-.01em;max-width:12ch;
+}
+.quiz .meta{margin:12px 0 0;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(34,11,78,.55)}
+.quiz .desc{margin:9px 0 0;font-size:10.5px;line-height:1.65;color:rgba(34,11,78,.55);max-width:21ch}
+.quiz .q-foot{display:flex;align-items:center;justify-content:space-between;margin-top:14px}
+.quiz .q-foot .round-link{background:rgba(250,246,240,.55)}
+.quiz .q-foot .round-link:hover{background:var(--ink);color:var(--cream)}
+.quiz .teal-dot{width:7px;height:7px;border-radius:50%;background:#2FBDBE;box-shadow:0 0 0 4px rgba(117,232,231,.35);justify-self:start}
+
+/* picks (bottom horizontal card) */
+.pick{
+  grid-area:pick;background:#FFFDF8;padding:22px 24px;
+  display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);gap:30px;
+}
+.pick-left{display:flex;flex-direction:column}
+.pick-proof{
+  margin-top:auto;padding-top:16px;display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;
+  font-size:10px;letter-spacing:.05em;color:var(--muted);
+}
+.pick-proof .stars{color:var(--plum);letter-spacing:.14em;font-size:9px}
+.pick-proof b{color:var(--ink);font-weight:600}
+.pick-proof .sep{width:3px;height:3px;border-radius:50%;background:rgba(34,11,78,.25)}
+.pick-head{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:14px}
+.pick-head h3{margin:0;font-family:var(--serif);font-size:22px;font-weight:500;line-height:1.2}
+.pick-head .link{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:inline-flex;align-items:center;gap:6px}
+.minis{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mini{
+  display:flex;align-items:center;gap:11px;padding:8px 6px;border-radius:16px;
+  background:transparent;transition:background .3s,transform .3s var(--ease);
+}
+.mini:hover{background:rgba(219,200,255,.24);transform:translateX(2px)}
+.mini img{width:56px;height:56px;border-radius:11px;object-fit:cover;flex-shrink:0}
+.mini .t{font-family:var(--serif);font-size:14px;line-height:1.25;font-weight:500}
+.mini .p{font-size:10px;letter-spacing:.08em;color:var(--muted);margin-top:3px}
+.mini-wide{grid-column:1 / -1}
+.mini-art{
+  width:56px;height:56px;border-radius:11px;flex-shrink:0;
+  background:linear-gradient(150deg,#FFFDB6,#E6D7FF 90%);
+  display:flex;align-items:center;justify-content:center;gap:3px;
+}
+.mini-art i{display:block;width:8px;height:8px;border-radius:50%;box-shadow:inset -1px -1px 2px rgba(34,11,78,.2),inset 1px 1px 2px rgba(255,255,255,.8)}
+.mini-arrow{margin-left:auto;width:13px;height:13px;color:var(--muted);flex-shrink:0}
+.pick-right{display:flex;flex-direction:column;justify-content:space-between}
+.guide-list{display:flex;flex-direction:column}
+.guide-item{
+  display:flex;align-items:center;gap:14px;padding:11px 0;
+  border-top:1px solid var(--hair);
+  transition:padding-left .3s var(--ease),color .3s;
+}
+.guide-item:first-child{border-top:0;padding-top:2px}
+.guide-item:hover{padding-left:5px}
+.guide-item .no{font-size:9.5px;letter-spacing:.12em;color:var(--muted);width:18px;flex-shrink:0}
+.guide-item .gt{flex:1;min-width:0}
+.guide-item .gt b{display:block;font-family:var(--serif);font-size:15.5px;font-weight:500;line-height:1.3}
+.guide-item .gt span{font-size:10px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.guide-item svg{width:13px;height:13px;color:var(--muted);flex-shrink:0;transition:transform .3s var(--ease),color .3s}
+.guide-item:hover svg{transform:translateX(3px);color:var(--ink)}
+
+/* promise band */
+.promise{padding:56px 6px 8px}
+.promise-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px}
+.promise-item .no{
+  font-family:var(--serif);font-size:12px;letter-spacing:.16em;color:rgba(65,15,112,.55);
+}
+.promise-item h4{margin:10px 0 6px;font-family:var(--serif);font-size:21px;font-weight:500;line-height:1.2}
+.promise-item p{margin:0;font-size:12.5px;line-height:1.75;color:var(--muted);max-width:30ch}
+.promise-foot{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:34px}
+.promise-foot .quote{margin:0;font-family:var(--serif);font-style:italic;font-size:clamp(18px,2vw,25px);color:var(--plum);max-width:24ch;line-height:1.3}
+
+/* ---------- generic page sections ---------- */
+.page-hero{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:26px;align-items:stretch}
+.page-hero-copy{padding:38px 34px;border-radius:var(--r-xl);background:linear-gradient(155deg,#F6F0FF,#EFE4FF);display:flex;flex-direction:column;justify-content:center}
+.page-hero-copy h1{
+  margin:14px 0 0;font-family:var(--serif);font-weight:400;
+  font-size:clamp(33px,4.2vw,56px);line-height:1.02;letter-spacing:-.01em;
+}
+.page-hero-copy h1 em{font-style:italic;font-weight:300;color:var(--plum)}
+.page-hero-copy .lead{margin:20px 0 0;font-size:13.5px;line-height:1.8;color:var(--muted);max-width:46ch}
+.page-hero-media{border-radius:var(--r-xl);overflow:hidden;position:relative;aspect-ratio:4/3;min-height:0}
+.page-hero-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.page-hero-media::after{
+  content:"";position:absolute;left:0;right:0;bottom:0;height:42%;z-index:1;
+  background:linear-gradient(to top,rgba(24,7,42,.5),rgba(24,7,42,0));
+  pointer-events:none;
+}
+.page-hero-media .caption{
+  position:absolute;left:16px;bottom:16px;z-index:2;
+  display:inline-flex;align-items:center;
+  padding:8px 13px;border-radius:999px;background:rgba(24,7,42,.5);
+  backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);
+  font-size:9px;letter-spacing:.13em;text-transform:uppercase;color:rgba(255,255,255,.9);
+}
+.section{padding:56px 0 0}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:24px}
+.section-head h2{margin:10px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(26px,3vw,38px);line-height:1.08}
+.section-head h2 em{font-style:italic;color:var(--plum)}
+.story{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:44px}
+.story p{margin:0 0 16px;font-size:13.5px;line-height:1.85;color:var(--muted);max-width:52ch}
+.story .pull{
+  margin:0;font-family:var(--serif);font-style:italic;font-size:clamp(21px,2.4vw,29px);
+  line-height:1.35;color:var(--plum);padding-left:22px;border-left:1px solid var(--lilac);
+  max-width:34ch;
+}
+.values{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.value-card{border-radius:var(--r-lg);padding:28px 26px;min-height:230px;display:flex;flex-direction:column;justify-content:space-between}
+.value-card.v1{background:linear-gradient(158deg,#F1E8FF,#E7DAFF)}
+.value-card.v2{background:linear-gradient(158deg,#FFFDB6,#FFF7C0)}
+.value-card.v3{background:linear-gradient(158deg,#F9E9F0,#F3DDE8)}
+.value-card h3{margin:0;font-family:var(--serif);font-weight:500;font-size:24px;line-height:1.15}
+.value-card p{margin:12px 0 0;font-size:12px;line-height:1.75;color:rgba(34,11,78,.62);max-width:26ch}
+.value-card .no{font-family:var(--serif);font-size:11px;letter-spacing:.16em;color:rgba(34,11,78,.68)}
+.principles{display:grid;grid-template-columns:repeat(2,1fr);gap:0 44px}
+.principle{padding:18px 0;border-top:1px solid var(--hair);display:flex;gap:14px}
+.principle .no{font-size:9.5px;letter-spacing:.12em;color:var(--muted);width:22px;flex-shrink:0;padding-top:5px}
+.principle h4{margin:0;font-family:var(--serif);font-size:17px;font-weight:500}
+.principle p{margin:4px 0 0;font-size:11.5px;line-height:1.7;color:var(--muted);max-width:38ch}
+.stat-row{display:flex;flex-wrap:wrap;gap:44px;padding:34px 0 4px}
+.stat .n{font-family:var(--serif);font-size:40px;line-height:1;font-weight:400;color:var(--plum)}
+.stat .l{font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-top:8px}
+
+/* contact */
+.contact-grid{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:15px;margin-top:20px}
+.contact-card{
+  background:linear-gradient(155deg,#2A0C56,#220B4E);color:#F5EDFF;
+  border-radius:var(--r-xl);padding:34px 32px;display:flex;flex-direction:column;justify-content:space-between;
+  position:relative;overflow:hidden;
+}
+.contact-glyph{position:absolute;right:-38px;bottom:-56px;width:230px;height:auto;color:#DBC8FF;opacity:.24;pointer-events:none;z-index:1}
+.contact-card > *:not(.contact-glyph){position:relative;z-index:2}
+.contact-card h3{margin:12px 0 0;font-family:var(--serif);font-size:29px;font-weight:400;line-height:1.1}
+.contact-list{margin:22px 0 0;display:flex;flex-direction:column;gap:16px}
+.contact-line{display:flex;gap:13px;align-items:flex-start}
+.contact-line .ico{width:30px;height:30px;border-radius:50%;background:rgba(219,200,255,.14);display:grid;place-items:center;flex-shrink:0}
+.contact-line .ico svg{width:14px;height:14px;color:#DBC8FF}
+.contact-line .lb{font-size:9px;letter-spacing:.15em;text-transform:uppercase;color:rgba(245,237,255,.5)}
+.contact-line .vl{font-size:12.5px;line-height:1.55;margin-top:2px}
+.contact-line a:hover{color:#FFFDB6}
+.contact-note{
+  margin-top:24px;padding-top:18px;border-top:1px solid rgba(219,200,255,.18);
+  font-size:10.5px;line-height:1.7;color:rgba(245,237,255,.5);
+}
+.form-card{background:rgba(255,255,255,.92);border-radius:var(--r-xl);padding:32px}
+.form-card h3{margin:10px 0 0;font-family:var(--serif);font-size:27px;font-weight:500}
+.form-card .sub{margin:6px 0 22px;font-size:11.5px;color:var(--muted)}
+.field{margin-bottom:14px}
+.field label{display:block;font-size:9.5px;letter-spacing:.13em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.field input,.field select,.field textarea{
+  width:100%;border:0;background:#F7F1F6;border-radius:14px;
+  padding:13px 15px;font-size:12.5px;color:var(--ink);transition:background .25s,box-shadow .25s;
+  outline:none;
+}
+.field textarea{resize:vertical;min-height:108px}
+.field input:focus,.field select:focus,.field textarea:focus{
+  background:#FBF4FA;box-shadow:0 0 0 3px rgba(182,157,255,.3);
+}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.form-card .btn{width:100%;margin-top:6px}
+.form-ok{
+  display:none;margin-top:14px;padding:12px 14px;border-radius:12px;
+  background:var(--cream);font-size:11.5px;color:var(--ink);
+}
+.form-ok.show{display:block;animation:viewIn .4s var(--ease) both}
+
+/* faq */
+.faq{max-width:100%}
+.faq-item{border-top:1px solid var(--hair)}
+.faq-item:last-child{border-bottom:1px solid var(--hair)}
+.faq-q{
+  width:100%;background:transparent;border:0;padding:18px 0;display:flex;align-items:center;gap:18px;
+  text-align:left;color:var(--ink);transition:color .25s;
+}
+.faq-q .qno{font-size:9.5px;letter-spacing:.12em;color:var(--muted);width:22px;flex-shrink:0}
+.faq-q .qt{flex:1;font-family:var(--serif);font-size:17px;font-weight:500;line-height:1.35}
+.faq-q .plus{width:22px;height:22px;position:relative;flex-shrink:0}
+.faq-q .plus::before,.faq-q .plus::after{
+  content:"";position:absolute;background:var(--plum);transition:transform .35s var(--ease),opacity .3s;
+}
+.faq-q .plus::before{left:0;top:10px;width:22px;height:1px}
+.faq-q .plus::after{top:0;left:10px;height:22px;width:1px}
+.faq-item.open .plus::after{transform:scaleY(0);opacity:0}
+.faq-q:hover .qt{color:var(--plum)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .45s var(--ease)}
+.faq-a p{margin:0 0 18px;padding-left:40px;font-size:12.5px;line-height:1.8;color:var(--muted);max-width:66ch}
+.faq-item.open .faq-a{max-height:340px}
+.faq-item.open .faq-q .qt{color:var(--plum)}
+
+/* placeholder */
+.stub{
+  min-height:56vh;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(158deg,#F5EFFF,#EDE1FF);border-radius:var(--r-xl);padding:48px 30px;
+  flex-direction:column;text-align:center;
+}
+.stub .glyph{width:54px;height:auto;color:var(--violet);margin-bottom:22px}
+.stub h1{margin:0;font-family:var(--serif);font-size:clamp(30px,4vw,48px);font-weight:400;line-height:1.1}
+.stub p{margin:14px 0 0;font-size:12.5px;line-height:1.8;color:var(--muted);max-width:42ch}
+.stub .btn{margin-top:26px}
+
+/* toast */
+.toast{
+  position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);
+  background:var(--ink);color:var(--cream);padding:12px 20px;border-radius:999px;
+  font-size:11.5px;letter-spacing:.06em;z-index:120;opacity:0;pointer-events:none;
+  transition:opacity .35s,transform .35s var(--ease);box-shadow:0 20px 40px -20px rgba(34,11,78,.7);
+}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* footer */
+.site-foot{margin-top:64px;background:linear-gradient(160deg,#220B4E,#330C5A 62%,#2A0A4C);color:#EFE6FF;border-radius:38px 38px 0 0}
+.foot-main{padding:54px 0 40px;display:grid;grid-template-columns:1.35fr .7fr .7fr 1fr;gap:34px}
+.foot-brand .brand-name{font-size:27px;color:#F7F0FF}
+.foot-brand .brand-mark{color:#DBC8FF}
+.foot-brand .tag{margin:12px 0 0;font-size:12px;line-height:1.75;color:rgba(239,230,255,.55);max-width:30ch}
+.news{margin-top:22px}
+.news label{font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:rgba(239,230,255,.45)}
+.news .row{display:flex;gap:6px;margin-top:8px;background:rgba(255,255,255,.07);border-radius:999px;padding:5px 5px 5px 15px;max-width:300px}
+.news input{flex:1;min-width:0;background:transparent;border:0;outline:none;color:#F7F0FF;font-size:11.5px}
+.news input::placeholder{color:rgba(239,230,255,.4)}
+.news button{
+  border:0;border-radius:999px;background:var(--cream);color:var(--ink);
+  padding:8px 14px;font-size:9.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  transition:background .25s;
+}
+.news button:hover{background:#FFFC92}
+.foot-col h5{margin:4px 0 14px;font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:rgba(239,230,255,.4);font-weight:500}
+.foot-col a{display:block;font-size:11.5px;padding:5px 0;color:rgba(239,230,255,.72);transition:color .25s,transform .25s}
+.foot-col a:hover{color:#FFFDB6;transform:translateX(2px)}
+.foot-contact p{margin:0 0 6px;font-size:11.5px;color:rgba(239,230,255,.72)}
+.foot-contact a{border-bottom:1px solid rgba(239,230,255,.22)}
+.socials{display:flex;gap:7px;margin-top:14px}
+.socials a{
+  width:32px;height:32px;border-radius:50%;background:rgba(239,230,255,.1);border:0;
+  display:grid;place-items:center;transition:background .25s,color .25s;
+}
+.socials a:hover{background:rgba(219,200,255,.24);color:#FFFDB6;transform:none}
+.socials svg{width:13px;height:13px}
+.foot-bottom{
+  border-top:1px solid rgba(239,230,255,.14);padding:18px 0 26px;
+  display:flex;flex-wrap:wrap;gap:10px 24px;align-items:center;justify-content:space-between;
+  font-size:9.5px;letter-spacing:.04em;color:rgba(239,230,255,.42);line-height:1.7;
+}
+.foot-bottom .legal{max-width:72ch}
+.foot-bottom .links{display:flex;gap:16px;flex-wrap:wrap}
+
+/* ---------------- responsive ---------------- */
+@media (max-width:1180px){
+  .nav-links a{padding:8px 10px;font-size:12px}
+  .btn-nav{padding:10px 14px;font-size:10px}
+  .hero{padding:30px 28px 24px}
+  .hero .btn{padding:12px 16px;font-size:10px}
+  .hero-logo{font-size:clamp(44px,4.6vw,62px)}
+  .bento{
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows:auto auto auto;
+    grid-template-areas:
+      "hero hero hero hero hero feat feat feat feat diy diy diy"
+      "hero hero hero hero hero myst myst myst myst myst myst myst"
+      "quiz quiz quiz quiz pick pick pick pick pick pick pick pick";
+  }
+  .feat{min-height:320px}
+  .diy{min-height:320px}
+  .feat .meta .name{font-size:16px}
+  .feat .meta .spec{font-size:9.5px;letter-spacing:.06em}
+  .mystic{min-height:250px}
+  .quiz{min-height:250px}
+  .quiz h3{max-width:14ch}
+  .pick{grid-template-columns:1fr 1fr;gap:24px}
+  .minis{grid-template-columns:1fr}
+  .foot-main{display:flex;flex-wrap:wrap;gap:30px 34px}
+  .foot-brand{flex:1 1 100%}
+  .foot-col{flex:1 1 0}
+  .foot-contact{flex:1 1 0}
+}
+@media (max-width:880px){
+  .wrap{width:calc(100vw - 32px)}
+  .site-head{padding:12px 0 8px}
+  .nav{padding:6px 6px 6px 16px}
+  .brand-cn{display:none}
+  .nav-links,.nav-right .btn-nav{display:none}
+  .burger{display:grid}
+  .nav-right{margin-left:auto;gap:2px}
+  .bento{
+    display:grid;gap:13px;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:auto;
+    grid-template-areas:
+      "hero hero"
+      "feat diy"
+      "myst myst"
+      "quiz quiz"
+      "pick pick";
+  }
+  .hero{min-height:520px;padding:4px 10px 8px 0}
+  .hero-crystal{width:70%;right:-34px;opacity:.3}
+  .feat{min-height:310px}
+  .diy{min-height:310px;padding:22px}
+  .mystic{min-height:280px}
+  .quiz{min-height:230px}
+  .pick{grid-template-columns:1fr;gap:20px}
+  .page-hero{grid-template-columns:1fr}
+  .page-hero-media{min-height:260px;order:-1}
+  .story{grid-template-columns:1fr;gap:24px}
+  .values{grid-template-columns:1fr}
+  .value-card{min-height:0;gap:14px}
+  .principles{grid-template-columns:1fr}
+  .contact-grid{grid-template-columns:1fr}
+  .form-card, .contact-card{padding:26px 24px}
+  .section{padding:40px 0 0}
+  .promise{padding:46px 0 0}
+  .promise-grid{grid-template-columns:1fr;gap:22px}
+  .promise-foot{flex-direction:column;align-items:flex-start;gap:16px}
+  .foot-main{display:flex;flex-wrap:wrap;gap:26px 28px}
+  .foot-brand{flex:1 1 100%}
+  .foot-col{flex:1 1 40%}
+  .foot-contact{flex:1 1 100%}
+  .site-foot{border-radius:28px 28px 0 0}
+}
+@media (max-width:560px){
+  body{font-size:15px}
+  .bento{grid-template-columns:1fr;grid-template-areas:"hero" "feat" "diy" "myst" "quiz" "pick"}
+  .hero{padding:2px 0 10px;min-height:0;gap:26px}
+  .hero-lines{font-size:19px}
+  .hero-actions{flex-direction:column;align-items:stretch;gap:9px;margin-top:20px}
+  .hero .btn{width:100%;justify-content:center;padding:14px 18px;font-size:11px}
+  .hero-foot{flex-wrap:wrap;gap:6px 10px;font-size:9.5px;margin-top:16px}
+  .hero-foot span:last-child,.hero-foot .sep{display:none}
+  .hero-crystal{width:98%;right:-86px;bottom:-14px;opacity:.15}
+  .feat{min-height:300px}
+  .diy,.mystic,.quiz{min-height:0}
+  .diy p,.mystic p{max-width:34ch}
+  .minis{grid-template-columns:1fr}
+  .page-hero-copy{padding:28px 24px}
+  .form-card{padding:22px 20px}
+  .field-row{grid-template-columns:1fr}
+  .foot-main{grid-template-columns:1fr 1fr}
+  .news .row{max-width:none}
+  .pick{padding:18px}
+}
+
+/* mobile drawer */
+.drawer{
+  position:fixed;inset:0;z-index:110;display:none;
+  background:rgba(34,11,78,.9);backdrop-filter:blur(18px);
+  padding:22px;flex-direction:column;
+}
+.drawer.open{display:flex;animation:viewIn .4s var(--ease) both}
+.drawer-top{display:flex;align-items:center;justify-content:space-between;color:#F7F0FF;padding:0 8px}
+.drawer-brand{font-family:var(--serif);font-size:23px}
+.drawer-close{width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.1);color:#F7F0FF;display:grid;place-items:center}
+.drawer-links{margin-top:26px;display:flex;flex-direction:column}
+.drawer-links a{
+  font-family:var(--serif);font-size:26px;color:#EFE6FF;padding:12px 8px;
+  border-bottom:1px solid rgba(219,200,255,.14);display:flex;align-items:center;justify-content:space-between;
+}
+.drawer-links a span{font-size:9px;letter-spacing:.14em;font-family:var(--sans);color:rgba(239,230,255,.4);text-transform:uppercase}
+.drawer-foot{margin-top:auto;padding:20px 8px;font-size:11px;color:rgba(239,230,255,.5)}
+</style>
+<link rel="stylesheet" href="framework-studio-host.css"></head>
+<body>
+<a href="#app" class="skip" style="position:absolute;left:-999px;top:0;background:#220B4E;color:#FFFDB6;padding:10px 16px;z-index:999">Skip to content</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#/home" aria-label="CrystalMuse home">
+        <svg class="brand-mark" viewBox="0 0 24 30" fill="none" aria-hidden="true">
+          <path d="M12 1L21 9.6L17.6 27H6.4L3 9.6Z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/>
+          <path d="M12 1V27M3 9.6H21M12 1L6.4 27M12 1L17.6 27" stroke="currentColor" stroke-width=".65" opacity=".55"/>
+        </svg>
+        <span class="brand-name">Crystal<em>Muse</em></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#/home" data-nav="home">Home</a>
+        <a href="#/shop" data-nav="shop">Shop</a>
+        <a href="#/collections" data-nav="collections">Collections</a>
+        <a href="#/diy" data-nav="diy">DIY Studio</a>
+        <a href="#/mystic" data-nav="mystic">Mystic Corner</a>
+        <a href="#/guide" data-nav="guide">Crystal Guide</a>
+        <a href="#/about" data-nav="about">About</a>
+        <a href="#/contact" data-nav="contact">Contact</a>
+      </div>
+      <div class="nav-right">
+        <button class="btn-nav" type="button" id="navShopBtn">Shop the collection</button>
+        <a class="icon-btn" href="#/shop" aria-label="Shopping bag, 0 items">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true">
+            <path d="M5 8h14l-1 12H6L5 8Z" stroke-linejoin="round"/>
+            <path d="M9 8V6a3 3 0 0 1 6 0v2"/>
+          </svg>
+          <span class="cart-count">0</span>
+        </a>
+        <button class="icon-btn burger" type="button" id="burger" aria-label="Open menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true">
+            <path d="M4 8h16M4 16h16"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div id="app">
+
+<!-- ================= VIEW: HOME ================= -->
+<section class="view is-active" data-view="home">
+  <div class="wrap">
+    <div class="bento">
+
+      <!-- hero / brand -->
+      <article class="card hero" aria-labelledby="heroTitle">
+        <span class="hero-star" style="left:26%;top:22%;width:3px;height:3px;animation-delay:.4s"></span>
+        <span class="hero-star" style="left:62%;top:15%;width:2px;height:2px;animation-delay:2.1s"></span>
+        <span class="hero-star" style="left:47%;top:48%;width:2px;height:2px;animation-delay:3.4s"></span>
+        <svg class="hero-crystal" viewBox="0 0 320 430" fill="none" aria-hidden="true">
+          <g stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+            <path d="M158 26L204 108V340L158 400L112 340V108Z"/>
+            <path d="M158 26V400M112 108H204M112 340H204" opacity=".55"/>
+            <path d="M158 26L138 108M158 26L180 108" opacity=".45"/>
+            <path d="M70 158L100 198V346L70 384L42 346V198Z"/>
+            <path d="M70 158V384M42 198H100" opacity=".5"/>
+            <path d="M256 186L280 222V352L256 384L232 352V222Z"/>
+            <path d="M256 186V384M232 222H280" opacity=".5"/>
+            <path d="M196 262L218 294V372L196 398L174 372V294Z" opacity=".7"/>
+          </g>
+          <g fill="currentColor" opacity=".1">
+            <path d="M158 26L204 108L112 108Z"/>
+            <path d="M70 158L100 198H42Z"/>
+          </g>
+        </svg>
+
+        <div class="hero-top">
+          <p class="kicker hero-kicker"><span class="dot"></span>Personalised crystal lifestyle &amp; experience</p>
+          <h1 class="hero-logo" id="heroTitle">Crystal<em>Muse</em></h1>
+          <p class="hero-sub"><span class="cn">Est. 2026</span><span style="width:16px;height:1px;background:rgba(34,11,78,.24);display:inline-block"></span><span>Crystal inspiration house</span></p>
+        </div>
+
+        <div class="hero-mid">
+          <p class="hero-lines">
+            Discover your crystal.<br>
+            Create <em>your own</em>.<br>
+            <span class="outline">Explore your story.</span>
+          </p>
+          <p class="hero-desc">Natural stones, considered design and a little room for ritual. Shop curated pieces, build a bracelet from the bead up, or simply read what each stone has meant to people.</p>
+        </div>
+
+        <div class="hero-bottom">
+          <div class="hero-actions">
+            <a class="btn btn-ink" href="#/shop">Shop the collection<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-ghost" href="#/diy">Design your own</a>
+          </div>
+          <div class="hero-foot">
+            <span>Free HK delivery over HK$500</span><span class="sep"></span><span>Made in small batches</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- featured product -->
+      <article class="card feat lift">
+        <div class="thumb">
+          <span class="badge">Featured · No. 01</span>
+          <img src="assets/amethyst-bracelet.jpg" alt="Two amethyst bead bracelets resting on a cream surface" loading="eager">
+        </div>
+        <div class="meta">
+          <div>
+            <h3 class="name">Amethyst Calm Bracelet</h3>
+            <p class="spec">Natural amethyst · 8 mm</p>
+          </div>
+          <div class="price">HK$480</div>
+          <a class="round-link" href="#/shop" aria-label="View Amethyst Calm Bracelet">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- diy -->
+      <article class="card diy lift">
+        <div>
+          <p class="kicker"><span class="dot"></span>DIY Studio</p>
+          <h3>Create your own</h3>
+          <p>Pick the style, the stones, the size — see it before it is made.</p>
+          <div class="diy-styles"><span>Bracelet only</span></div>
+        </div>
+        <div>
+          <p class="diy-meta">HK$260+ · 7–10 days</p>
+          <div class="beads" aria-hidden="true">
+            <span class="bead b1"></span><span class="bead b2"></span><span class="bead b3"></span>
+            <span class="bead b4"></span><span class="bead b5"></span><span class="bead b1"></span>
+          </div>
+          <a class="diy-link" href="#/diy">Start designing<span class="line"></span></a>
+        </div>
+      </article>
+
+      <!-- mystic -->
+      <article class="card mystic lift">
+        <p class="kicker"><span class="dot"></span>Mystic Corner</p>
+        <h3>Draw a card for tonight</h3>
+        <p>A quiet minute of tarot, or a line about your sign. For reflection — never prediction.</p>
+        <div class="chips"><span class="chip">Tarot</span><span class="chip">Zodiac</span></div>
+        <a class="mystic-link" href="#/mystic">Enter the corner<span class="line"></span></a>
+      </article>
+
+      <!-- quiz -->
+      <article class="card quiz lift">
+        <div>
+          <p class="kicker"><span class="dot"></span>Crystal Quiz</p>
+          <h3>Which stone keeps finding you?</h3>
+          <p class="meta">6 questions · 2 minutes</p>
+          <p class="desc">Three questions. One starting point.</p>
+        </div>
+        <div class="q-foot">
+          <span class="teal-dot" aria-hidden="true"></span>
+          <a class="round-link" href="#/guide" aria-label="Take the crystal quiz">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- bottom horizontal card -->
+      <article class="card pick lift">
+        <div class="pick-left">
+          <div class="pick-head">
+            <h3>Popular this week</h3>
+            <a class="link" href="#/shop">All pieces
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" style="width:11px;height:11px" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <div class="minis">
+            <a class="mini" href="#/shop">
+              <img src="assets/clear-quartz.jpg" alt="Clear quartz point on a lilac surface" loading="lazy">
+              <div>
+                <div class="t">Clear Quartz Point</div>
+                <div class="p">HK$320</div>
+              </div>
+            </a>
+            <a class="mini" href="#/shop">
+              <img src="assets/rose-quartz.jpg" alt="Rose quartz bracelet with gold details on soft fabric" loading="lazy">
+              <div>
+                <div class="t">Rose Quartz Strand</div>
+                <div class="p">HK$420</div>
+              </div>
+            </a>
+            <a class="mini mini-wide" href="#/diy">
+              <span class="mini-art" aria-hidden="true">
+                <i class="b1" style="background:#B69DFF"></i><i style="background:#DBC8FF"></i><i style="background:#F1D3DF"></i><i style="background:#FFFDB6"></i><i style="background:#410F70"></i>
+              </span>
+              <div>
+                <div class="t">Design your own piece</div>
+                <div class="p">DIY Studio · from HK$260</div>
+              </div>
+              <svg class="mini-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+          <div class="pick-proof">
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span><b>4.9</b> from 180 notes</span>
+            <span class="sep"></span>
+            <span>Care pouch included</span>
+          </div>
+        </div>
+
+        <div class="pick-right">
+          <div class="kicker" style="margin-bottom:6px"><span class="dot"></span>From the Crystal Guide</div>
+          <div class="guide-list">
+            <a class="guide-item" href="#/guide">
+              <span class="no">01</span>
+              <span class="gt"><b>Amethyst, the calm stone</b><span>Colour · culture · care</span></span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="guide-item" href="#/guide">
+              <span class="no">02</span>
+              <span class="gt"><b>How to care for a beaded bracelet</b><span>Cleaning · storage · wear</span></span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+            <a class="guide-item" href="#/guide">
+              <span class="no">03</span>
+              <span class="gt"><b>Birthstone gifting, mapped</b><span>By month · by colour</span></span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /bento -->
+
+    <section class="promise reveal">
+      <div class="promise-grid">
+        <div class="promise-item">
+          <div class="no">01</div>
+          <h4>Chosen, not claimed</h4>
+          <p>Every stone is described for what it is — material, size, treatment — never for what it might fix.</p>
+        </div>
+        <div class="promise-item">
+          <div class="no">02</div>
+          <h4>Yours to shape</h4>
+          <p>Nine styles, thirty-odd stones, one bracelet that could only belong to you.</p>
+        </div>
+        <div class="promise-item">
+          <div class="no">03</div>
+          <h4>Small rituals</h4>
+          <p>Readings, quizzes and guides made for a quiet minute, not for a verdict.</p>
+        </div>
+      </div>
+      <div class="promise-foot">
+        <p class="quote">“Something to wear. Something to mean.”</p>
+        <a class="btn btn-ink" href="#/about">Our story<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ================= VIEW: ABOUT ================= -->
+<section class="view" data-view="about">
+  <div class="wrap">
+    <div class="page-hero">
+      <div class="page-hero-copy">
+        <p class="kicker"><span class="dot"></span>About Us</p>
+        <h1>A quieter way to wear something <em>meaningful.</em></h1>
+        <p class="lead">CrystalMuse began as a student project at City University of Hong Kong with one question: what if choosing a crystal felt less like a transaction, and more like choosing something that already belongs to you?</p>
+      </div>
+      <div class="page-hero-media">
+        <img src="assets/rose-quartz.jpg" alt="Rose quartz beads resting on soft ivory fabric">
+        <div class="caption">Rose quartz · the stone of gentle things</div>
+      </div>
+    </div>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <div>
+          <p class="kicker"><span class="dot"></span>Our story</p>
+          <h2>Built around <em>three</em> ideas</h2>
+        </div>
+      </div>
+      <div class="story">
+        <div>
+          <p>Most crystal shops ask you to choose from what is already on the shelf. We wanted the shelf to be a starting point instead. So the site does three things at once: it sells small, honest pieces; it lets you design a bracelet bead by bead; and it gives you somewhere to read, browse and play without being sold to.</p>
+          <p>We are not a wellness brand. We do not promise calmer sleep, better luck or a different life. What we can offer is a well-made object, a clear description of it, and the stories people have told about these stones for a very long time — offered as culture, not as cure.</p>
+          <p style="margin-bottom:0">This website is a course prototype for a commercial site concept. Product data, readings and checkout are simulated to demonstrate structure and user flow.</p>
+        </div>
+        <div>
+          <p class="pull">“A crystal does not have to do anything to be worth keeping. It only has to be yours.”</p>
+          <div class="stat-row">
+            <div class="stat"><div class="n">09</div><div class="l">Bracelet styles</div></div>
+            <div class="stat"><div class="n">30+</div><div class="l">Stones in studio</div></div>
+            <div class="stat"><div class="n">04</div><div class="l">Ways to begin</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <div>
+          <p class="kicker"><span class="dot"></span>What we stand for</p>
+          <h2>Three promises we can <em>keep</em></h2>
+        </div>
+      </div>
+      <div class="values">
+        <article class="value-card v1">
+          <div class="no">01</div>
+          <div>
+            <h3>Personal by design</h3>
+            <p>Colour, size, stone, sequence. Nothing is locked — the piece is finished when you say it is.</p>
+          </div>
+        </article>
+        <article class="value-card v2">
+          <div class="no">02</div>
+          <div>
+            <h3>Honest by default</h3>
+            <p>Material and treatment are stated plainly. Where a meaning is cultural rather than scientific, we say so on the page.</p>
+          </div>
+        </article>
+        <article class="value-card v3">
+          <div class="no">03</div>
+          <div>
+            <h3>Gentle by nature</h3>
+            <p>Soft palettes, small batches, no pressure to buy. You are welcome to look and leave.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <div>
+          <p class="kicker"><span class="dot"></span>How we work</p>
+          <h2>Editorial <em>principles</em></h2>
+        </div>
+      </div>
+      <div class="principles">
+        <div class="principle"><span class="no">01</span><div><h4>Describe the object first</h4><p>Stone type, bead size, finish and what is included — before any story.</p></div></div>
+        <div class="principle"><span class="no">02</span><div><h4>Label symbolism as symbolism</h4><p>“Believed to bring calm” is a cultural note, not a health claim. We phrase it that way.</p></div></div>
+        <div class="principle"><span class="no">03</span><div><h4>Readings stay entertainment</h4><p>Tarot and zodiac content is for reflection. It is not medical, legal, financial or psychological advice.</p></div></div>
+        <div class="principle"><span class="no">04</span><div><h4>Custom is confirmed before making</h4><p>You approve the summary and the price before anything is cut, strung or packed.</p></div></div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ================= VIEW: CONTACT ================= -->
+<section class="view" data-view="contact">
+  <div class="wrap">
+    <div class="page-hero-copy" style="background:linear-gradient(155deg,#F6F0FF,#EFE4FF);border-radius:34px;padding:44px 38px">
+      <p class="kicker"><span class="dot"></span>Contact &amp; FAQ</p>
+      <h1 style="margin:14px 0 0;font-family:var(--serif);font-weight:400;font-size:clamp(33px,4.4vw,58px);line-height:1.02">Say hello.<br><em style="font-style:italic;color:var(--plum)">We answer slowly, but we answer.</em></h1>
+      <p class="lead" style="margin:18px 0 0;font-size:13.5px;line-height:1.8;color:var(--muted);max-width:52ch">Questions about a piece, a custom order or a reading? Write to us, or check the notes below — most things are answered there.</p>
+    </div>
+
+    <div class="contact-grid">
+      <aside class="contact-card">
+        <svg class="contact-glyph" viewBox="0 0 320 430" fill="none" aria-hidden="true">
+          <g stroke="currentColor" stroke-width="1" stroke-linejoin="round">
+            <path d="M158 26L204 108V340L158 400L112 340V108Z"/>
+            <path d="M158 26V400M112 108H204M112 340H204" opacity=".55"/>
+            <path d="M70 158L100 198V346L70 384L42 346V198Z"/>
+            <path d="M70 158V384M42 198H100" opacity=".5"/>
+            <path d="M256 186L280 222V352L256 384L232 352V222Z"/>
+            <path d="M256 186V384M232 222H280" opacity=".5"/>
+          </g>
+        </svg>
+        <div>
+          <p class="kicker" style="color:rgba(245,237,255,.55)"><span class="dot"></span>Studio</p>
+          <h3>Hong Kong · by appointment</h3>
+          <div class="contact-list">
+            <div class="contact-line">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></span>
+              <div><div class="lb">Email</div><div class="vl"><a href="mailto:hello@crystalmuse.studio">hello@crystalmuse.studio</a></div></div>
+            </div>
+            <div class="contact-line">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M12 21s7-6.1 7-11a7 7 0 1 0-14 0c0 4.9 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <div><div class="lb">Studio</div><div class="vl">Wong Chuk Hang, Hong Kong<br>Address shared on booking</div></div>
+            </div>
+            <div class="contact-line">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+              <div><div class="lb">Hours</div><div class="vl">Mon–Fri, 10:00–18:00 HKT<br>Replies within 2 working days</div></div>
+            </div>
+            <div class="contact-line">
+              <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4"/><circle cx="12" cy="12" r="3.2"/><circle cx="17" cy="7" r="1"/></svg></span>
+              <div><div class="lb">Social</div><div class="vl"><a href="#/contact">@crystalmuse.studio</a></div></div>
+            </div>
+          </div>
+        </div>
+        <p class="contact-note">For custom orders, please include your wrist size and a rough colour direction. We will send a summary and a final price before anything is made.</p>
+      </aside>
+
+      <div class="form-card">
+        <p class="kicker" style="color:var(--muted)"><span class="dot"></span>Write to us</p>
+        <h3>What can we help with?</h3>
+        <p class="sub">This form is part of the course prototype; nothing is sent or stored.</p>
+        <form id="contactForm" novalidate>
+          <div class="field-row">
+            <div class="field">
+              <label for="cName">Name</label>
+              <input id="cName" name="name" type="text" placeholder="Your name" required>
+            </div>
+            <div class="field">
+              <label for="cEmail">Email</label>
+              <input id="cEmail" name="email" type="email" placeholder="you@email.com" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cTopic">Topic</label>
+            <select id="cTopic" name="topic">
+              <option>Product question</option>
+              <option>Custom design</option>
+              <option>Order or delivery</option>
+              <option>Readings</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="cMsg">Message</label>
+            <textarea id="cMsg" name="message" placeholder="Tell us what you are looking for." required></textarea>
+          </div>
+          <button class="btn btn-ink" type="submit">Send message<svg class="arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></button>
+          <div class="form-ok" id="formOk">Thank you — your note has been captured in this prototype. In a live store it would reach the studio within two working days.</div>
+        </form>
+      </div>
+    </div>
+
+    <section class="section reveal">
+      <div class="section-head">
+        <div>
+          <p class="kicker"><span class="dot"></span>Frequently asked</p>
+          <h2>The things people <em>ask</em></h2>
+        </div>
+      </div>
+      <div class="faq" id="faq">
+        <div class="faq-item open">
+          <button class="faq-q" type="button" aria-expanded="true"><span class="qno">01</span><span class="qt">Are the stones natural?</span><span class="plus" aria-hidden="true"></span></button>
+          <div class="faq-a"><p>Yes, unless stated otherwise. Each product page lists the stone, bead size and any treatment such as heat treatment or reconstitution. If a piece is glass, resin or reconstituted stone, it is labelled as such — we would rather you know than assume.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span class="qno">02</span><span class="qt">What does a crystal “meaning” mean here?</span><span class="plus" aria-hidden="true"></span></button>
+          <div class="faq-a"><p>It means culture, not medicine. We describe associations that appear in popular and traditional writing — calm, clarity, warmth — and label them as beliefs or symbolism. We do not claim that any stone treats, cures or prevents illness, and nothing here replaces professional advice.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span class="qno">03</span><span class="qt">How long does a custom piece take?</span><span class="plus" aria-hidden="true"></span></button>
+          <div class="faq-a"><p>Usually 7–14 days after you approve the design summary. You will see the full selection, the estimated price and the expected date before you confirm; production only starts once you say yes.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span class="qno">04</span><span class="qt">Shipping and delivery?</span><span class="plus" aria-hidden="true"></span></button>
+          <div class="faq-a"><p>Hong Kong: 1–3 working days, free over HK$500, otherwise HK$40. International: 5–10 working days by tracked post; any duties or taxes are payable by the recipient. Prototype orders are simulated and not dispatched.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span class="qno">05</span><span class="qt">Can I return a piece?</span><span class="plus" aria-hidden="true"></span></button>
+          <div class="faq-a"><p>Stock pieces can be returned within 14 days in unworn condition, in the original pouch. Custom pieces cannot be returned once production begins, because they are made for you — but any defect in material or workmanship is repaired or replaced at our cost.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false"><span class="qno">06</span><span class="qt">Are the tarot readings real predictions?</span><span class="plus" aria-hidden="true"></span></button>
+          <div class="faq-a"><p>No. They are pre-written, entertainment-oriented reflections built around a simple draw. They do not predict the future and are not a substitute for medical, psychological, legal or financial advice.</p></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<section class="view" data-view="diy" id="studioView" aria-label="DIY Studio"><div id="studioMount"><p id="studioLoading" role="status">正在打开 DIY Studio…</p></div></section>
+<!-- ================= VIEW: PLACEHOLDER (teammate modules) ================= -->
+<section class="view" data-view="placeholder">
+  <div class="wrap">
+    <div class="stub">
+      <svg class="glyph" viewBox="0 0 40 50" fill="none" aria-hidden="true">
+        <path d="M20 2l14 14-5 30H11L6 16 20 2Z" stroke="currentColor" stroke-width="1.2" stroke-linejoin="round"/>
+        <path d="M20 2v44M6 16h28" stroke="currentColor" stroke-width=".7" opacity=".6"/>
+      </svg>
+      <p class="kicker"><span class="dot"></span>Module placeholder</p>
+      <h1 id="stubTitle">Crystal Shop</h1>
+      <p id="stubCopy">This page is part of the agreed site structure. Its content module will be dropped into this frame during final integration — the navigation, typography, colour and button styles are already in place.</p>
+      <a class="btn btn-ink" href="#/home">Back to home</a>
+    </div>
+  </div>
+</section>
+
+</div><!-- /app -->
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-main">
+      <div class="foot-brand">
+        <div class="brand" style="gap:9px">
+          <svg class="brand-mark" viewBox="0 0 24 30" fill="none" aria-hidden="true">
+            <path d="M12 1L21 9.6L17.6 27H6.4L3 9.6Z" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/>
+            <path d="M12 1V27M3 9.6H21M12 1L6.4 27M12 1L17.6 27" stroke="currentColor" stroke-width=".65" opacity=".55"/>
+          </svg>
+          <span class="brand-name">Crystal<em>Muse</em></span>
+        </div>
+        <p class="tag">Personalised crystal lifestyle &amp; experience. Small pieces, honest notes, and room to make something of your own.</p>
+        <form class="news" id="newsForm">
+          <label for="newsEmail">Notes from the studio</label>
+          <div class="row">
+            <input id="newsEmail" type="email" placeholder="Email address" aria-label="Email address for newsletter">
+            <button type="submit">Join</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="foot-col">
+        <h5>Explore</h5>
+        <a href="#/shop">Crystal Shop</a>
+        <a href="#/collections">Collections</a>
+        <a href="#/diy">DIY Studio</a>
+        <a href="#/guide">Crystal Guide</a>
+      </div>
+
+      <div class="foot-col">
+        <h5>Experience</h5>
+        <a href="#/mystic">Mystic Corner</a>
+        <a href="#/mystic">Tarot Reading</a>
+        <a href="#/mystic">Zodiac Reading</a>
+        <a href="#/guide">Crystal Quiz</a>
+      </div>
+
+      <div class="foot-col foot-contact">
+        <h5>Studio</h5>
+        <p><a href="mailto:hello@crystalmuse.studio">hello@crystalmuse.studio</a></p>
+        <p>Wong Chuk Hang, Hong Kong<br>Mon–Fri 10:00–18:00 HKT</p>
+        <div class="socials">
+          <a href="#/contact" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="4" width="16" height="16" rx="4.5"/><circle cx="12" cy="12" r="3.4"/><circle cx="17" cy="7" r="1"/></svg></a>
+          <a href="#/contact" aria-label="Pinterest"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="8.5"/><path d="M10 20l2-9M9 11c0-2 1.6-3.5 3.5-3.5 1.8 0 3 1.2 3 2.9 0 2-1.2 3.4-2.8 3.4-.9 0-1.6-.5-1.7-1.2"/></svg></a>
+          <a href="#/contact" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6 8.5-6"/></svg></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="foot-bottom">
+      <div class="legal">
+        © 2026 CrystalMuse · A course prototype for CityU COM5501, not a live store. Crystal associations are cultural beliefs, not medical claims. Tarot and zodiac content is for entertainment and reflection only. Product photography is illustrative.
+      </div>
+      <div class="links">
+        <a href="#/contact">Shipping &amp; returns</a>
+        <a href="#/contact">Privacy</a>
+        <a href="#/contact">Accessibility</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- mobile drawer -->
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="drawer-top">
+    <span class="drawer-brand">Crystal<em style="font-style:italic">Muse</em></span>
+    <button class="drawer-close" type="button" id="drawerClose" aria-label="Close menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" style="width:16px;height:16px"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <nav class="drawer-links">
+    <a href="#/home">Home <span>01</span></a>
+    <a href="#/shop">Crystal Shop <span>02</span></a>
+    <a href="#/collections">Collections <span>03</span></a>
+    <a href="#/diy">DIY Studio <span>04</span></a>
+    <a href="#/mystic">Mystic Corner <span>05</span></a>
+    <a href="#/guide">Crystal Guide <span>06</span></a>
+    <a href="#/about">About Us <span>07</span></a>
+    <a href="#/contact">Contact &amp; FAQ <span>08</span></a>
+  </nav>
+  <div class="drawer-foot">hello@crystalmuse.studio · Hong Kong</div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  'use strict';
+
+  var PAGES = {
+    home:      { title: 'CrystalMuse — Discover Your Crystal', view: 'home' },
+    about:     { title: 'About Us — CrystalMuse', view: 'about' },
+    contact:   { title: 'Contact & FAQ — CrystalMuse', view: 'contact' },
+    shop:      { title: 'Crystal Shop — CrystalMuse', view: 'placeholder', label: 'Crystal Shop',
+                 copy: 'The full product grid, filters and detail pages live here. The frame is ready: product cards, type scale and buttons all follow the site system.' },
+    collections:{ title: 'Crystal Collections — CrystalMuse', view: 'placeholder', label: 'Crystal Collections',
+                 copy: 'Colour, shape and theme collections are assembled in this view, using the same card language as the homepage.' },
+    diy:       { title: 'DIY Studio — CrystalMuse', view: 'diy', label: 'DIY Studio',
+                 copy: 'Style → stones → size → summary. The customisation flow and price summary are connected here at integration.' },
+    mystic:    { title: 'Mystic Corner — CrystalMuse', view: 'placeholder', label: 'Mystic Corner',
+                 copy: 'Tarot, zodiac and themed readings share one result-page template. This entry point will hand over to that flow.' },
+    guide:     { title: 'Crystal Guide — CrystalMuse', view: 'placeholder', label: 'Crystal Guide',
+                 copy: 'Stone encyclopedia, cultural notes and the crystal quiz are housed here, with product links at the end of each entry.' },
+    results:   { title: 'Reading Results — CrystalMuse', view: 'placeholder', label: 'Reading Results',
+                 copy: 'A shared result template for tarot and zodiac draws, with the entertainment disclaimer and related pieces beneath.' },
+    cart:      { title: 'Your Bag — CrystalMuse', view: 'placeholder', label: 'Your Bag',
+                 copy: 'The simulated cart and checkout summary are assembled here, following the site-wide button and card styles.' },
+    details:   { title: 'Crystal Details — CrystalMuse', view: 'placeholder', label: 'Crystal Details',
+                 copy: 'Product gallery, material and size notes, care guidance and the add-to-bag action sit on this template.' },
+    customize: { title: 'Customize Your Jewelry — CrystalMuse', view: 'placeholder', label: 'Customize Your Jewelry',
+                 copy: 'Choose the style, the stones, the size and the finish. Options stay on the left, the live summary on the right.' },
+    creation:  { title: 'My Creation — CrystalMuse', view: 'placeholder', label: 'My Creation',
+                 copy: 'The design summary, option list and estimate are collected here before the request is confirmed.' },
+    tarot:     { title: 'Tarot Reading — CrystalMuse', view: 'placeholder', label: 'Tarot Reading',
+                 copy: 'A theme is chosen, a card is drawn, and the reading is handed to the shared result template.' },
+    zodiac:    { title: 'Zodiac Reading — CrystalMuse', view: 'placeholder', label: 'Zodiac Reading',
+                 copy: 'Pick a sign to see its seasonal note and a small edit of stones, kept light and clearly for entertainment.' },
+    quiz:      { title: 'Crystal Quiz — CrystalMuse', view: 'placeholder', label: 'Crystal Quiz',
+                 copy: 'Three short questions on colour, style and occasion, ending in a suggested starting point rather than a verdict.' }
+  };
+
+  var views = document.querySelectorAll('.view');
+  var navAnchors = document.querySelectorAll('[data-nav]');
+  var stubTitle = document.getElementById('stubTitle');
+  var stubCopy = document.getElementById('stubCopy');
+  var toastEl = document.getElementById('toast');
+  var toastTimer;
+
+  function parseRoute(){
+    var h = (location.hash || '').replace(/^#\/?/, '').split('?')[0];
+    return h || 'home';
+  }
+
+  function show(route){
+    var page = PAGES[route] || PAGES.home;
+    var name = page.view;
+    views.forEach(function(v){
+      v.classList.toggle('is-active', v.getAttribute('data-view') === name);
+    });
+    if(name === 'placeholder'){
+      stubTitle.textContent = page.label || 'Module';
+      stubCopy.textContent = page.copy || '';
+    }
+    document.title = page.title;
+    navAnchors.forEach(function(a){
+      var key = a.getAttribute('data-nav');
+      var on = (key === route) || (route === 'home' && key === 'home');
+      a.classList.toggle('is-active', on);
+    });
+    // close drawer
+    closeDrawer();
+    // reveal
+    var active = document.querySelector('.view.is-active');
+    if(active){ activateReveals(active); }
+    window.scrollTo({top:0, behavior:'auto'});
+  }
+
+  var io = null;
+  if('IntersectionObserver' in window){
+    io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){
+        if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, {threshold:.12, rootMargin:'0px 0px -40px 0px'});
+  }
+  function activateReveals(scope){
+    var items = scope.querySelectorAll('.reveal');
+    items.forEach(function(el){
+      if(io){ io.observe(el); } else { el.classList.add('in'); }
+    });
+  }
+
+  window.addEventListener('hashchange', function(){ show(parseRoute()); });
+
+  // nav shop button
+  var navShop = document.getElementById('navShopBtn');
+  if(navShop){ navShop.addEventListener('click', function(){ location.hash = '#/shop'; }); }
+
+  // drawer
+  var drawer = document.getElementById('drawer');
+  var burger = document.getElementById('burger');
+  function openDrawer(){
+    drawer.classList.add('open');
+    if(burger) burger.setAttribute('aria-expanded','true');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeDrawer(){
+    drawer.classList.remove('open');
+    if(burger) burger.setAttribute('aria-expanded','false');
+    document.body.style.overflow = '';
+  }
+  if(burger){ burger.addEventListener('click', openDrawer); }
+  var drawerClose = document.getElementById('drawerClose');
+  if(drawerClose){ drawerClose.addEventListener('click', closeDrawer); }
+  drawer.addEventListener('click', function(e){ if(e.target === drawer){ closeDrawer(); } });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape'){ closeDrawer(); } });
+
+  // toast
+  function toast(msg){
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){ toastEl.classList.remove('show'); }, 3200);
+  }
+
+  // cart icon demo feedback
+  document.querySelectorAll('.cart-count').forEach(function(c){
+    c.closest('a').addEventListener('click', function(){ toast('Your bag is empty — shopping flow arrives at integration.'); });
+  });
+
+  // newsletter
+  var newsForm = document.getElementById('newsForm');
+  if(newsForm){
+    newsForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var input = document.getElementById('newsEmail');
+      if(!input.value || !input.checkValidity()){ toast('Please enter a valid email address.'); input.focus(); return; }
+      toast('Thank you — you are on the studio list (prototype only).');
+      newsForm.reset();
+    });
+  }
+
+  // contact form
+  var contactForm = document.getElementById('contactForm');
+  if(contactForm){
+    contactForm.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name = document.getElementById('cName');
+      var email = document.getElementById('cEmail');
+      var msg = document.getElementById('cMsg');
+      if(!name.value.trim() || !email.checkValidity() || !msg.value.trim()){
+        toast('Please add your name, a valid email and a short message.');
+        if(!name.value.trim()){ name.focus(); } else if(!email.checkValidity()){ email.focus(); } else { msg.focus(); }
+        return;
+      }
+      document.getElementById('formOk').classList.add('show');
+      contactForm.querySelector('button[type="submit"]').disabled = true;
+      toast('Message captured — this is a prototype.');
+    });
+  }
+
+  // FAQ
+  var faq = document.getElementById('faq');
+  if(faq){
+    faq.addEventListener('click', function(e){
+      var btn = e.target.closest('.faq-q');
+      if(!btn) return;
+      var item = btn.parentElement;
+      var isOpen = item.classList.contains('open');
+      faq.querySelectorAll('.faq-item').forEach(function(it){
+        it.classList.remove('open');
+        it.querySelector('.faq-q').setAttribute('aria-expanded','false');
+      });
+      if(!isOpen){
+        item.classList.add('open');
+        btn.setAttribute('aria-expanded','true');
+      }
+    });
+  }
+
+  // init
+  if(!location.hash){ history.replaceState(null, '', '#/home'); }
+  show(parseRoute());
+
+  var skip = document.querySelector('.skip');
+  if(skip){
+    skip.addEventListener('click', function(e){
+      e.preventDefault();
+      var app = document.getElementById('app');
+      app.setAttribute('tabindex','-1');
+      app.focus();
+      window.scrollTo({top:0, behavior:'auto'});
+    });
+  }
+})();
+</script>
+<script src="framework-studio-host.js"></script></body>
+</html>
+
+

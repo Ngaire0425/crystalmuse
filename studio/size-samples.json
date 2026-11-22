@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "families": ["clear-quartz", "amethyst", "aquamarine", "lapis-lazuli"],
+  "specifications": [
+    {"diameterMm": 6, "boreDiameterMm": 1, "unitPriceMinor": null},
+    {"diameterMm": 8, "boreDiameterMm": 1.0044, "unitPriceMinor": null},
+    {"diameterMm": 10, "boreDiameterMm": 1, "unitPriceMinor": null},
+    {"diameterMm": 12, "boreDiameterMm": 1, "unitPriceMinor": null}
+  ],
+  "overrides": {},
+  "merchantVerified": false,
+  "notes": ["6/10/12mm孔径暂统一假设1mm，各规格可独立修改，并非商家确认值。", "8mm保留原模型与ID，孔径1.0044mm来自原模型几何，不表示实物测量。", "所有单价待确认；不按直径倍数编造价格。仅给四款原常规外观增加规格，冰透/高透外观及其他模型不变。"]
+}

@@ -1,0 +1,98 @@
+{
+  "assetBaseUrl": "./",
+  "tray": {
+    "image": "assets/tray.png",
+    "outerDiameterMm": 90,
+    "imageWidth": 1254,
+    "imageHeight": 1254,
+    "outerRadiusPx": 558,
+    "outerCenterPx": [
+      612,
+      630
+    ],
+    "trackCenterMm": [
+      0,
+      0
+    ],
+    "trackRadiusMm": 32.4,
+    "innerBoundaryMm": 24.2,
+    "outerBoundaryMm": 40.6
+  },
+  "gapMm": 0.25,
+  "allowedParentOrigins": [],
+  "assumptions": [
+    "图片外轮廓圆半径暂估 558 px，中心 (612,630)，保持整图原比例",
+    "环槽独立估计：内界 24.2 mm，外界 40.6 mm，轨道半径 32.4 mm；请在校准面板与图片对齐",
+    "成品保持托盘排列半径和空缺，不做强制闭环；手围仅独立输入参考，不宣称适配",
+    "模型统一转为毫米并校正包围盒中心；孔轴推断见 beads.json"
+  ],
+  "rendering": {
+    "exposure": 1.05,
+    "internalOpacityMultiplier": 0.15
+  },
+  "placement": {
+    "searchRangeDeg": 12,
+    "searchStepDeg": 0.5,
+    "snapDistanceMm": 9
+  },
+  "view": {
+    "background": "minimal",
+    "trackColor": "#c4c4cb",
+    "trayVisible": false,
+    "editorCenterY": 0.43,
+    "mobileCenterY": 0.46,
+    "safetyPaddingPx": 22,
+    "minEditorHalfHeightMm": 22
+  },
+  "appearance": "existing-standalone-viewer",
+  "interaction": {
+    "dragDeleteThresholdPx": 24,
+    "selectionPaddingPx": 5
+  },
+  "commerce": {
+    "enabled": true,
+    "ruleVersion": 1,
+    "defaultWristMm": null,
+    "wristRangeCm": null,
+    "allowanceMm": null,
+    "emptyBeadDiameterMm": 8,
+    "anchorAngle": 1.5707963267948966,
+    "validated": false,
+    "notes": [
+      "手围范围、制作余量和特殊配件适配需商家实物校准",
+      "空搭配按8mm参考珠径预估，仅用于初始构图，不是商品库存规格",
+      "混合尺寸按最大径向厚度保守估算，不能宣称精准贴合"
+    ],
+    "packingGapMm": 0.05,
+    "autoExpand": true,
+    "maxItems": 100,
+    "displayReferenceWristMm": 160,
+    "fitToleranceMm": 5,
+    "editorMinTrackRadiusMm": 32.4
+  },
+  "retiredProductIds": [
+    "south-sea-pearl",
+    "freshwater-pearl",
+    "pearl-ref-02",
+    "pearl-ref-04",
+    "pearl-ref-05",
+    "pearl-ref-06",
+    "pearl-ref-07",
+    "pearl-ref-08",
+    "pearl-ref-09",
+    "pearl-ref-10",
+    "pearl-ref-11",
+    "pearl-ref-12",
+    "pearl-ref-13",
+    "pearl-ref-15",
+    "pearl-ref-16",
+    "pearl-ref-17",
+    "pearl-ref-18",
+    "pearl-ref-19"
+  ],
+  "recommendations": {
+    "referenceWristMm": 160,
+    "maxItems": 48,
+    "budgetCurrency": "HKD"
+  }
+}

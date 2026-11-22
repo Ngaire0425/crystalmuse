@@ -1,0 +1,4023 @@
+{
+  "version": 1,
+  "families": [
+    {
+      "sourceId": "amethyst",
+      "name": "紫水晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "amethyst-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amethyst-6mm.glb"
+        },
+        {
+          "id": "amethyst",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/amethyst.glb"
+        },
+        {
+          "id": "amethyst-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amethyst-10mm.glb"
+        },
+        {
+          "id": "amethyst-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amethyst-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "citrine",
+      "name": "黄水晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "citrine-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/citrine-6mm.glb"
+        },
+        {
+          "id": "citrine",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/citrine.glb"
+        },
+        {
+          "id": "citrine-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/citrine-10mm.glb"
+        },
+        {
+          "id": "citrine-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/citrine-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "rose-quartz",
+      "name": "粉晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "rose-quartz-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rose-quartz-6mm.glb"
+        },
+        {
+          "id": "rose-quartz",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/rose-quartz.glb"
+        },
+        {
+          "id": "rose-quartz-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rose-quartz-10mm.glb"
+        },
+        {
+          "id": "rose-quartz-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rose-quartz-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "moonstone",
+      "name": "月光石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "moonstone-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moonstone-6mm.glb"
+        },
+        {
+          "id": "moonstone",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/moonstone.glb"
+        },
+        {
+          "id": "moonstone-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moonstone-10mm.glb"
+        },
+        {
+          "id": "moonstone-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moonstone-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "tigers-eye",
+      "name": "虎眼石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "tigers-eye-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tigers-eye-6mm.glb"
+        },
+        {
+          "id": "tigers-eye",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/tigers-eye.glb"
+        },
+        {
+          "id": "tigers-eye-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tigers-eye-10mm.glb"
+        },
+        {
+          "id": "tigers-eye-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tigers-eye-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "green-aventurine",
+      "name": "绿东陵石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "green-aventurine-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/green-aventurine-6mm.glb"
+        },
+        {
+          "id": "green-aventurine",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/green-aventurine.glb"
+        },
+        {
+          "id": "green-aventurine-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/green-aventurine-10mm.glb"
+        },
+        {
+          "id": "green-aventurine-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/green-aventurine-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "garnet",
+      "name": "石榴石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "garnet-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/garnet-6mm.glb"
+        },
+        {
+          "id": "garnet",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/garnet.glb"
+        },
+        {
+          "id": "garnet-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/garnet-10mm.glb"
+        },
+        {
+          "id": "garnet-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/garnet-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "karungali",
+      "name": "Karungali 木珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "karungali-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/karungali-6mm.glb"
+        },
+        {
+          "id": "karungali",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/karungali.glb"
+        },
+        {
+          "id": "karungali-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/karungali-10mm.glb"
+        },
+        {
+          "id": "karungali-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/karungali-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "carnelian",
+      "name": "红玉髓",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "carnelian-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/carnelian-6mm.glb"
+        },
+        {
+          "id": "carnelian",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/carnelian.glb"
+        },
+        {
+          "id": "carnelian-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/carnelian-10mm.glb"
+        },
+        {
+          "id": "carnelian-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/carnelian-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "green-jade",
+      "name": "绿玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "green-jade-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/green-jade-6mm.glb"
+        },
+        {
+          "id": "green-jade",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/green-jade.glb"
+        },
+        {
+          "id": "green-jade-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/green-jade-10mm.glb"
+        },
+        {
+          "id": "green-jade-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/green-jade-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "pyrite",
+      "name": "黄铁矿",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "pyrite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pyrite-6mm.glb"
+        },
+        {
+          "id": "pyrite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/pyrite.glb"
+        },
+        {
+          "id": "pyrite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pyrite-10mm.glb"
+        },
+        {
+          "id": "pyrite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pyrite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "hematite",
+      "name": "赤铁矿",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "hematite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hematite-6mm.glb"
+        },
+        {
+          "id": "hematite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/hematite.glb"
+        },
+        {
+          "id": "hematite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hematite-10mm.glb"
+        },
+        {
+          "id": "hematite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hematite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "golden-rutilated-quartz",
+      "name": "金发晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "golden-rutilated-quartz-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/golden-rutilated-quartz-6mm.glb"
+        },
+        {
+          "id": "golden-rutilated-quartz",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/golden-rutilated-quartz.glb"
+        },
+        {
+          "id": "golden-rutilated-quartz-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/golden-rutilated-quartz-10mm.glb"
+        },
+        {
+          "id": "golden-rutilated-quartz-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/golden-rutilated-quartz-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "kunzite",
+      "name": "紫锂辉石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "kunzite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kunzite-6mm.glb"
+        },
+        {
+          "id": "kunzite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/kunzite.glb"
+        },
+        {
+          "id": "kunzite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kunzite-10mm.glb"
+        },
+        {
+          "id": "kunzite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kunzite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "larimar",
+      "name": "拉利玛",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "larimar-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/larimar-6mm.glb"
+        },
+        {
+          "id": "larimar",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/larimar.glb"
+        },
+        {
+          "id": "larimar-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/larimar-10mm.glb"
+        },
+        {
+          "id": "larimar-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/larimar-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "malachite",
+      "name": "孔雀石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "malachite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/malachite-6mm.glb"
+        },
+        {
+          "id": "malachite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/malachite.glb"
+        },
+        {
+          "id": "malachite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/malachite-10mm.glb"
+        },
+        {
+          "id": "malachite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/malachite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "morganite",
+      "name": "摩根石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "morganite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/morganite-6mm.glb"
+        },
+        {
+          "id": "morganite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/morganite.glb"
+        },
+        {
+          "id": "morganite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/morganite-10mm.glb"
+        },
+        {
+          "id": "morganite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/morganite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "multicolor-tourmaline",
+      "name": "多色碧玺",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "multicolor-tourmaline-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/multicolor-tourmaline-6mm.glb"
+        },
+        {
+          "id": "multicolor-tourmaline",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/multicolor-tourmaline.glb"
+        },
+        {
+          "id": "multicolor-tourmaline-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/multicolor-tourmaline-10mm.glb"
+        },
+        {
+          "id": "multicolor-tourmaline-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/multicolor-tourmaline-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "nephrite-jade",
+      "name": "软玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "nephrite-jade-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/nephrite-jade-6mm.glb"
+        },
+        {
+          "id": "nephrite-jade",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/nephrite-jade.glb"
+        },
+        {
+          "id": "nephrite-jade-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/nephrite-jade-10mm.glb"
+        },
+        {
+          "id": "nephrite-jade-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/nephrite-jade-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "peridot-aa",
+      "name": "橄榄石 AA 风格",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "peridot-aa-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-aa-6mm.glb"
+        },
+        {
+          "id": "peridot-aa",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/peridot-aa.glb"
+        },
+        {
+          "id": "peridot-aa-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-aa-10mm.glb"
+        },
+        {
+          "id": "peridot-aa-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-aa-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "peridot-gem",
+      "name": "橄榄石亮透款",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "peridot-gem-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-gem-6mm.glb"
+        },
+        {
+          "id": "peridot-gem",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/peridot-gem.glb"
+        },
+        {
+          "id": "peridot-gem-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-gem-10mm.glb"
+        },
+        {
+          "id": "peridot-gem-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-gem-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "pietersite",
+      "name": "彼得石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "pietersite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pietersite-6mm.glb"
+        },
+        {
+          "id": "pietersite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/pietersite.glb"
+        },
+        {
+          "id": "pietersite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pietersite-10mm.glb"
+        },
+        {
+          "id": "pietersite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pietersite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "pink-opal",
+      "name": "粉欧泊",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "pink-opal-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pink-opal-6mm.glb"
+        },
+        {
+          "id": "pink-opal",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/pink-opal.glb"
+        },
+        {
+          "id": "pink-opal-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pink-opal-10mm.glb"
+        },
+        {
+          "id": "pink-opal-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/pink-opal-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "rhodochrosite",
+      "name": "菱锰矿",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "rhodochrosite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rhodochrosite-6mm.glb"
+        },
+        {
+          "id": "rhodochrosite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/rhodochrosite.glb"
+        },
+        {
+          "id": "rhodochrosite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rhodochrosite-10mm.glb"
+        },
+        {
+          "id": "rhodochrosite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rhodochrosite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "super-seven",
+      "name": "超七风格珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "super-seven-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/super-seven-6mm.glb"
+        },
+        {
+          "id": "super-seven",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/super-seven.glb"
+        },
+        {
+          "id": "super-seven-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/super-seven-10mm.glb"
+        },
+        {
+          "id": "super-seven-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/super-seven-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "tanzanite",
+      "name": "坦桑石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "tanzanite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tanzanite-6mm.glb"
+        },
+        {
+          "id": "tanzanite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/tanzanite.glb"
+        },
+        {
+          "id": "tanzanite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tanzanite-10mm.glb"
+        },
+        {
+          "id": "tanzanite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tanzanite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "fluorite",
+      "name": "萤石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "fluorite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/fluorite-6mm.glb"
+        },
+        {
+          "id": "fluorite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/fluorite.glb"
+        },
+        {
+          "id": "fluorite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/fluorite-10mm.glb"
+        },
+        {
+          "id": "fluorite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/fluorite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "evil-eye",
+      "name": "蓝眼珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "evil-eye-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/evil-eye-6mm.glb"
+        },
+        {
+          "id": "evil-eye",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/evil-eye.glb"
+        },
+        {
+          "id": "evil-eye-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/evil-eye-10mm.glb"
+        },
+        {
+          "id": "evil-eye-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/evil-eye-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "red-jasper",
+      "name": "红碧玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "red-jasper-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/red-jasper-6mm.glb"
+        },
+        {
+          "id": "red-jasper",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/red-jasper.glb"
+        },
+        {
+          "id": "red-jasper-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/red-jasper-10mm.glb"
+        },
+        {
+          "id": "red-jasper-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/red-jasper-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "lepidolite",
+      "name": "锂云母",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "lepidolite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/lepidolite-6mm.glb"
+        },
+        {
+          "id": "lepidolite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/lepidolite.glb"
+        },
+        {
+          "id": "lepidolite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/lepidolite-10mm.glb"
+        },
+        {
+          "id": "lepidolite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/lepidolite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "sunstone",
+      "name": "太阳石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "sunstone-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sunstone-6mm.glb"
+        },
+        {
+          "id": "sunstone",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/sunstone.glb"
+        },
+        {
+          "id": "sunstone-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sunstone-10mm.glb"
+        },
+        {
+          "id": "sunstone-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sunstone-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "amazonite",
+      "name": "天河石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "amazonite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amazonite-6mm.glb"
+        },
+        {
+          "id": "amazonite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/amazonite.glb"
+        },
+        {
+          "id": "amazonite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amazonite-10mm.glb"
+        },
+        {
+          "id": "amazonite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amazonite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "howlite",
+      "name": "白底灰纹珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "howlite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/howlite-6mm.glb"
+        },
+        {
+          "id": "howlite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/howlite.glb"
+        },
+        {
+          "id": "howlite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/howlite-10mm.glb"
+        },
+        {
+          "id": "howlite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/howlite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "bloodstone",
+      "name": "血石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "bloodstone-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/bloodstone-6mm.glb"
+        },
+        {
+          "id": "bloodstone",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/bloodstone.glb"
+        },
+        {
+          "id": "bloodstone-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/bloodstone-10mm.glb"
+        },
+        {
+          "id": "bloodstone-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/bloodstone-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "aquamarine",
+      "name": "海蓝宝",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "aquamarine-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/aquamarine-6mm.glb"
+        },
+        {
+          "id": "aquamarine",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/aquamarine.glb"
+        },
+        {
+          "id": "aquamarine-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/aquamarine-10mm.glb"
+        },
+        {
+          "id": "aquamarine-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/aquamarine-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "black-obsidian",
+      "name": "黑曜石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "black-obsidian-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-obsidian-6mm.glb"
+        },
+        {
+          "id": "black-obsidian",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/black-obsidian.glb"
+        },
+        {
+          "id": "black-obsidian-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-obsidian-10mm.glb"
+        },
+        {
+          "id": "black-obsidian-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-obsidian-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "clear-quartz",
+      "name": "白水晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "clear-quartz-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/clear-quartz-6mm.glb"
+        },
+        {
+          "id": "clear-quartz",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/clear-quartz.glb"
+        },
+        {
+          "id": "clear-quartz-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/clear-quartz-10mm.glb"
+        },
+        {
+          "id": "clear-quartz-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/clear-quartz-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "angelite",
+      "name": "蓝天使石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "angelite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/angelite-6mm.glb"
+        },
+        {
+          "id": "angelite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/angelite.glb"
+        },
+        {
+          "id": "angelite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/angelite-10mm.glb"
+        },
+        {
+          "id": "angelite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/angelite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "black-rutilated-quartz",
+      "name": "黑发晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "black-rutilated-quartz-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-rutilated-quartz-6mm.glb"
+        },
+        {
+          "id": "black-rutilated-quartz",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/black-rutilated-quartz.glb"
+        },
+        {
+          "id": "black-rutilated-quartz-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-rutilated-quartz-10mm.glb"
+        },
+        {
+          "id": "black-rutilated-quartz-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-rutilated-quartz-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "blue-apatite",
+      "name": "蓝磷灰石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "blue-apatite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-apatite-6mm.glb"
+        },
+        {
+          "id": "blue-apatite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/blue-apatite.glb"
+        },
+        {
+          "id": "blue-apatite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-apatite-10mm.glb"
+        },
+        {
+          "id": "blue-apatite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-apatite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "blue-lace-agate",
+      "name": "蓝纹玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "blue-lace-agate-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-lace-agate-6mm.glb"
+        },
+        {
+          "id": "blue-lace-agate",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/blue-lace-agate.glb"
+        },
+        {
+          "id": "blue-lace-agate-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-lace-agate-10mm.glb"
+        },
+        {
+          "id": "blue-lace-agate-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-lace-agate-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "botswana-agate",
+      "name": "博茨瓦纳玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "botswana-agate-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/botswana-agate-6mm.glb"
+        },
+        {
+          "id": "botswana-agate",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/botswana-agate.glb"
+        },
+        {
+          "id": "botswana-agate-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/botswana-agate-10mm.glb"
+        },
+        {
+          "id": "botswana-agate-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/botswana-agate-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "bronzite",
+      "name": "古铜辉石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "bronzite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/bronzite-6mm.glb"
+        },
+        {
+          "id": "bronzite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/bronzite.glb"
+        },
+        {
+          "id": "bronzite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/bronzite-10mm.glb"
+        },
+        {
+          "id": "bronzite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/bronzite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "crazy-lace-agate",
+      "name": "蕾丝玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "crazy-lace-agate-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/crazy-lace-agate-6mm.glb"
+        },
+        {
+          "id": "crazy-lace-agate",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/crazy-lace-agate.glb"
+        },
+        {
+          "id": "crazy-lace-agate-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/crazy-lace-agate-10mm.glb"
+        },
+        {
+          "id": "crazy-lace-agate-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/crazy-lace-agate-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "dalmatian-jasper",
+      "name": "斑点碧玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "dalmatian-jasper-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/dalmatian-jasper-6mm.glb"
+        },
+        {
+          "id": "dalmatian-jasper",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/dalmatian-jasper.glb"
+        },
+        {
+          "id": "dalmatian-jasper-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/dalmatian-jasper-10mm.glb"
+        },
+        {
+          "id": "dalmatian-jasper-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/dalmatian-jasper-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "dragon-blood-jasper",
+      "name": "龙血碧玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "dragon-blood-jasper-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/dragon-blood-jasper-6mm.glb"
+        },
+        {
+          "id": "dragon-blood-jasper",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/dragon-blood-jasper.glb"
+        },
+        {
+          "id": "dragon-blood-jasper-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/dragon-blood-jasper-10mm.glb"
+        },
+        {
+          "id": "dragon-blood-jasper-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/dragon-blood-jasper-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "flower-agate",
+      "name": "樱花玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "flower-agate-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/flower-agate-6mm.glb"
+        },
+        {
+          "id": "flower-agate",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/flower-agate.glb"
+        },
+        {
+          "id": "flower-agate-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/flower-agate-10mm.glb"
+        },
+        {
+          "id": "flower-agate-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/flower-agate-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "indian-agate",
+      "name": "印度玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "indian-agate-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/indian-agate-6mm.glb"
+        },
+        {
+          "id": "indian-agate",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/indian-agate.glb"
+        },
+        {
+          "id": "indian-agate-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/indian-agate-10mm.glb"
+        },
+        {
+          "id": "indian-agate-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/indian-agate-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "kambaba-jasper",
+      "name": "卡姆巴巴碧玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "kambaba-jasper-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kambaba-jasper-6mm.glb"
+        },
+        {
+          "id": "kambaba-jasper",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/kambaba-jasper.glb"
+        },
+        {
+          "id": "kambaba-jasper-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kambaba-jasper-10mm.glb"
+        },
+        {
+          "id": "kambaba-jasper-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kambaba-jasper-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "mahogany-obsidian",
+      "name": "红木黑曜石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "mahogany-obsidian-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/mahogany-obsidian-6mm.glb"
+        },
+        {
+          "id": "mahogany-obsidian",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/mahogany-obsidian.glb"
+        },
+        {
+          "id": "mahogany-obsidian-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/mahogany-obsidian-10mm.glb"
+        },
+        {
+          "id": "mahogany-obsidian-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/mahogany-obsidian-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "milky-quartz",
+      "name": "乳白水晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "milky-quartz-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/milky-quartz-6mm.glb"
+        },
+        {
+          "id": "milky-quartz",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/milky-quartz.glb"
+        },
+        {
+          "id": "milky-quartz-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/milky-quartz-10mm.glb"
+        },
+        {
+          "id": "milky-quartz-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/milky-quartz-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "mookaite-jasper",
+      "name": "摩卡碧玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "mookaite-jasper-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/mookaite-jasper-6mm.glb"
+        },
+        {
+          "id": "mookaite-jasper",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/mookaite-jasper.glb"
+        },
+        {
+          "id": "mookaite-jasper-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/mookaite-jasper-10mm.glb"
+        },
+        {
+          "id": "mookaite-jasper-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/mookaite-jasper-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "moss-agate",
+      "name": "苔藓玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "moss-agate-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moss-agate-6mm.glb"
+        },
+        {
+          "id": "moss-agate",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/moss-agate.glb"
+        },
+        {
+          "id": "moss-agate-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moss-agate-10mm.glb"
+        },
+        {
+          "id": "moss-agate-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moss-agate-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "ocean-jasper",
+      "name": "海洋碧玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "ocean-jasper-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ocean-jasper-6mm.glb"
+        },
+        {
+          "id": "ocean-jasper",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/ocean-jasper.glb"
+        },
+        {
+          "id": "ocean-jasper-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ocean-jasper-10mm.glb"
+        },
+        {
+          "id": "ocean-jasper-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ocean-jasper-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "peach-moonstone",
+      "name": "蜜桃月光石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "peach-moonstone-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peach-moonstone-6mm.glb"
+        },
+        {
+          "id": "peach-moonstone",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/peach-moonstone.glb"
+        },
+        {
+          "id": "peach-moonstone-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peach-moonstone-10mm.glb"
+        },
+        {
+          "id": "peach-moonstone-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peach-moonstone-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "picture-jasper",
+      "name": "风景碧玉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "picture-jasper-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/picture-jasper-6mm.glb"
+        },
+        {
+          "id": "picture-jasper",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/picture-jasper.glb"
+        },
+        {
+          "id": "picture-jasper-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/picture-jasper-10mm.glb"
+        },
+        {
+          "id": "picture-jasper-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/picture-jasper-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "prehnite",
+      "name": "葡萄石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "prehnite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/prehnite-6mm.glb"
+        },
+        {
+          "id": "prehnite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/prehnite.glb"
+        },
+        {
+          "id": "prehnite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/prehnite-10mm.glb"
+        },
+        {
+          "id": "prehnite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/prehnite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "rhodonite",
+      "name": "蔷薇辉石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "rhodonite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rhodonite-6mm.glb"
+        },
+        {
+          "id": "rhodonite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/rhodonite.glb"
+        },
+        {
+          "id": "rhodonite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rhodonite-10mm.glb"
+        },
+        {
+          "id": "rhodonite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rhodonite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "snowflake-obsidian",
+      "name": "雪花黑曜石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "snowflake-obsidian-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/snowflake-obsidian-6mm.glb"
+        },
+        {
+          "id": "snowflake-obsidian",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/snowflake-obsidian.glb"
+        },
+        {
+          "id": "snowflake-obsidian-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/snowflake-obsidian-10mm.glb"
+        },
+        {
+          "id": "snowflake-obsidian-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/snowflake-obsidian-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "tree-agate",
+      "name": "树纹玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "tree-agate-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tree-agate-6mm.glb"
+        },
+        {
+          "id": "tree-agate",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/tree-agate.glb"
+        },
+        {
+          "id": "tree-agate-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tree-agate-10mm.glb"
+        },
+        {
+          "id": "tree-agate-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tree-agate-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "unakite",
+      "name": "优纳石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "unakite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/unakite-6mm.glb"
+        },
+        {
+          "id": "unakite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/unakite.glb"
+        },
+        {
+          "id": "unakite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/unakite-10mm.glb"
+        },
+        {
+          "id": "unakite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/unakite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "blue-onyx",
+      "name": "蓝缟玛瑙",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "blue-onyx-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-onyx-6mm.glb"
+        },
+        {
+          "id": "blue-onyx",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/blue-onyx.glb"
+        },
+        {
+          "id": "blue-onyx-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-onyx-10mm.glb"
+        },
+        {
+          "id": "blue-onyx-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-onyx-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "sodalite",
+      "name": "方钠石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "sodalite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sodalite-6mm.glb"
+        },
+        {
+          "id": "sodalite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/sodalite.glb"
+        },
+        {
+          "id": "sodalite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sodalite-10mm.glb"
+        },
+        {
+          "id": "sodalite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sodalite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "yellow-aventurine",
+      "name": "黄东陵石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "yellow-aventurine-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/yellow-aventurine-6mm.glb"
+        },
+        {
+          "id": "yellow-aventurine",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/yellow-aventurine.glb"
+        },
+        {
+          "id": "yellow-aventurine-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/yellow-aventurine-10mm.glb"
+        },
+        {
+          "id": "yellow-aventurine-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/yellow-aventurine-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "ruby-zoisite",
+      "name": "红绿宝",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "ruby-zoisite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-zoisite-6mm.glb"
+        },
+        {
+          "id": "ruby-zoisite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/ruby-zoisite.glb"
+        },
+        {
+          "id": "ruby-zoisite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-zoisite-10mm.glb"
+        },
+        {
+          "id": "ruby-zoisite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-zoisite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "black-lava",
+      "name": "黑火山石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "black-lava-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-lava-6mm.glb"
+        },
+        {
+          "id": "black-lava",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9972000148773194,
+          "model": "assets/models/black-lava.glb"
+        },
+        {
+          "id": "black-lava-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-lava-10mm.glb"
+        },
+        {
+          "id": "black-lava-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-lava-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "yellow-sapphire",
+      "name": "黄色蓝宝石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "yellow-sapphire-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/yellow-sapphire-6mm.glb"
+        },
+        {
+          "id": "yellow-sapphire",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/yellow-sapphire.glb"
+        },
+        {
+          "id": "yellow-sapphire-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/yellow-sapphire-10mm.glb"
+        },
+        {
+          "id": "yellow-sapphire-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/yellow-sapphire-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "blue-sapphire",
+      "name": "蓝宝石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "blue-sapphire-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-sapphire-6mm.glb"
+        },
+        {
+          "id": "blue-sapphire",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/blue-sapphire.glb"
+        },
+        {
+          "id": "blue-sapphire-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-sapphire-10mm.glb"
+        },
+        {
+          "id": "blue-sapphire-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-sapphire-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "ruby",
+      "name": "红宝石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "ruby-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-6mm.glb"
+        },
+        {
+          "id": "ruby",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/ruby.glb"
+        },
+        {
+          "id": "ruby-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-10mm.glb"
+        },
+        {
+          "id": "ruby-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "emerald",
+      "name": "祖母绿",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "emerald-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/emerald-6mm.glb"
+        },
+        {
+          "id": "emerald",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/emerald.glb"
+        },
+        {
+          "id": "emerald-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/emerald-10mm.glb"
+        },
+        {
+          "id": "emerald-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/emerald-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "hessonite",
+      "name": "桂榴石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "hessonite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hessonite-6mm.glb"
+        },
+        {
+          "id": "hessonite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/hessonite.glb"
+        },
+        {
+          "id": "hessonite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hessonite-10mm.glb"
+        },
+        {
+          "id": "hessonite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hessonite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "cats-eye",
+      "name": "猫眼石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "cats-eye-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/cats-eye-6mm.glb"
+        },
+        {
+          "id": "cats-eye",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/cats-eye.glb"
+        },
+        {
+          "id": "cats-eye-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/cats-eye-10mm.glb"
+        },
+        {
+          "id": "cats-eye-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/cats-eye-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "red-coral",
+      "name": "红珊瑚风格珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "red-coral-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/red-coral-6mm.glb"
+        },
+        {
+          "id": "red-coral",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/red-coral.glb"
+        },
+        {
+          "id": "red-coral-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/red-coral-10mm.glb"
+        },
+        {
+          "id": "red-coral-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/red-coral-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "irani-firoza",
+      "name": "伊朗绿松石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "irani-firoza-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/irani-firoza-6mm.glb"
+        },
+        {
+          "id": "irani-firoza",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/irani-firoza.glb"
+        },
+        {
+          "id": "irani-firoza-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/irani-firoza-10mm.glb"
+        },
+        {
+          "id": "irani-firoza-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/irani-firoza-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "opal",
+      "name": "欧泊",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "opal-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/opal-6mm.glb"
+        },
+        {
+          "id": "opal",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/opal.glb"
+        },
+        {
+          "id": "opal-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/opal-10mm.glb"
+        },
+        {
+          "id": "opal-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/opal-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "baltic-amber",
+      "name": "波罗的海琥珀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "baltic-amber-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/baltic-amber-6mm.glb"
+        },
+        {
+          "id": "baltic-amber",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/baltic-amber.glb"
+        },
+        {
+          "id": "baltic-amber-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/baltic-amber-10mm.glb"
+        },
+        {
+          "id": "baltic-amber-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/baltic-amber-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "blue-kyanite",
+      "name": "蓝晶石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "blue-kyanite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-kyanite-6mm.glb"
+        },
+        {
+          "id": "blue-kyanite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/blue-kyanite.glb"
+        },
+        {
+          "id": "blue-kyanite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-kyanite-10mm.glb"
+        },
+        {
+          "id": "blue-kyanite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/blue-kyanite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "burmese-jadeite",
+      "name": "缅甸翡翠风格珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "burmese-jadeite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/burmese-jadeite-6mm.glb"
+        },
+        {
+          "id": "burmese-jadeite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/burmese-jadeite.glb"
+        },
+        {
+          "id": "burmese-jadeite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/burmese-jadeite-10mm.glb"
+        },
+        {
+          "id": "burmese-jadeite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/burmese-jadeite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "charoite",
+      "name": "紫龙晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "charoite-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/charoite-6mm.glb"
+        },
+        {
+          "id": "charoite",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/charoite.glb"
+        },
+        {
+          "id": "charoite-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/charoite-10mm.glb"
+        },
+        {
+          "id": "charoite-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/charoite-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "devil-aquamarine",
+      "name": "恶魔海蓝宝",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "devil-aquamarine-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/devil-aquamarine-6mm.glb"
+        },
+        {
+          "id": "devil-aquamarine",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999752461277,
+          "model": "assets/models/devil-aquamarine.glb"
+        },
+        {
+          "id": "devil-aquamarine-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/devil-aquamarine-10mm.glb"
+        },
+        {
+          "id": "devil-aquamarine-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/devil-aquamarine-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "brushed-metal",
+      "name": "拉丝珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "brushed-metal-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/brushed-metal-6mm.glb"
+        },
+        {
+          "id": "brushed-metal",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.19995988191408,
+          "model": "assets/models/brushed-metal.glb"
+        },
+        {
+          "id": "brushed-metal-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/brushed-metal-10mm.glb"
+        },
+        {
+          "id": "brushed-metal-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/brushed-metal-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "round",
+      "name": "圆珠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "round-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/round-6mm.glb"
+        },
+        {
+          "id": "round",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.1999999611700611,
+          "model": "assets/models/round.glb"
+        },
+        {
+          "id": "round-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/round-10mm.glb"
+        },
+        {
+          "id": "round-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/round-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "lapis-lazuli",
+      "name": "青金石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "lapis-lazuli-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/lapis-lazuli-6mm.glb"
+        },
+        {
+          "id": "lapis-lazuli",
+          "diameterMm": 8,
+          "boreDiameterMm": 1.0043999717877696,
+          "model": "assets/models/lapis-lazuli.glb"
+        },
+        {
+          "id": "lapis-lazuli-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/lapis-lazuli-10mm.glb"
+        },
+        {
+          "id": "lapis-lazuli-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/lapis-lazuli-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "spacer-01-gold",
+      "name": "光面圆珠·金色",
+      "nativeDiameterMm": 4,
+      "variants": [
+        {
+          "id": "spacer-01-gold",
+          "diameterMm": 4,
+          "boreDiameterMm": 1.199999970449619,
+          "model": "assets/models/spacer-01-gold.glb"
+        },
+        {
+          "id": "spacer-01-gold-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-gold-6mm.glb"
+        },
+        {
+          "id": "spacer-01-gold-8mm",
+          "diameterMm": 8,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-gold-8mm.glb"
+        },
+        {
+          "id": "spacer-01-gold-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-gold-10mm.glb"
+        },
+        {
+          "id": "spacer-01-gold-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-gold-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "spacer-01-silver",
+      "name": "光面圆珠·银色",
+      "nativeDiameterMm": 4,
+      "variants": [
+        {
+          "id": "spacer-01-silver",
+          "diameterMm": 4,
+          "boreDiameterMm": 1.199999970449619,
+          "model": "assets/models/spacer-01-silver.glb"
+        },
+        {
+          "id": "spacer-01-silver-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-silver-6mm.glb"
+        },
+        {
+          "id": "spacer-01-silver-8mm",
+          "diameterMm": 8,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-silver-8mm.glb"
+        },
+        {
+          "id": "spacer-01-silver-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-silver-10mm.glb"
+        },
+        {
+          "id": "spacer-01-silver-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-01-silver-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "spacer-02-gold",
+      "name": "磨砂圆珠·金色",
+      "nativeDiameterMm": 6,
+      "variants": [
+        {
+          "id": "spacer-02-gold",
+          "diameterMm": 6,
+          "boreDiameterMm": 1.199999970449619,
+          "model": "assets/models/spacer-02-gold.glb"
+        },
+        {
+          "id": "spacer-02-gold-8mm",
+          "diameterMm": 8,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-02-gold-8mm.glb"
+        },
+        {
+          "id": "spacer-02-gold-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-02-gold-10mm.glb"
+        },
+        {
+          "id": "spacer-02-gold-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-02-gold-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "spacer-02-silver",
+      "name": "磨砂圆珠·银色",
+      "nativeDiameterMm": 6,
+      "variants": [
+        {
+          "id": "spacer-02-silver",
+          "diameterMm": 6,
+          "boreDiameterMm": 1.199999970449619,
+          "model": "assets/models/spacer-02-silver.glb"
+        },
+        {
+          "id": "spacer-02-silver-8mm",
+          "diameterMm": 8,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-02-silver-8mm.glb"
+        },
+        {
+          "id": "spacer-02-silver-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-02-silver-10mm.glb"
+        },
+        {
+          "id": "spacer-02-silver-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/spacer-02-silver-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "aquamarine-clear",
+      "name": "冰透海蓝宝",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "aquamarine-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/aquamarine-clear-6mm.glb"
+        },
+        {
+          "id": "aquamarine-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/aquamarine-clear-8mm.glb"
+        },
+        {
+          "id": "aquamarine-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/aquamarine-clear-10mm.glb"
+        },
+        {
+          "id": "aquamarine-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/aquamarine-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "amethyst-clear",
+      "name": "冰透紫水晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "amethyst-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amethyst-clear-6mm.glb"
+        },
+        {
+          "id": "amethyst-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/amethyst-clear-8mm.glb"
+        },
+        {
+          "id": "amethyst-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amethyst-clear-10mm.glb"
+        },
+        {
+          "id": "amethyst-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/amethyst-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "citrine-clear",
+      "name": "冰透黄水晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "citrine-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/citrine-clear-6mm.glb"
+        },
+        {
+          "id": "citrine-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/citrine-clear-8mm.glb"
+        },
+        {
+          "id": "citrine-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/citrine-clear-10mm.glb"
+        },
+        {
+          "id": "citrine-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/citrine-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "morganite-clear",
+      "name": "冰透摩根石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "morganite-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/morganite-clear-6mm.glb"
+        },
+        {
+          "id": "morganite-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/morganite-clear-8mm.glb"
+        },
+        {
+          "id": "morganite-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/morganite-clear-10mm.glb"
+        },
+        {
+          "id": "morganite-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/morganite-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "kunzite-clear",
+      "name": "冰透紫锂辉石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "kunzite-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kunzite-clear-6mm.glb"
+        },
+        {
+          "id": "kunzite-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/kunzite-clear-8mm.glb"
+        },
+        {
+          "id": "kunzite-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kunzite-clear-10mm.glb"
+        },
+        {
+          "id": "kunzite-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/kunzite-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "peridot-clear",
+      "name": "冰透橄榄石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "peridot-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-clear-6mm.glb"
+        },
+        {
+          "id": "peridot-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/peridot-clear-8mm.glb"
+        },
+        {
+          "id": "peridot-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-clear-10mm.glb"
+        },
+        {
+          "id": "peridot-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/peridot-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "fluorite-clear",
+      "name": "冰透萤石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "fluorite-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/fluorite-clear-6mm.glb"
+        },
+        {
+          "id": "fluorite-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/fluorite-clear-8mm.glb"
+        },
+        {
+          "id": "fluorite-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/fluorite-clear-10mm.glb"
+        },
+        {
+          "id": "fluorite-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/fluorite-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "tourmaline-clear",
+      "name": "冰透多色碧玺",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "tourmaline-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tourmaline-clear-6mm.glb"
+        },
+        {
+          "id": "tourmaline-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/tourmaline-clear-8mm.glb"
+        },
+        {
+          "id": "tourmaline-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tourmaline-clear-10mm.glb"
+        },
+        {
+          "id": "tourmaline-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tourmaline-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "rose-quartz-clear",
+      "name": "高透粉晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "rose-quartz-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rose-quartz-clear-6mm.glb"
+        },
+        {
+          "id": "rose-quartz-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/rose-quartz-clear-8mm.glb"
+        },
+        {
+          "id": "rose-quartz-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rose-quartz-clear-10mm.glb"
+        },
+        {
+          "id": "rose-quartz-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/rose-quartz-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "moonstone-clear",
+      "name": "高透月光石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "moonstone-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moonstone-clear-6mm.glb"
+        },
+        {
+          "id": "moonstone-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/moonstone-clear-8mm.glb"
+        },
+        {
+          "id": "moonstone-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moonstone-clear-10mm.glb"
+        },
+        {
+          "id": "moonstone-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/moonstone-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "garnet-clear",
+      "name": "高透石榴石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "garnet-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/garnet-clear-6mm.glb"
+        },
+        {
+          "id": "garnet-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/garnet-clear-8mm.glb"
+        },
+        {
+          "id": "garnet-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/garnet-clear-10mm.glb"
+        },
+        {
+          "id": "garnet-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/garnet-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "hessonite-clear",
+      "name": "高透桂榴石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "hessonite-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hessonite-clear-6mm.glb"
+        },
+        {
+          "id": "hessonite-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/hessonite-clear-8mm.glb"
+        },
+        {
+          "id": "hessonite-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hessonite-clear-10mm.glb"
+        },
+        {
+          "id": "hessonite-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/hessonite-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "tanzanite-clear",
+      "name": "高透坦桑石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "tanzanite-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tanzanite-clear-6mm.glb"
+        },
+        {
+          "id": "tanzanite-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/tanzanite-clear-8mm.glb"
+        },
+        {
+          "id": "tanzanite-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tanzanite-clear-10mm.glb"
+        },
+        {
+          "id": "tanzanite-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/tanzanite-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "ruby-clear",
+      "name": "高透红宝石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "ruby-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-clear-6mm.glb"
+        },
+        {
+          "id": "ruby-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/ruby-clear-8mm.glb"
+        },
+        {
+          "id": "ruby-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-clear-10mm.glb"
+        },
+        {
+          "id": "ruby-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/ruby-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "sapphire-clear",
+      "name": "高透蓝宝石",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "sapphire-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sapphire-clear-6mm.glb"
+        },
+        {
+          "id": "sapphire-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/sapphire-clear-8mm.glb"
+        },
+        {
+          "id": "sapphire-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sapphire-clear-10mm.glb"
+        },
+        {
+          "id": "sapphire-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/sapphire-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "golden-rutilated-quartz-clear",
+      "name": "冰透底金发晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "golden-rutilated-quartz-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/golden-rutilated-quartz-clear-6mm.glb"
+        },
+        {
+          "id": "golden-rutilated-quartz-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/golden-rutilated-quartz-clear-8mm.glb"
+        },
+        {
+          "id": "golden-rutilated-quartz-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/golden-rutilated-quartz-clear-10mm.glb"
+        },
+        {
+          "id": "golden-rutilated-quartz-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/golden-rutilated-quartz-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "black-rutilated-quartz-clear",
+      "name": "冰透底黑发晶",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "black-rutilated-quartz-clear-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-rutilated-quartz-clear-6mm.glb"
+        },
+        {
+          "id": "black-rutilated-quartz-clear",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999495673202,
+          "model": "assets/models/ice-rebuilt-v2/black-rutilated-quartz-clear-8mm.glb"
+        },
+        {
+          "id": "black-rutilated-quartz-clear-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-rutilated-quartz-clear-10mm.glb"
+        },
+        {
+          "id": "black-rutilated-quartz-clear-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/black-rutilated-quartz-clear-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-xiaoye-zitan",
+      "name": "小叶紫檀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-xiaoye-zitan-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-xiaoye-zitan-6mm.glb"
+        },
+        {
+          "id": "wood-xiaoye-zitan",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/xiaoye-zitan-8mm.glb"
+        },
+        {
+          "id": "wood-xiaoye-zitan-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-xiaoye-zitan-10mm.glb"
+        },
+        {
+          "id": "wood-xiaoye-zitan-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-xiaoye-zitan-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-daye-zitan",
+      "name": "大叶紫檀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-daye-zitan-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-daye-zitan-6mm.glb"
+        },
+        {
+          "id": "wood-daye-zitan",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/daye-zitan-8mm.glb"
+        },
+        {
+          "id": "wood-daye-zitan-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-daye-zitan-10mm.glb"
+        },
+        {
+          "id": "wood-daye-zitan-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-daye-zitan-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-african-blackwood",
+      "name": "东非黑黄檀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-african-blackwood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-african-blackwood-6mm.glb"
+        },
+        {
+          "id": "wood-african-blackwood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/african-blackwood-8mm.glb"
+        },
+        {
+          "id": "wood-african-blackwood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-african-blackwood-10mm.glb"
+        },
+        {
+          "id": "wood-african-blackwood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-african-blackwood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-red-rosewood",
+      "name": "红酸枝",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-red-rosewood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-red-rosewood-6mm.glb"
+        },
+        {
+          "id": "wood-red-rosewood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/red-rosewood-8mm.glb"
+        },
+        {
+          "id": "wood-red-rosewood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-red-rosewood-10mm.glb"
+        },
+        {
+          "id": "wood-red-rosewood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-red-rosewood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-ebony",
+      "name": "黑檀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-ebony-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-ebony-6mm.glb"
+        },
+        {
+          "id": "wood-ebony",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/ebony-8mm.glb"
+        },
+        {
+          "id": "wood-ebony-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-ebony-10mm.glb"
+        },
+        {
+          "id": "wood-ebony-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-ebony-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-laoshan-sandalwood",
+      "name": "老山檀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-laoshan-sandalwood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-laoshan-sandalwood-6mm.glb"
+        },
+        {
+          "id": "wood-laoshan-sandalwood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/laoshan-sandalwood-8mm.glb"
+        },
+        {
+          "id": "wood-laoshan-sandalwood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-laoshan-sandalwood-10mm.glb"
+        },
+        {
+          "id": "wood-laoshan-sandalwood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-laoshan-sandalwood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-zitanliu",
+      "name": "紫檀柳",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-zitanliu-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-zitanliu-6mm.glb"
+        },
+        {
+          "id": "wood-zitanliu",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/zitanliu-8mm.glb"
+        },
+        {
+          "id": "wood-zitanliu-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-zitanliu-10mm.glb"
+        },
+        {
+          "id": "wood-zitanliu-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-zitanliu-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-ketan",
+      "name": "科檀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-ketan-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-ketan-6mm.glb"
+        },
+        {
+          "id": "wood-ketan",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/ketan-8mm.glb"
+        },
+        {
+          "id": "wood-ketan-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-ketan-10mm.glb"
+        },
+        {
+          "id": "wood-ketan-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-ketan-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-blood-sandalwood",
+      "name": "血檀",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-blood-sandalwood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-blood-sandalwood-6mm.glb"
+        },
+        {
+          "id": "wood-blood-sandalwood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/blood-sandalwood-8mm.glb"
+        },
+        {
+          "id": "wood-blood-sandalwood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-blood-sandalwood-10mm.glb"
+        },
+        {
+          "id": "wood-blood-sandalwood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-blood-sandalwood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-vietnam-huanghuali",
+      "name": "越黄",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-vietnam-huanghuali-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-vietnam-huanghuali-6mm.glb"
+        },
+        {
+          "id": "wood-vietnam-huanghuali",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/vietnam-huanghuali-8mm.glb"
+        },
+        {
+          "id": "wood-vietnam-huanghuali-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-vietnam-huanghuali-10mm.glb"
+        },
+        {
+          "id": "wood-vietnam-huanghuali-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-vietnam-huanghuali-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-hainan-huanghuali",
+      "name": "海黄",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-hainan-huanghuali-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-hainan-huanghuali-6mm.glb"
+        },
+        {
+          "id": "wood-hainan-huanghuali",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/hainan-huanghuali-8mm.glb"
+        },
+        {
+          "id": "wood-hainan-huanghuali-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-hainan-huanghuali-10mm.glb"
+        },
+        {
+          "id": "wood-hainan-huanghuali-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-hainan-huanghuali-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-tengxiang-reference",
+      "name": "腾香木",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-tengxiang-reference-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-tengxiang-reference-6mm.glb"
+        },
+        {
+          "id": "wood-tengxiang-reference",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/tengxiang-reference-8mm.glb"
+        },
+        {
+          "id": "wood-tengxiang-reference-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-tengxiang-reference-10mm.glb"
+        },
+        {
+          "id": "wood-tengxiang-reference-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-tengxiang-reference-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-brazil-rosewood",
+      "name": "巴西花梨",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-brazil-rosewood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-brazil-rosewood-6mm.glb"
+        },
+        {
+          "id": "wood-brazil-rosewood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/brazil-rosewood-8mm.glb"
+        },
+        {
+          "id": "wood-brazil-rosewood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-brazil-rosewood-10mm.glb"
+        },
+        {
+          "id": "wood-brazil-rosewood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-brazil-rosewood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-boxwood",
+      "name": "黄杨木",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-boxwood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-boxwood-6mm.glb"
+        },
+        {
+          "id": "wood-boxwood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/boxwood-8mm.glb"
+        },
+        {
+          "id": "wood-boxwood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-boxwood-10mm.glb"
+        },
+        {
+          "id": "wood-boxwood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-boxwood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-golden-nanmu",
+      "name": "金丝楠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-golden-nanmu-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-nanmu-6mm.glb"
+        },
+        {
+          "id": "wood-golden-nanmu",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/golden-nanmu-8mm.glb"
+        },
+        {
+          "id": "wood-golden-nanmu-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-nanmu-10mm.glb"
+        },
+        {
+          "id": "wood-golden-nanmu-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-nanmu-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-buried-nanmu",
+      "name": "金丝楠阴沉木",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-buried-nanmu-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-buried-nanmu-6mm.glb"
+        },
+        {
+          "id": "wood-buried-nanmu",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/buried-nanmu-8mm.glb"
+        },
+        {
+          "id": "wood-buried-nanmu-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-buried-nanmu-10mm.glb"
+        },
+        {
+          "id": "wood-buried-nanmu-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-buried-nanmu-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-golden-camphor",
+      "name": "黄金樟",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-golden-camphor-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-camphor-6mm.glb"
+        },
+        {
+          "id": "wood-golden-camphor",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/golden-camphor-8mm.glb"
+        },
+        {
+          "id": "wood-golden-camphor-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-camphor-10mm.glb"
+        },
+        {
+          "id": "wood-golden-camphor-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-camphor-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-golden-nan-reference",
+      "name": "黄金楠",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-golden-nan-reference-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-nan-reference-6mm.glb"
+        },
+        {
+          "id": "wood-golden-nan-reference",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/golden-nan-reference-8mm.glb"
+        },
+        {
+          "id": "wood-golden-nan-reference-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-nan-reference-10mm.glb"
+        },
+        {
+          "id": "wood-golden-nan-reference-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-golden-nan-reference-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-redbean-wood",
+      "name": "红豆木",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-redbean-wood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-redbean-wood-6mm.glb"
+        },
+        {
+          "id": "wood-redbean-wood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/redbean-wood-8mm.glb"
+        },
+        {
+          "id": "wood-redbean-wood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-redbean-wood-10mm.glb"
+        },
+        {
+          "id": "wood-redbean-wood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-redbean-wood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-yew",
+      "name": "红豆杉",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-yew-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-yew-6mm.glb"
+        },
+        {
+          "id": "wood-yew",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/yew-8mm.glb"
+        },
+        {
+          "id": "wood-yew-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-yew-10mm.glb"
+        },
+        {
+          "id": "wood-yew-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-yew-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-wenge",
+      "name": "鸡翅木",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-wenge-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-wenge-6mm.glb"
+        },
+        {
+          "id": "wood-wenge",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/wenge-8mm.glb"
+        },
+        {
+          "id": "wood-wenge-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-wenge-10mm.glb"
+        },
+        {
+          "id": "wood-wenge-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-wenge-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-daye-huanghuali",
+      "name": "大叶黄花梨",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-daye-huanghuali-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-daye-huanghuali-6mm.glb"
+        },
+        {
+          "id": "wood-daye-huanghuali",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/daye-huanghuali-8mm.glb"
+        },
+        {
+          "id": "wood-daye-huanghuali-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-daye-huanghuali-10mm.glb"
+        },
+        {
+          "id": "wood-daye-huanghuali-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-daye-huanghuali-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-peach-wood",
+      "name": "桃木",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-peach-wood-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-peach-wood-6mm.glb"
+        },
+        {
+          "id": "wood-peach-wood",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/peach-wood-8mm.glb"
+        },
+        {
+          "id": "wood-peach-wood-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-peach-wood-10mm.glb"
+        },
+        {
+          "id": "wood-peach-wood-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-peach-wood-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-mali-burl",
+      "name": "麻梨疙瘩",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-mali-burl-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-mali-burl-6mm.glb"
+        },
+        {
+          "id": "wood-mali-burl",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/mali-burl-8mm.glb"
+        },
+        {
+          "id": "wood-mali-burl-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-mali-burl-10mm.glb"
+        },
+        {
+          "id": "wood-mali-burl-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-mali-burl-12mm.glb"
+        }
+      ]
+    },
+    {
+      "sourceId": "wood-yellow-pine",
+      "name": "黄花松",
+      "nativeDiameterMm": 8,
+      "variants": [
+        {
+          "id": "wood-yellow-pine-6mm",
+          "diameterMm": 6,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-yellow-pine-6mm.glb"
+        },
+        {
+          "id": "wood-yellow-pine",
+          "diameterMm": 8,
+          "boreDiameterMm": 0.9999999539162909,
+          "model": "assets/models/wood/yellow-pine-8mm.glb"
+        },
+        {
+          "id": "wood-yellow-pine-10mm",
+          "diameterMm": 10,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-yellow-pine-10mm.glb"
+        },
+        {
+          "id": "wood-yellow-pine-12mm",
+          "diameterMm": 12,
+          "boreDiameterMm": 1,
+          "model": "assets/models/round-sizes/wood-yellow-pine-12mm.glb"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "新增规格均暂按1mm实际贯穿孔建模，商家实物待确认；原规格文件及孔径保留",
+    "原尺寸为4mm的圆形金属配珠继续保留原4mm，并新增6/8/10/12mm",
+    "仅shape=round扩展，异形、隔片、吊坠、玻璃米珠系列保持原规格",
+    "新规格缩略图复用同款原外观的标准展示图；真实尺寸在拖拽和制作区中显示",
+    "原规格ID保留，旧设计兼容；每种外观一张卡，卡内和选中珠子均可切换尺寸"
+  ]
+}

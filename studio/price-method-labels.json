@@ -1,0 +1,15 @@
+{
+  "same-name-reference": "同名报价参考，品质待核",
+  "pack-normalized-reference": "多颗装折算参考，品质待核",
+  "same-name-with-size-estimate": "同名报价，部分尺寸外推",
+  "single-size-anchor": "单一规格报价，其余尺寸外推",
+  "category-retail-estimate": "同类批发折算后估算零售",
+  "quartz-category-estimate": "石英类估算，非同款实价",
+  "ordinary-wood-category-estimate": "普通木珠估算，木种等级待核",
+  "non-precious-metal-retail-estimate": "非贵金属圆珠零售估算",
+  "category-estimate": "同类估算，非同款实价",
+  "shaped-accessory-estimate": "异形配珠同类估算，材质与等级待核",
+  "metal-spacer-retail-estimate": "非贵金属隔珠同类零售估算，工艺待核",
+  "glass-seed-retail-estimate": "玻璃米珠小量零售估算，非整包折算价",
+  "pendant-retail-estimate": "非贵金属吊坠同类零售估算，含连接环"
+}

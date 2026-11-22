@@ -1,0 +1,15 @@
+CrystalMuse-DIY/
+CrystalMuse-D-Wix(1)/
+CrystalMuse_Shop_Module_First_Images_Cropped_Fixed(1)/
+*.zip
+.Rhistory
+crystalmuse_backup_*.html
+
+# studio dev artefacts (test screenshots, notes, test scripts) — not needed by the live site
+studio/*.png
+studio/*.md
+studio/*.mjs
+studio/*.cjs
+studio/*TEST*.json
+studio/*-TESTS.json
+studio/fixtures/
