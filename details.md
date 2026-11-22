@@ -58,3 +58,13 @@
 - 商品里的项链与戒指是 B 的商店品类；DIY 工作室只做手链，没有项链、戒指选项。
 - 页面文案、价格、评价、占卜内容均为课程原型，占卜写成“文化参考 / 仅供娱乐”，不做功效承诺；表单不发送数据。
 - Collections 第 2 页的两张卡图已按晶体归属修正：08 A Spark of Creativity 用拉长石吊坠（NE05），09 Embrace New Beginnings 用月光石手串（BR09）。
+
+## 线上地址（GitHub Pages）
+
+- 站点：<https://ngaire0425.github.io/crystalmuse/>（Pages 源：仓库 `main` 分支根目录，push 后自动重建）
+- 首页 <https://ngaire0425.github.io/crystalmuse/crystalmuse.html>
+- 商店 Shop：<https://ngaire0425.github.io/crystalmuse/shop.html>
+- Collections <https://ngaire0425.github.io/crystalmuse/collection.html#/collections>
+- DIY Studio <https://ngaire0425.github.io/crystalmuse/diy.html>
+- Mystic Corner <https://ngaire0425.github.io/crystalmuse/mystic.html#/mystic>
+- 仓库 <https://github.com/Ngaire0425/crystalmuse>（本地分支 `deploy`，与远端 `main` 同一提交）
